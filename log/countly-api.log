@@ -42,3 +42,121 @@ Starting worker 36173 parent: 36132
 2020-10-08T19:45:00.300Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f693d7bcc108d24e57503","name":"api:task","created":1602185533567,"status":0,"started":1602186000510,"finished":1602186000514,"duration":6,"data":{},"schedule":"every 5 minutes","next":1602186300000,"modified":1602186000516,"error":null}
 2020-10-08T19:50:00.119Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f693d7bcc108d24e57503","name":"api:task","created":1602185533567,"status":0,"started":1602186300302,"finished":1602186300313,"duration":12,"data":{},"schedule":"every 5 minutes","next":1602186600000,"modified":1602186300314,"error":null}
 2020-10-08T19:55:00.926Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f693d7bcc108d24e57503","name":"api:task","created":1602185533567,"status":0,"started":1602186600121,"finished":1602186600125,"duration":6,"data":{},"schedule":"every 5 minutes","next":1602186900000,"modified":1602186600127,"error":null}
+2020-10-08T20:00:00.705Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f69367bcc108d24e574fb","name":"assistant:generate","created":1602185526556,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602187200000}
+2020-10-08T20:00:00.707Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f693d7bcc108d24e574fd","name":"reports:send","created":1602185533554,"status":0,"started":1602185533980,"finished":1602185534002,"duration":36,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602187200000,"modified":1602185534016,"error":null}
+2020-10-08T20:00:00.709Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f693d7bcc108d24e57503","name":"api:task","created":1602185533567,"status":0,"started":1602186900928,"finished":1602186900933,"duration":6,"data":{},"schedule":"every 5 minutes","next":1602187200000,"modified":1602186900934,"error":null}
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Got signal: SIGTERM
+Successfully stored batch state
+Got signal: SIGTERM
+Exiting due to master exited
+Successfully stored batch state
+2020-10-08T20:01:41.295Z: INFO	[jobs:manager]	Starting job manager in 38597
+2020-10-08T20:01:41.334Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap"]
+Starting master
+2020-10-08T20:01:44.255Z: INFO	[jobs:ipc:38597]	Attached to cluster in Central 38597
+2020-10-08T20:01:44.600Z: INFO	[jobs:manager]	Found 17 job types, starting monitoring: ["api:clear","api:clearAutoTasks","api:clearTokens","api:ipcTest","api:ping","api:task","api:test","api:topEvents","api:userMerge","reports:send","push:clear","push:process","push:schedule","push:validate","server-stats:stats","assistant:generate","alerts:monitor"]
+2020-10-08T20:01:44.735Z: INFO	[jobs:ipc:38597]	Worker started: 38624
+2020-10-08T20:01:44.742Z: INFO	[jobs:ipc:38597]	Worker started: 38622
+2020-10-08T20:01:44.822Z: INFO	[jobs:manager]	Cancelling 0 jobs
+2020-10-08T20:01:45.322Z: INFO	[jobs:handle]	Starting job handle in 38624
+2020-10-08T20:01:45.332Z: INFO	[jobs:handle]	Starting job handle in 38622
+2020-10-08T20:01:45.364Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap"]
+2020-10-08T20:01:45.367Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap"]
+2020-10-08T20:01:47.373Z: INFO	[jobs:job]	Replacing jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-08T20:01:47.390Z: INFO	[jobs:job]	Cancelled 1 previous jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-08T20:01:47.395Z: INFO	[jobs:job]	No job to replace, inserting {"name":"assistant:generate","created":1602187307353,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602189000000}
+Starting worker 38622 parent: 38597
+Starting worker 38624 parent: 38597
+2020-10-08T20:01:54.352Z: INFO	[jobs:job]	Replacing jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-08T20:01:54.356Z: INFO	[jobs:job]	Replacing jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-08T20:01:54.358Z: INFO	[jobs:job]	Replacing jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-08T20:01:54.362Z: INFO	[jobs:job]	Replacing jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-08T20:01:54.363Z: INFO	[jobs:job]	Replacing jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-08T20:01:54.365Z: INFO	[jobs:job]	Replacing jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-08T20:01:54.367Z: INFO	[jobs:job]	Replacing jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-08T20:01:54.373Z: INFO	[jobs:job]	Replacing jobs api:task ({"status":0,"name":"api:task"})
+2020-10-08T20:01:54.374Z: INFO	[jobs:job]	Cancelled 1 previous jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-08T20:01:54.379Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-08T20:01:54.380Z: INFO	[jobs:job]	Cancelled 1 previous jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-08T20:01:54.382Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-08T20:01:54.388Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-08T20:01:54.391Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:task ({"status":0,"name":"api:task"})
+2020-10-08T20:01:54.393Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-08T20:01:54.395Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-08T20:01:54.403Z: INFO	[jobs:job]	No job to replace, inserting {"name":"reports:send","created":1602187314350,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602187314351}
+2020-10-08T20:01:54.404Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:ping","created":1602187314362,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602187314362}
+2020-10-08T20:01:54.408Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:topEvents","created":1602187314357,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602187314358}
+2020-10-08T20:01:54.409Z: INFO	[jobs:job]	No job to replace, inserting {"name":"server-stats:stats","created":1602187314355,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602187314355}
+2020-10-08T20:01:54.413Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:task","created":1602187314372,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602187500000}
+2020-10-08T20:01:54.415Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearAutoTasks","created":1602187314366,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602187314366}
+2020-10-08T20:01:54.416Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clear","created":1602187314363,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602187314363}
+2020-10-08T20:01:54.420Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearTokens","created":1602187314365,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602187314365}
+2020-10-08T20:01:54.874Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f70328a64cb96c511d746","name":"reports:send","created":1602187314350,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602187314351}
+2020-10-08T20:01:54.885Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f70328a64cb96c511d749","name":"server-stats:stats","created":1602187314355,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602187314355}
+2020-10-08T20:01:54.898Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f70328a64cb96c511d748","name":"api:topEvents","created":1602187314357,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602187314358}
+2020-10-08T20:01:54.913Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f70328a64cb96c511d747","name":"api:ping","created":1602187314362,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602187314362}
+2020-10-08T20:01:54.929Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f70328a64cb96c511d74c","name":"api:clear","created":1602187314363,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602187314363}
+2020-10-08T20:01:54.959Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f70328a64cb96c511d74d","name":"api:clearTokens","created":1602187314365,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602187314365}
+2020-10-08T20:01:54.979Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f70328a64cb96c511d74b","name":"api:clearAutoTasks","created":1602187314366,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602187314366}
+2020-10-08T20:05:00.603Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f70328a64cb96c511d74a","name":"api:task","created":1602187314372,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602187500000}
+2020-10-08T20:10:00.505Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f70328a64cb96c511d74a","name":"api:task","created":1602187314372,"status":0,"started":1602187500606,"finished":1602187500618,"duration":14,"data":{},"schedule":"every 5 minutes","next":1602187800000,"modified":1602187500620,"error":null}
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Got signal: SIGTERM
+Got signal: SIGTERM
+Successfully stored batch state
+Successfully stored batch state
+Exiting due to master exited
+2020-10-08T20:13:55.525Z: INFO	[jobs:manager]	Starting job manager in 39126
+2020-10-08T20:13:55.569Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap"]
+Starting master
+2020-10-08T20:13:57.841Z: INFO	[jobs:ipc:39126]	Attached to cluster in Central 39126
+2020-10-08T20:13:58.078Z: INFO	[jobs:manager]	Found 17 job types, starting monitoring: ["api:clear","api:clearAutoTasks","api:clearTokens","api:ipcTest","api:ping","api:task","api:test","api:topEvents","api:userMerge","reports:send","push:clear","push:process","push:schedule","push:validate","server-stats:stats","assistant:generate","alerts:monitor"]
+2020-10-08T20:13:58.164Z: INFO	[jobs:ipc:39126]	Worker started: 39151
+2020-10-08T20:13:58.323Z: INFO	[jobs:ipc:39126]	Worker started: 39157
+2020-10-08T20:13:58.404Z: INFO	[jobs:manager]	Cancelling 0 jobs
+2020-10-08T20:13:58.719Z: INFO	[jobs:handle]	Starting job handle in 39151
+2020-10-08T20:13:58.766Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap"]
+2020-10-08T20:13:59.059Z: INFO	[jobs:handle]	Starting job handle in 39157
+2020-10-08T20:13:59.098Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap"]
+2020-10-08T20:14:00.938Z: INFO	[jobs:job]	Replacing jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-08T20:14:00.959Z: INFO	[jobs:job]	Cancelled 1 previous jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-08T20:14:00.967Z: INFO	[jobs:job]	No job to replace, inserting {"name":"assistant:generate","created":1602188040913,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602189000000}
+Starting worker 39151 parent: 39126
+Starting worker 39157 parent: 39126
+2020-10-08T20:14:07.911Z: INFO	[jobs:job]	Replacing jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-08T20:14:07.915Z: INFO	[jobs:job]	Replacing jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-08T20:14:07.917Z: INFO	[jobs:job]	Replacing jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-08T20:14:07.922Z: INFO	[jobs:job]	Replacing jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-08T20:14:07.924Z: INFO	[jobs:job]	Replacing jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-08T20:14:07.927Z: INFO	[jobs:job]	Replacing jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-08T20:14:07.928Z: INFO	[jobs:job]	Replacing jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-08T20:14:07.932Z: INFO	[jobs:job]	Replacing jobs api:task ({"status":0,"name":"api:task"})
+2020-10-08T20:14:07.934Z: INFO	[jobs:job]	Cancelled 1 previous jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-08T20:14:07.941Z: INFO	[jobs:job]	Cancelled 1 previous jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-08T20:14:07.942Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-08T20:14:07.947Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-08T20:14:07.952Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-08T20:14:07.954Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-08T20:14:07.955Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-08T20:14:07.957Z: INFO	[jobs:job]	No job to replace, inserting {"name":"reports:send","created":1602188047909,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602188047910}
+2020-10-08T20:14:07.958Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:task ({"status":0,"name":"api:task"})
+2020-10-08T20:14:07.963Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:topEvents","created":1602188047916,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602188047917}
+2020-10-08T20:14:07.965Z: INFO	[jobs:job]	No job to replace, inserting {"name":"server-stats:stats","created":1602188047914,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602188047914}
+2020-10-08T20:14:07.967Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:ping","created":1602188047922,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602188047922}
+2020-10-08T20:14:07.968Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clear","created":1602188047923,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602188047923}
+2020-10-08T20:14:07.972Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearTokens","created":1602188047926,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602188047927}
+2020-10-08T20:14:07.973Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearAutoTasks","created":1602188047928,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602188047928}
+2020-10-08T20:14:07.976Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:task","created":1602188047932,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602188100000}
+2020-10-08T20:14:08.440Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f730f8b53f598d6b410c6","name":"reports:send","created":1602188047909,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602188047910}
+2020-10-08T20:14:08.461Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f730f8b53f598d6b410c8","name":"server-stats:stats","created":1602188047914,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602188047914}
+2020-10-08T20:14:08.470Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f730f8b53f598d6b410c7","name":"api:topEvents","created":1602188047916,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602188047917}
+2020-10-08T20:14:08.488Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f730f8b53f598d6b410c9","name":"api:ping","created":1602188047922,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602188047922}
+2020-10-08T20:14:08.508Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f730f8b53f598d6b410ca","name":"api:clear","created":1602188047923,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602188047923}
+2020-10-08T20:14:08.555Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f730f8b53f598d6b410cb","name":"api:clearTokens","created":1602188047926,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602188047927}
+2020-10-08T20:14:08.601Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f730f8b53f598d6b410cc","name":"api:clearAutoTasks","created":1602188047928,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602188047928}
+2020-10-08T20:15:00.789Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f7f730f8b53f598d6b410cd","name":"api:task","created":1602188047932,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602188100000}
