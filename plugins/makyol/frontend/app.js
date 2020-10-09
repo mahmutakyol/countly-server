@@ -29,6 +29,8 @@ var plugin = {},
                     });
                 }
             });
+
+            next();
         });
     };
 }(plugin));
