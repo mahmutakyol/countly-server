@@ -42,3 +42,14 @@ app.makyolView = new MakyolView();
 app.route('/makyol', 'makyol', function() {
     this.renderWhenReady(this.makyolView);
 });
+
+//register menu button
+$(document).ready(function() {
+    app.addMenu("understand", {
+        code: "makyol",
+        url: "#/makyol",
+        text: "makyol.title",
+        icon: '<div class="logo ion-pricetags"></div>',
+        priority: 50
+    });
+});
