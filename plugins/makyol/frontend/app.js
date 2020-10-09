@@ -22,7 +22,7 @@ var plugin = {},
                 else {
 
                     //template rendering
-                    res.render('../../../plugins/makyol/frontend/public/teplates/default', {
+                    res.render('../../../plugins/makyol/frontend/public/teplates/makyol', {
                         path: countlyConfig.path || "",
                         cdn: countlyConfig.cdn || "",
                         data: plugindata
