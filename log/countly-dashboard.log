@@ -1,0 +1,88 @@
+{ MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at Timeout.waitQueueMember.timer.setTimeout [as _onTimeout] (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/core/sdam/topology.js:438:30)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  name: 'MongoServerSelectionError',
+  reason:
+   TopologyDescription {
+     type: 'Single',
+     setName: null,
+     maxSetVersion: null,
+     maxElectionId: null,
+     servers: Map { 'localhost:27017' => [ServerDescription] },
+     stale: false,
+     compatible: true,
+     compatibilityError: null,
+     logicalSessionTimeoutMinutes: null,
+     heartbeatFrequencyMS: 10000,
+     localThresholdMS: 15,
+     commonWireVersion: null } }
+{ MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at Timeout.waitQueueMember.timer.setTimeout [as _onTimeout] (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/core/sdam/topology.js:438:30)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  name: 'MongoServerSelectionError',
+  reason:
+   TopologyDescription {
+     type: 'Single',
+     setName: null,
+     maxSetVersion: null,
+     maxElectionId: null,
+     servers: Map { 'localhost:27017' => [ServerDescription] },
+     stale: false,
+     compatible: true,
+     compatibilityError: null,
+     logicalSessionTimeoutMinutes: null,
+     heartbeatFrequencyMS: 10000,
+     localThresholdMS: 15,
+     commonWireVersion: null } }
+2020-10-10T19:49:06.870Z: ERROR	[db:read]	Error reading plugins {"name":"findOne","args":[{"_id":"plugins"},{"projection":{}}]} MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017 {"name":"MongoServerSelectionError","reason":{"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}}
+2020-10-10T19:49:06.873Z: ERROR	[db:read]	Error reading sessions_ {"name":"findOne","args":[{"_id":"Wd__VY-L_8oWOInYyEsVO9JwqU_syujZ"},{"projection":{}}]} MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017 {"name":"MongoServerSelectionError","reason":{"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}}
+2020-10-10T19:49:06.884Z: ERROR	[db:read]	Error reading sessions_ {"name":"findOne","args":[{"_id":"Wd__VY-L_8oWOInYyEsVO9JwqU_syujZ"},{"projection":{}}]} MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017 {"name":"MongoServerSelectionError","reason":{"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}}
+2020-10-10T19:49:06.885Z: ERROR	[push:frontend]	Error at ensureIndex { MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at Timeout.waitQueueMember.timer.setTimeout [as _onTimeout] (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/core/sdam/topology.js:438:30)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  name: 'MongoServerSelectionError',
+  reason:
+   TopologyDescription {
+     type: 'Single',
+     setName: null,
+     maxSetVersion: null,
+     maxElectionId: null,
+     servers: Map { 'localhost:27017' => [ServerDescription] },
+     stale: false,
+     compatible: true,
+     compatibilityError: null,
+     logicalSessionTimeoutMinutes: null,
+     heartbeatFrequencyMS: 10000,
+     localThresholdMS: 15,
+     commonWireVersion: null } }
+2020-10-10T19:49:36.884Z: ERROR	[db:write]	Error writing sessions_ {"name":"deleteOne","args":[{"_id":"Wd__VY-L_8oWOInYyEsVO9JwqU_syujZ"},{"safe":false},null]} MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017 {"name":"MongoServerSelectionError","reason":{"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}}
+2020-10-10T19:49:36.884Z: ERROR	[db:write]	Error writing sessions_ {"name":"deleteOne","args":[{"_id":"Wd__VY-L_8oWOInYyEsVO9JwqU_syujZ"},{"safe":false},null]} MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017 {"name":"MongoServerSelectionError","reason":{"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}}
+MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at Timeout.waitQueueMember.timer.setTimeout [as _onTimeout] (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/core/sdam/topology.js:438:30)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at Timeout.waitQueueMember.timer.setTimeout [as _onTimeout] (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/core/sdam/topology.js:438:30)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+2020-10-10T19:51:15.811Z: ERROR	[db:read]	Error reading plugins {"name":"findOne","args":[{"_id":"plugins"},{"projection":{}}]} MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017 {"name":"MongoServerSelectionError","reason":{"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}}
+2020-10-10T19:51:45.832Z: ERROR	[db:write]	Error writing sessions_ {"name":"replaceOne","args":[{"_id":"H9_wH5JgSaXRUngIaYsUUz1jN0lWYx_E"},{"_id":"H9_wH5JgSaXRUngIaYsUUz1jN0lWYx_E","session":"{\"cookie\":{\"originalMaxAge\":86400000,\"expires\":\"2020-10-11T19:51:15.821Z\",\"secure\":false,\"httpOnly\":true,\"path\":\"/\"},\"csrfSecret\":\"CJtyVuHvMOJUkwzH7bKcM0JY\"}","expires":"2020-10-11T19:51:15.821Z"},{"upsert":true},null]} MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017 {"name":"MongoServerSelectionError","reason":{"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}}
+MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at Timeout.waitQueueMember.timer.setTimeout [as _onTimeout] (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/core/sdam/topology.js:438:30)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)

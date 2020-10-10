@@ -10,7 +10,7 @@ window.MakyolView = countlyView.extend({
         var self = this;
         return $.when(T.get('/makyol/templates/makyol.html', function(template) {
             self.template = template;
-        }), countlyMakyol.initalize()).then(function() {});
+        }), countlyMakyol.initialize()).then(function() {});
     },
 
     renderCommon: function() {
@@ -48,7 +48,7 @@ $(document).ready(function() {
     app.addMenu("understand", {
         code: "makyol",
         url: "#/makyol",
-        text: "makyol.title",
+        text: "Makyol Metrics",
         icon: '<div class="logo ion-pricetags"></div>',
         priority: 50
     });

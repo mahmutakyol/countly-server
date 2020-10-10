@@ -1,0 +1,26 @@
+
+   ______                  __  __
+  / ____/___  __  ______  / /_/ /_  __
+ / /   / __ \/ / / / __ \/ __/ / / / /
+/ /___/ /_/ / /_/ / / / / /_/ / /_/ /
+\____/\____/\__,_/_/ /_/\__/_/\__, /
+              http://count.ly/____/
+
+Get:1 http://ppa.launchpad.net/ondrej/apache2/ubuntu xenial InRelease [23,8 kB]
+Hit:2 http://tr.archive.ubuntu.com/ubuntu xenial InRelease
+Ign:3 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 InRelease
+Get:4 http://tr.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+Hit:5 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 Release
+Get:7 http://tr.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+Get:8 http://tr.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata [326 kB]
+Get:9 http://tr.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata [281 kB]
+Get:10 http://tr.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata [5.960 B]
+Get:11 http://tr.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata [3.332 B]
+Get:12 http://tr.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata [6.616 B]
+Get:13 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+Get:14 http://dl.google.com/linux/chrome/deb stable InRelease [1.811 B]
+Get:15 http://dl.google.com/linux/chrome/deb stable/main amd64 Packages [1.074 B]
+Hit:16 https://deb.nodesource.com/node_10.x xenial InRelease
+Get:17 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata [93,0 kB]
+Get:18 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata [129 kB]
+Get:19 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 DEP-11 Metadata [2.464 B]

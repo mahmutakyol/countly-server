@@ -1,0 +1,1262 @@
+
+   ______                  __  __
+  / ____/___  __  ______  / /_/ /_  __
+ / /   / __ \/ / / / __ \/ __/ / / / /
+/ /___/ /_/ / /_/ / / / / /_/ / /_/ /
+\____/\____/\__,_/_/ /_/\__/_/\__, /
+              http://count.ly/____/
+
+Hit:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Ign:2 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 InRelease
+Hit:3 http://ppa.launchpad.net/ondrej/apache2/ubuntu xenial InRelease
+Get:4 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+Hit:5 http://tr.archive.ubuntu.com/ubuntu xenial InRelease
+Hit:6 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 Release
+Hit:7 http://tr.archive.ubuntu.com/ubuntu xenial-updates InRelease
+Hit:8 http://tr.archive.ubuntu.com/ubuntu xenial-backports InRelease
+Hit:9 https://deb.nodesource.com/node_10.x xenial InRelease
+Fetched 109 kB in 1s (66,9 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+build-essential is already the newest version (12.1ubuntu2).
+unzip is already the newest version (6.0-20ubuntu1).
+shellcheck is already the newest version (0.3.7-5).
+bzip2 is already the newest version (1.0.6-8ubuntu0.2).
+git is already the newest version (1:2.7.4-0ubuntu1.9).
+libkrb5-dev is already the newest version (1.13.2+dfsg-5ubuntu2.1).
+sqlite3 is already the newest version (3.11.0-1ubuntu1.5).
+wget is already the newest version (1.17.1-1ubuntu1.5).
+0 upgraded, 0 newly installed, 0 to remove and 20 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+fonts-liberation is already the newest version (1.07.4-1).
+gconf-service is already the newest version (3.2.6-3ubuntu6).
+libasound2 is already the newest version (1.1.0-0ubuntu1).
+libatk1.0-0 is already the newest version (2.18.0-1).
+libcairo2 is already the newest version (1.14.6-1).
+libgcc1 is already the newest version (1:6.0.1-0ubuntu1).
+libgconf-2-4 is already the newest version (3.2.6-3ubuntu6).
+libpango-1.0-0 is already the newest version (1.38.1-1).
+libpangocairo-1.0-0 is already the newest version (1.38.1-1).
+libxcb1 is already the newest version (1.11.1-1ubuntu1).
+libxcomposite1 is already the newest version (1:0.4.4-1).
+libxdamage1 is already the newest version (1:1.1.4-2).
+libxext6 is already the newest version (2:1.3.3-1).
+libxfixes3 is already the newest version (1:5.0.1-2).
+libxi6 is already the newest version (2:1.7.6-1).
+libxrandr2 is already the newest version (2:1.5.0-1).
+libxrender1 is already the newest version (1:0.9.9-0ubuntu1).
+libxss1 is already the newest version (1:1.2.2-1).
+libxtst6 is already the newest version (2:1.2.2-1).
+ca-certificates is already the newest version (20190110~16.04.1).
+libappindicator1 is already the newest version (12.10.1+16.04.20170215-0ubuntu1).
+libc6 is already the newest version (2.23-0ubuntu11.2).
+libcups2 is already the newest version (2.1.3-4ubuntu0.11).
+libdbus-1-3 is already the newest version (1.10.6-1ubuntu3.6).
+libexpat1 is already the newest version (2.1.0-7ubuntu0.16.04.5).
+libfontconfig1 is already the newest version (2.11.94-0ubuntu1.1).
+libgdk-pixbuf2.0-0 is already the newest version (2.32.2-1ubuntu1.6).
+libglib2.0-0 is already the newest version (2.48.2-0ubuntu4.6).
+libgtk-3-0 is already the newest version (3.18.9-1ubuntu3.3).
+libnspr4 is already the newest version (2:4.13.1-0ubuntu0.16.04.1).
+libnss3 is already the newest version (2:3.28.4-0ubuntu0.16.04.14).
+libstdc++6 is already the newest version (5.4.0-6ubuntu1~16.04.12).
+libx11-6 is already the newest version (2:1.6.3-1ubuntu2.2).
+libx11-xcb1 is already the newest version (2:1.6.3-1ubuntu2.2).
+libxcursor1 is already the newest version (1:1.1.14-1ubuntu0.16.04.2).
+lsb-release is already the newest version (9.20160110ubuntu0.2).
+wget is already the newest version (1.17.1-1ubuntu1.5).
+xdg-utils is already the newest version (1.1.1-1ubuntu1.16.04.3).
+0 upgraded, 0 newly installed, 0 to remove and 20 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python-software-properties is already the newest version (0.96.20.10).
+0 upgraded, 0 newly installed, 0 to remove and 20 not upgraded.
+
+## Installing the NodeSource Node.js 10.x repo...
+
+
+## Populating apt-get cache...
+
++ apt-get update
+Hit:1 http://tr.archive.ubuntu.com/ubuntu xenial InRelease
+Hit:2 http://tr.archive.ubuntu.com/ubuntu xenial-updates InRelease
+Hit:3 http://tr.archive.ubuntu.com/ubuntu xenial-backports InRelease
+Hit:4 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:5 https://deb.nodesource.com/node_10.x xenial InRelease
+Ign:6 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 InRelease
+Hit:7 http://ppa.launchpad.net/ondrej/apache2/ubuntu xenial InRelease
+Hit:8 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 Release
+Get:10 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+Fetched 109 kB in 6s (17,6 kB/s)
+Reading package lists...
+
+## Confirming "xenial" is supported...
+
++ wget -qO /dev/null -o /dev/null 'https://deb.nodesource.com/node_10.x/dists/xenial/Release'
+
+## Adding the NodeSource signing key to your keyring...
+
++ wget -qO- https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add -
+OK
+
+## Creating apt sources list file for the NodeSource Node.js 10.x repo...
+
++ echo 'deb https://deb.nodesource.com/node_10.x xenial main' > /etc/apt/sources.list.d/nodesource.list
++ echo 'deb-src https://deb.nodesource.com/node_10.x xenial main' >> /etc/apt/sources.list.d/nodesource.list
+
+## Running `apt-get update` for you...
+
++ apt-get update
+Hit:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://ppa.launchpad.net/ondrej/apache2/ubuntu xenial InRelease
+Hit:3 http://tr.archive.ubuntu.com/ubuntu xenial InRelease
+Hit:4 http://tr.archive.ubuntu.com/ubuntu xenial-updates InRelease
+Hit:5 http://tr.archive.ubuntu.com/ubuntu xenial-backports InRelease
+Ign:6 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 InRelease
+Get:7 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+Hit:8 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 Release
+Hit:10 https://deb.nodesource.com/node_10.x xenial InRelease
+Fetched 109 kB in 1s (77,6 kB/s)
+Reading package lists...
+
+## Run `sudo apt-get install -y nodejs` to install Node.js 10.x and npm
+## You may also need development tools to build native addons:
+     sudo apt-get install gcc g++ make
+## To install the Yarn package manager, run:
+     curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+     echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+     sudo apt-get update && sudo apt-get install yarn
+
+
+Hit:1 http://tr.archive.ubuntu.com/ubuntu xenial InRelease
+Hit:2 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:3 http://tr.archive.ubuntu.com/ubuntu xenial-updates InRelease
+Hit:4 http://tr.archive.ubuntu.com/ubuntu xenial-backports InRelease
+Hit:5 http://ppa.launchpad.net/ondrej/apache2/ubuntu xenial InRelease
+Ign:6 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 InRelease
+Hit:7 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 Release
+Get:8 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+Hit:9 https://deb.nodesource.com/node_10.x xenial InRelease
+Fetched 109 kB in 1s (88,7 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+g++-4.8 is already the newest version (4.8.5-4ubuntu2).
+gcc-4.8 is already the newest version (4.8.5-4ubuntu2).
+0 upgraded, 0 newly installed, 0 to remove and 20 not upgraded.
+g++ (Ubuntu 4.8.5-4ubuntu2) 4.8.5
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+nginx is already the newest version (1.10.3-0ubuntu0.16.04.5).
+0 upgraded, 0 newly installed, 0 to remove and 20 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+nodejs is already the newest version (10.22.1-1nodesource1).
+0 upgraded, 0 newly installed, 0 to remove and 20 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+supervisor is already the newest version (3.2.0-2ubuntu0.2).
+0 upgraded, 0 newly installed, 0 to remove and 20 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+numactl is already the newest version (2.0.11-1ubuntu1.1).
+0 upgraded, 0 newly installed, 0 to remove and 20 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+sendmail is already the newest version (8.15.2-3).
+0 upgraded, 0 newly installed, 0 to remove and 20 not upgraded.
+/usr/bin/npm -> /usr/lib/node_modules/npm/bin/npm-cli.js
+/usr/bin/npx -> /usr/lib/node_modules/npm/bin/npx-cli.js
++ npm@6.4.1
+updated 1 package in 9.01s
+6.4.1
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+/usr/bin/grunt -> /usr/lib/node_modules/grunt-cli/bin/grunt
++ grunt-cli@1.3.2
+updated 1 package in 17.62s
+npm WARN countly-server@20.4.1 No license field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules/external-ip/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+audited 934 packages in 13.973s
+found 0 vulnerabilities
+
+
+> argon2@0.26.2 install /home/mahmut/Desktop/Countly/countly-server/node_modules/argon2
+> node-pre-gyp install --fallback-to-build
+
+node-pre-gyp WARN Using request for node-pre-gyp https download 
+make: Entering directory '/home/mahmut/Desktop/Countly/countly-server/node_modules/argon2/build'
+  CC(target) Release/obj.target/libargon2/argon2/src/opt.o
+  CC(target) Release/obj.target/libargon2/argon2/src/argon2.o
+  CC(target) Release/obj.target/libargon2/argon2/src/core.o
+  CC(target) Release/obj.target/libargon2/argon2/src/blake2/blake2b.o
+  CC(target) Release/obj.target/libargon2/argon2/src/thread.o
+  CC(target) Release/obj.target/libargon2/argon2/src/encoding.o
+  AR(target) Release/obj.target/argon2.a
+  COPY Release/argon2.a
+  CXX(target) Release/obj.target/argon2/src/argon2_node.o
+  SOLINK_MODULE(target) Release/obj.target/argon2.node
+  COPY Release/argon2.node
+  COPY /home/mahmut/Desktop/Countly/countly-server/node_modules/argon2/lib/binding/napi-v3/argon2.node
+  TOUCH Release/obj.target/action_after_build.stamp
+make: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/node_modules/argon2/build'
+npm WARN countly-server@20.4.1 No license field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules/external-ip/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
++ argon2@0.26.2
+updated 1 package and audited 934 packages in 25.99s
+found 0 vulnerabilities
+
+Executing: /tmp/tmp.3WVQTH1gxj/gpg.1.sh --keyserver
+hkp://keyserver.ubuntu.com:80
+--recv
+2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
+gpg: requesting key 91FA4AD5 from hkp server keyserver.ubuntu.com
+gpg: key 91FA4AD5: "MongoDB 3.6 Release Signing Key <packaging@mongodb.com>" not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+deb [ arch=amd64,arm64 ] http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse
+Hit:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://tr.archive.ubuntu.com/ubuntu xenial InRelease
+Get:3 http://ppa.launchpad.net/ondrej/apache2/ubuntu xenial InRelease [23,8 kB]
+Hit:4 http://tr.archive.ubuntu.com/ubuntu xenial-updates InRelease
+Ign:5 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 InRelease
+Hit:6 http://tr.archive.ubuntu.com/ubuntu xenial-backports InRelease
+Hit:7 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 Release
+Get:8 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+Hit:9 https://deb.nodesource.com/node_10.x xenial InRelease
+Fetched 133 kB in 1s (99,9 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  mongodb-org-mongos mongodb-org-server mongodb-org-shell mongodb-org-tools
+The following NEW packages will be installed:
+  mongodb-org mongodb-org-mongos mongodb-org-server mongodb-org-shell
+  mongodb-org-tools
+0 upgraded, 5 newly installed, 0 to remove and 20 not upgraded.
+Need to get 0 B/85,8 MB of archives.
+After this operation, 300 MB of additional disk space will be used.
+Selecting previously unselected package mongodb-org-shell.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 224581 files and directories currently installed.)
+Preparing to unpack .../mongodb-org-shell_3.6.20_amd64.deb ...
+Unpacking mongodb-org-shell (3.6.20) ...
+Selecting previously unselected package mongodb-org-server.
+Preparing to unpack .../mongodb-org-server_3.6.20_amd64.deb ...
+Unpacking mongodb-org-server (3.6.20) ...
+Selecting previously unselected package mongodb-org-mongos.
+Preparing to unpack .../mongodb-org-mongos_3.6.20_amd64.deb ...
+Unpacking mongodb-org-mongos (3.6.20) ...
+Selecting previously unselected package mongodb-org-tools.
+Preparing to unpack .../mongodb-org-tools_3.6.20_amd64.deb ...
+Unpacking mongodb-org-tools (3.6.20) ...
+Selecting previously unselected package mongodb-org.
+Preparing to unpack .../mongodb-org_3.6.20_amd64.deb ...
+Unpacking mongodb-org (3.6.20) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up mongodb-org-shell (3.6.20) ...
+Setting up mongodb-org-server (3.6.20) ...
+Setting up mongodb-org-mongos (3.6.20) ...
+Setting up mongodb-org-tools (3.6.20) ...
+Setting up mongodb-org (3.6.20) ...
+[1m[[93m?[97m][0m Couldn't find any disk for MongoDB data
+[1m[[92m+[97m][0m Logrotate configured
+[1m[[92m+[97m][0m Linux kernel version is OK 4.15.0
+[1m[[92m+[97m][0m GLibC version is OK 2.23
+[1m[[92m+[97m][0m Swappiness set to 1
+[1m[[92m+[97m][0m Configured file handle kernel limits
+[1m[[92m+[97m][0m Configured security limits for MongoDB user
+[1m[[93m?[97m][0m NUMA is not available on this system
+[1m[[92m+[97m][0m Disabled transparent hugepages
+[1m[[92m+[97m][0m NTP is enabled
+
+Some of changes may need reboot!
+
+Restarting nginx (via systemctl): nginx.service.
+gpg: keyring `/tmp/tmpbw86udv_/secring.gpg' created
+gpg: keyring `/tmp/tmpbw86udv_/pubring.gpg' created
+gpg: requesting key E5267A6C from hkp server keyserver.ubuntu.com
+gpg: /tmp/tmpbw86udv_/trustdb.gpg: trustdb created
+gpg: key E5267A6C: public key "Launchpad PPA for Ondřej Surý" imported
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+OK
+Hit:1 http://tr.archive.ubuntu.com/ubuntu xenial InRelease
+Hit:2 http://tr.archive.ubuntu.com/ubuntu xenial-updates InRelease
+Hit:3 http://tr.archive.ubuntu.com/ubuntu xenial-backports InRelease
+Hit:4 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:5 http://ppa.launchpad.net/ondrej/apache2/ubuntu xenial InRelease
+Ign:6 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 InRelease
+Get:7 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+Hit:8 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 Release
+Hit:9 https://deb.nodesource.com/node_10.x xenial InRelease
+Fetched 109 kB in 1s (85.9 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+autoconf is already the newest version (2.69-9).
+automake is already the newest version (1:1.15-4ubuntu1).
+autotools-dev is already the newest version (20150820.1).
+g++ is already the newest version (4:5.3.1-1ubuntu1).
+libtool is already the newest version (2.4.6-0.1).
+make is already the newest version (4.1-6).
+pkg-config is already the newest version (0.29.1-0ubuntu1).
+python-setuptools is already the newest version (20.7.0-1).
+python3-dev is already the newest version (3.5.1-3).
+cython is already the newest version (0.23.4-0ubuntu5).
+libcunit1-dev is already the newest version (2.1-3-dfsg-2).
+libev-dev is already the newest version (1:4.22-1).
+libjemalloc-dev is already the newest version (3.6.0-9ubuntu1).
+binutils is already the newest version (2.26.1-1ubuntu1~16.04.8).
+git is already the newest version (1:2.7.4-0ubuntu1.9).
+libevent-dev is already the newest version (2.0.21-stable-2ubuntu0.16.04.1).
+libjansson-dev is already the newest version (2.7-3ubuntu0.1).
+libxml2-dev is already the newest version (2.9.3+dfsg1-1ubuntu0.7).
+zlib1g-dev is already the newest version (1:1.2.8.dfsg-2ubuntu4.3).
+libssl-dev is already the newest version (1.1.1g-1+ubuntu16.04.1+deb.sury.org+1).
+openssl is already the newest version (1.1.1-1+ubuntu16.04.1+deb.sury.org+1).
+0 upgraded, 0 newly installed, 0 to remove and 20 not upgraded.
+Cloning into '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2'...
+Note: checking out 'tags/v1.30.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at f0836c7... Update manual pages
+libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, '.'.
+libtoolize: copying file './ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
+configure.ac:32: installing './compile'
+configure.ac:35: installing './config.guess'
+configure.ac:35: installing './config.sub'
+configure.ac:41: installing './install-sh'
+configure.ac:41: installing './missing'
+Makefile.am: installing './INSTALL'
+examples/Makefile.am: installing './depcomp'
+parallel-tests: installing './test-driver'
+checking for gcc... gcc-4.8
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc-4.8 accepts -g... yes
+checking for gcc-4.8 option to accept ISO C89... none needed
+checking whether gcc-4.8 understands -c and -o together... yes
+checking how to run the C preprocessor... gcc-4.8 -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc-4.8... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking for gawk... no
+checking for mawk... mawk
+checking command to parse /usr/bin/nm -B output from gcc-4.8 object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc-4.8 supports -fno-rtti -fno-exceptions... no
+checking for gcc-4.8 option to produce PIC... -fPIC -DPIC
+checking if gcc-4.8 PIC flag -fPIC -DPIC works... yes
+checking if gcc-4.8 static flag -static works... yes
+checking if gcc-4.8 supports -c -o file.o... yes
+checking if gcc-4.8 supports -c -o file.o... (cached) yes
+checking whether the gcc-4.8 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking target system type... x86_64-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking dependency style of gcc-4.8... gcc3
+checking whether make supports nested variables... (cached) yes
+checking for gcc... (cached) gcc-4.8
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc-4.8 accepts -g... (cached) yes
+checking for gcc-4.8 option to accept ISO C89... (cached) none needed
+checking whether gcc-4.8 understands -c and -o together... (cached) yes
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++-4.8 accepts -g... yes
+checking how to run the C++ preprocessor... g++-4.8 -E
+checking for ld used by g++-4.8... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++-4.8 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++-4.8 option to produce PIC... -fPIC -DPIC
+checking if g++-4.8 PIC flag -fPIC -DPIC works... yes
+checking if g++-4.8 static flag -static works... yes
+checking if g++-4.8 supports -c -o file.o... yes
+checking if g++-4.8 supports -c -o file.o... (cached) yes
+checking whether the g++-4.8 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking dependency style of g++-4.8... gcc3
+checking how to run the C preprocessor... gcc-4.8 -E
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.20... yes
+checking for a Python interpreter with version >= 2.7... python
+checking for python... /usr/bin/python
+checking for python version... 2.7
+checking for python platform... linux2
+checking for python script directory... ${prefix}/lib/python2.7/dist-packages
+checking for python extension module directory... ${exec_prefix}/lib/python2.7/dist-packages
+checking for python2.7... (cached) /usr/bin/python
+checking for a version of Python >= '2.1.0'... yes
+checking for a version of Python >= '2.7'... yes
+checking for the distutils Python package... yes
+checking for Python include path... -I/usr/include/python2.7
+checking for Python library path... -L/usr/lib -lpython2.7
+checking for Python site-packages path... /usr/lib/python2.7/dist-packages
+checking python extra libraries... -lpthread -ldl  -lutil
+checking python extra linking flags... -Xlinker -export-dynamic -Wl,-O1 -Wl,-Bsymbolic-functions
+checking consistency of all components of python development environment... yes
+checking for cython.py... no
+checking for cython... cython
+checking whether g++-4.8 supports C++11 features by default... no
+checking whether g++-4.8 supports C++11 features with -std=c++11... yes
+checking whether std::future is available... yes
+checking whether std::map::emplace is available... yes
+checking whether std::atomic_* overloads for std::shared_ptr are available... no
+checking whether thread_local storage class specifier is available.... yes
+checking for ZLIB... yes
+checking for library containing dlopen... -ldl
+checking for CUNIT... yes
+checking for ev_time in -lev... yes
+checking ev.h usability... yes
+checking ev.h presence... yes
+checking for ev.h... yes
+checking for OPENSSL... yes
+checking for LIBCARES... no
+configure: No package 'libcares' found
+checking for LIBEVENT_OPENSSL... yes
+checking for JANSSON... yes
+checking for SYSTEMD... no
+configure: No package 'libsystemd' found
+checking for LIBXML2... yes
+checking for library containing malloc_stats_print... -ljemalloc
+checking whether to enable assertions... yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for inttypes.h... (cached) yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdint.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking syslog.h usability... yes
+checking syslog.h presence... yes
+checking for syslog.h... yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking for unistd.h... (cached) yes
+checking for size_t... yes
+checking for ssize_t... yes
+checking for uint8_t... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for uint64_t... yes
+checking for int8_t... yes
+checking for int16_t... yes
+checking for int32_t... yes
+checking for int64_t... yes
+checking for off_t... yes
+checking for pid_t... yes
+checking for uid_t in sys/types.h... yes
+checking for ptrdiff_t... yes
+checking whether byte ordering is bigendian... no
+checking for inline... inline
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for struct tm.tm_gmtoff... yes
+checking for struct sockaddr_in.sin_len... no
+checking for struct sockaddr_in6.sin6_len... no
+checking size of int *... 8
+checking size of time_t... 8
+checking for unistd.h... (cached) yes
+checking for working chown... yes
+checking for error_at_line... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking whether strerror_r is declared... yes
+checking for strerror_r... yes
+checking whether strerror_r returns char *... yes
+checking for working strnlen... yes
+checking for _Exit... yes
+checking for accept4... yes
+checking for dup2... yes
+checking for getcwd... yes
+checking for getpwnam... yes
+checking for localtime_r... yes
+checking for memchr... yes
+checking for memmove... yes
+checking for memset... yes
+checking for mkostemp... yes
+checking for socket... yes
+checking for sqrt... no
+checking for strchr... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strndup... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for strtoul... yes
+checking for timegm... yes
+checking for timerfd_create... yes
+checking whether initgroups is declared... yes
+checking whether C compiler accepts -fvisibility=hidden... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating lib/Makefile
+config.status: creating lib/libnghttp2.pc
+config.status: creating lib/includes/Makefile
+config.status: creating lib/includes/nghttp2/nghttp2ver.h
+config.status: creating tests/Makefile
+config.status: creating tests/testdata/Makefile
+config.status: creating third-party/Makefile
+config.status: creating src/Makefile
+config.status: creating src/includes/Makefile
+config.status: creating src/libnghttp2_asio.pc
+config.status: creating examples/Makefile
+config.status: creating python/Makefile
+config.status: creating python/setup.py
+config.status: creating integration-tests/Makefile
+config.status: creating integration-tests/config.go
+config.status: creating integration-tests/setenv
+config.status: creating doc/Makefile
+config.status: creating doc/conf.py
+config.status: creating doc/index.rst
+config.status: creating doc/package_README.rst
+config.status: creating doc/tutorial-client.rst
+config.status: creating doc/tutorial-server.rst
+config.status: creating doc/tutorial-hpack.rst
+config.status: creating doc/nghttpx-howto.rst
+config.status: creating doc/h2load-howto.rst
+config.status: creating doc/libnghttp2_asio.rst
+config.status: creating doc/python-apiref.rst
+config.status: creating doc/building-android-binary.rst
+config.status: creating doc/nghttp2.h.rst
+config.status: creating doc/nghttp2ver.h.rst
+config.status: creating doc/asio_http2.h.rst
+config.status: creating doc/asio_http2_server.h.rst
+config.status: creating doc/asio_http2_client.h.rst
+config.status: creating doc/contribute.rst
+config.status: creating contrib/Makefile
+config.status: creating script/Makefile
+config.status: creating config.h
+config.status: executing libtool commands
+config.status: executing depfiles commands
+configure: summary of build options:
+
+    Package version: 1.30.0
+    Library version: 29:2:15
+    Install prefix:  /usr/local
+    System types:
+      Build:         x86_64-pc-linux-gnu
+      Host:          x86_64-pc-linux-gnu
+      Target:        x86_64-pc-linux-gnu
+    Compiler:
+      C compiler:     gcc-4.8
+      CFLAGS:         -g -O2 -fPIC
+      LDFLAGS:        
+      C++ compiler:   g++-4.8
+      CXXFLAGS:       -g -O2
+      CXXCPP:         g++-4.8 -E
+      C preprocessor: gcc-4.8 -E
+      CPPFLAGS:       -fPIC
+      WARNCFLAGS:     
+      WARNCXXFLAGS:   
+      CXX1XCXXFLAGS:   -std=c++11
+      EXTRACFLAG:     -fvisibility=hidden
+      LIBS:           
+    Library:
+      Shared:         yes
+      Static:         yes
+    Python:
+      Python:         /usr/bin/python
+      PYTHON_VERSION: 2.7
+      pyexecdir:      ${exec_prefix}/lib/python2.7/dist-packages
+      Python-dev:     yes
+      PYTHON_CPPFLAGS:-I/usr/include/python2.7
+      PYTHON_LDFLAGS: -L/usr/lib -lpython2.7
+      Cython:         cython
+    Test:
+      CUnit:          yes (CFLAGS='' LIBS='-lcunit')
+      Failmalloc:     yes
+    Libs:
+      OpenSSL:        yes (CFLAGS='' LIBS='-lssl -lcrypto')
+      Libxml2:        yes (CFLAGS='' LIBS='-lxml2')
+      Libev:          yes (CFLAGS='' LIBS='-lev')
+      Libc-ares       no (CFLAGS='' LIBS='')
+      Libevent(SSL):  yes (CFLAGS='' LIBS='-levent_openssl -levent')
+      Jansson:        yes (CFLAGS='' LIBS='-ljansson')
+      Jemalloc:       yes (LIBS='-ljemalloc')
+      Zlib:           yes (CFLAGS='' LIBS='-lz')
+      Systemd:        no (CFLAGS='' LIBS='')
+      Boost CPPFLAGS: 
+      Boost LDFLAGS:  
+      Boost::ASIO:    
+      Boost::System:  
+      Boost::Thread:  
+    Third-party:
+      http-parser:    yes
+      MRuby:          no (CFLAGS='' LIBS='')
+      Neverbleed:     no
+    Features:
+      Applications:   no
+      HPACK tools:    yes
+      Libnghttp2_asio:no
+      Examples:       no
+      Python bindings:yes
+      Threading:      yes
+
+make  all-recursive
+make[1]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2'
+Making all in lib
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/lib'
+Making all in includes
+make[3]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/lib/includes'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/lib/includes'
+make[3]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/lib'
+  CC       nghttp2_pq.lo
+  CC       nghttp2_map.lo
+  CC       nghttp2_queue.lo
+  CC       nghttp2_frame.lo
+  CC       nghttp2_buf.lo
+  CC       nghttp2_stream.lo
+  CC       nghttp2_outbound_item.lo
+  CC       nghttp2_session.lo
+  CC       nghttp2_submit.lo
+  CC       nghttp2_helper.lo
+  CC       nghttp2_npn.lo
+  CC       nghttp2_hd.lo
+  CC       nghttp2_hd_huffman.lo
+  CC       nghttp2_hd_huffman_data.lo
+  CC       nghttp2_version.lo
+  CC       nghttp2_priority_spec.lo
+  CC       nghttp2_option.lo
+  CC       nghttp2_callbacks.lo
+  CC       nghttp2_mem.lo
+  CC       nghttp2_http.lo
+  CC       nghttp2_rcbuf.lo
+  CC       nghttp2_debug.lo
+  CCLD     libnghttp2.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[3]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/lib'
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/lib'
+Making all in third-party
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/third-party'
+  CC       http-parser/http_parser.lo
+  CCLD     libhttp-parser.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/third-party'
+Making all in src
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/src'
+Making all in includes
+make[3]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/src/includes'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/src/includes'
+make[3]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/src'
+  CXX      inflatehd.o
+  CC       comp_helper.o
+  CXXLD    inflatehd
+  CXX      deflatehd.o
+  CXXLD    deflatehd
+make[3]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/src'
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/src'
+Making all in examples
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/examples'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/examples'
+Making all in python
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/python'
+cython -o nghttp2.c nghttp2.pyx
+/usr/bin/python setup.py build
+running build
+running build_ext
+building 'nghttp2' extension
+creating build
+creating build/temp.linux-x86_64-2.7
+gcc-4.8 -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fno-strict-aliasing -g -O2 -fPIC -fPIC -fPIC -I../lib -I../lib/includes -I../lib/includes -I/usr/include/python2.7 -c nghttp2.c -o build/temp.linux-x86_64-2.7/nghttp2.o
+creating build/lib.linux-x86_64-2.7
+x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -Wdate-time -D_FORTIFY_SOURCE=2 -g -fstack-protector -Wformat -Werror=format-security -Wl,-Bsymbolic-functions -Wl,-z,relro -g -O2 -fPIC -fPIC build/temp.linux-x86_64-2.7/nghttp2.o -L../lib/.libs -L../lib -L.. -lnghttp2 -o build/lib.linux-x86_64-2.7/nghttp2.so
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/python'
+Making all in tests
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/tests'
+Making all in testdata
+make[3]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/tests/testdata'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/tests/testdata'
+make[3]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/tests'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/tests'
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/tests'
+Making all in integration-tests
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/integration-tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/integration-tests'
+Making all in doc
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/doc'
+Making all in contrib
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/contrib'
+rm -f nghttpx-init nghttpx-init.tmp
+sed -e 's|@bindir[@]|/usr/local/bin|g' nghttpx-init.in > nghttpx-init.tmp
+chmod +x nghttpx-init.tmp
+mv nghttpx-init.tmp nghttpx-init
+sed -e 's|@bindir[@]|/usr/local/bin|g' nghttpx.service.in > nghttpx.service
+sed -e 's|@bindir[@]|/usr/local/bin|g' nghttpx-upstart.conf.in > nghttpx-upstart.conf
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/contrib'
+Making all in script
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/script'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/script'
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2'
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2'
+make[1]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2'
+Making install in lib
+make[1]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/lib'
+Making install in includes
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/lib/includes'
+make[3]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/lib/includes'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/local/include'
+ /bin/mkdir -p '/usr/local/include/nghttp2'
+ /usr/bin/install -c -m 644  nghttp2/nghttp2.h nghttp2/nghttp2ver.h '/usr/local/include/nghttp2'
+make[3]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/lib/includes'
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/lib/includes'
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/lib'
+make[3]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/lib'
+ /bin/mkdir -p '/usr/local/lib'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libnghttp2.la '/usr/local/lib'
+libtool: install: /usr/bin/install -c .libs/libnghttp2.so.14.15.2 /usr/local/lib/libnghttp2.so.14.15.2
+libtool: install: (cd /usr/local/lib && { ln -s -f libnghttp2.so.14.15.2 libnghttp2.so.14 || { rm -f libnghttp2.so.14 && ln -s libnghttp2.so.14.15.2 libnghttp2.so.14; }; })
+libtool: install: (cd /usr/local/lib && { ln -s -f libnghttp2.so.14.15.2 libnghttp2.so || { rm -f libnghttp2.so && ln -s libnghttp2.so.14.15.2 libnghttp2.so; }; })
+libtool: install: /usr/bin/install -c .libs/libnghttp2.lai /usr/local/lib/libnghttp2.la
+libtool: install: /usr/bin/install -c .libs/libnghttp2.a /usr/local/lib/libnghttp2.a
+libtool: install: chmod 644 /usr/local/lib/libnghttp2.a
+libtool: install: ranlib /usr/local/lib/libnghttp2.a
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/local/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libnghttp2.pc '/usr/local/lib/pkgconfig'
+make[3]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/lib'
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/lib'
+make[1]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/lib'
+Making install in third-party
+make[1]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/third-party'
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/third-party'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/third-party'
+make[1]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/third-party'
+Making install in src
+make[1]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/src'
+Making install in includes
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/src/includes'
+make[3]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/src/includes'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/src/includes'
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/src/includes'
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/src'
+make[3]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/src'
+ /bin/mkdir -p '/usr/local/bin'
+  /bin/bash ../libtool   --mode=install /usr/bin/install -c inflatehd deflatehd '/usr/local/bin'
+libtool: install: /usr/bin/install -c .libs/inflatehd /usr/local/bin/inflatehd
+libtool: install: /usr/bin/install -c .libs/deflatehd /usr/local/bin/deflatehd
+make[3]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/src'
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/src'
+make[1]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/src'
+Making install in examples
+make[1]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/examples'
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/examples'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/examples'
+make[1]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/examples'
+Making install in python
+make[1]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/python'
+/usr/bin/python setup.py build
+running build
+running build_ext
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/python'
+/usr/bin/python setup.py install --prefix=/usr/local
+running install
+running bdist_egg
+running egg_info
+creating python_nghttp2.egg-info
+writing python_nghttp2.egg-info/PKG-INFO
+writing top-level names to python_nghttp2.egg-info/top_level.txt
+writing dependency_links to python_nghttp2.egg-info/dependency_links.txt
+writing manifest file 'python_nghttp2.egg-info/SOURCES.txt'
+reading manifest file 'python_nghttp2.egg-info/SOURCES.txt'
+writing manifest file 'python_nghttp2.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_ext
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+copying build/lib.linux-x86_64-2.7/nghttp2.so -> build/bdist.linux-x86_64/egg
+creating stub loader for nghttp2.so
+byte-compiling build/bdist.linux-x86_64/egg/nghttp2.py to nghttp2.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_nghttp2.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_nghttp2.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_nghttp2.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_nghttp2.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/python_nghttp2-1.30.0-py2.7-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing python_nghttp2-1.30.0-py2.7-linux-x86_64.egg
+Removing /usr/local/lib/python2.7/dist-packages/python_nghttp2-1.30.0-py2.7-linux-x86_64.egg
+Copying python_nghttp2-1.30.0-py2.7-linux-x86_64.egg to /usr/local/lib/python2.7/dist-packages
+python-nghttp2 1.30.0 is already the active version in easy-install.pth
+
+Installed /usr/local/lib/python2.7/dist-packages/python_nghttp2-1.30.0-py2.7-linux-x86_64.egg
+Processing dependencies for python-nghttp2==1.30.0
+Finished processing dependencies for python-nghttp2==1.30.0
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/python'
+make[1]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/python'
+Making install in tests
+make[1]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/tests'
+Making install in testdata
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/tests/testdata'
+make[3]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/tests/testdata'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/tests/testdata'
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/tests/testdata'
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/tests'
+make[3]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/tests'
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/tests'
+make[1]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/tests'
+Making install in integration-tests
+make[1]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/integration-tests'
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/integration-tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/integration-tests'
+make[1]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/integration-tests'
+Making install in doc
+make[1]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/doc'
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/local/share/man/man1'
+ /usr/bin/install -c -m 644 nghttp.1 nghttpd.1 nghttpx.1 h2load.1 '/usr/local/share/man/man1'
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/doc'
+make[1]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/doc'
+Making install in contrib
+make[1]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/contrib'
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/contrib'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/contrib'
+make[1]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/contrib'
+Making install in script
+make[1]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/script'
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/script'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/local/share/nghttp2'
+ /usr/bin/install -c fetch-ocsp-response '/usr/local/share/nghttp2'
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/script'
+make[1]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2/script'
+make[1]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2'
+make[2]: Entering directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/local/share/doc/nghttp2'
+ /usr/bin/install -c -m 644 README.rst '/usr/local/share/doc/nghttp2'
+make[2]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2'
+make[1]: Leaving directory '/home/mahmut/Desktop/Countly/countly-server/bin/scripts/nghttp2'
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+/usr/bin/node-gyp -> /usr/lib/node_modules/node-gyp/bin/node-gyp.js
++ node-gyp@7.1.0
+updated 2 packages in 13.591s
+Installing plugin "mobile"...
+Done running npm install "mobile"
+Done installing plugin 0
+Installing plugin "web"...
+Done running npm install "web"
+Installing web plugin
+
+Web plugin installation finished
+
+Done installing plugin 0
+Installing plugin "desktop"...
+Done running npm install "desktop"
+Done installing plugin 0
+Installing plugin "plugins"...
+Done running npm install "plugins"
+Done installing plugin 0
+Installing plugin "density"...
+Done running npm install "density"
+Done installing plugin 0
+Installing plugin "locale"...
+Done running npm install "locale"
+Done installing plugin 0
+Installing plugin "browser"...
+Done running npm install "browser"
+Done installing plugin 0
+Installing plugin "sources"...
+Done running npm install "sources"
+Done installing plugin 0
+Installing plugin "views"...
+Done running npm install "views"
+Installing views plugin
+
+Views plugin installation finished
+
+Done installing plugin 0
+Installing plugin "enterpriseinfo"...
+Done running npm install "enterpriseinfo"
+Done installing plugin 0
+Installing plugin "logger"...
+Done running npm install "logger"
+Installing logger plugin
+
+Logger plugin installation finished
+
+Done installing plugin 0
+Installing plugin "systemlogs"...
+Done running npm install "systemlogs"
+Installing systemlogs plugin
+
+Adding systemlogs indexes
+
+Systemlogs plugin installation finished
+
+Done installing plugin 0
+Installing plugin "errorlogs"...
+Done running npm install "errorlogs"
+Done installing plugin 0
+Installing plugin "populator"...
+Done running npm install "populator"
+Done installing plugin 0
+Installing plugin "reports"...
+Done running npm install "reports"
+Done installing plugin 0
+Installing plugin "crashes"...
+Done running npm install "crashes"
+Installing crash plugin
+
+Crash plugin installation finished
+
+Done installing plugin 0
+Installing plugin "push"...
+Done running npm install "push"
+Done installing plugin 0
+Installing plugin "star-rating"...
+Done running npm install "star-rating"
+Installing ratings plugin
+
+Ratings plugin installation finished
+
+Done installing plugin 0
+Installing plugin "slipping-away-users"...
+Done running npm install "slipping-away-users"
+Done installing plugin 0
+Installing plugin "compare"...
+Done running npm install "compare"
+Done installing plugin 0
+Installing plugin "server-stats"...
+Done running npm install "server-stats"
+Done installing plugin 0
+Installing plugin "dbviewer"...
+Done running npm install "dbviewer"
+Done installing plugin 0
+Installing plugin "assistant"...
+Done running npm install "assistant"
+Done installing plugin 0
+Installing plugin "plugin-upload"...
+Done running npm install "plugin-upload"
+Done installing plugin 0
+Installing plugin "times-of-day"...
+Done running npm install "times-of-day"
+Done installing plugin 0
+Installing plugin "compliance-hub"...
+Done running npm install "compliance-hub"
+Installing compliance-hub plugin
+
+Compliance hub plugin installation finished
+
+Done installing plugin 0
+Installing plugin "video-intelligence-monetization"...
+Done running npm install "video-intelligence-monetization"
+Done installing plugin 0
+Installing plugin "alerts"...
+Done running npm install "alerts"
+Installing alerts plugin
+
+Adding alerts patch
+
+Alerts plugin installation finished
+
+Done installing plugin 0
+Installing plugin "onboarding"...
+Done running npm install "onboarding"
+Done installing plugin 0
+Processing plugin files for production mode
+Preparing production files
+Done preparing production files with null / "Running \"concat:dom\" (concat) task\n\nRunning \"concat:utils\" (concat) task\n\nRunning \"concat:visualization\" (concat) task\n\nRunning \"concat:lib\" (concat) task\n\nRunning \"uglify:dist\" (uglify) task\n>> 4 files created 4.75 MB → 2.52 MB\n\nRunning \"cssmin:dist\" (cssmin) task\n>> 1 file created. 243.07 kB → 202.23 kB\n\nRunning \"plugins\" task\nPreparing production files for following plugins: [\"mobile\",\"web\",\"desktop\",\"plugins\",\"density\",\"locale\",\"browser\",\"sources\",\"views\",\"enterpriseinfo\",\"logger\",\"systemlogs\",\"errorlogs\",\"populator\",\"reports\",\"crashes\",\"push\",\"star-rating\",\"slipping-away-users\",\"compare\",\"server-stats\",\"dbviewer\",\"assistant\",\"plugin-upload\",\"times-of-day\",\"compliance-hub\",\"video-intelligence-monetization\",\"alerts\",\"onboarding\"]\nDone preparing production files\n\nRunning \"concat:plugins\" (concat) task\n\nRunning \"uglify:plugins\" (uglify) task\n>> 1 file created 2.83 MB → 1.51 MB\n\nRunning \"copy:plugins\" (copy) task\nCopied 62 files\n\nRunning \"cssmin:plugins\" (cssmin) task\n>> 1 file created. 257.82 kB → 206.94 kB\n\nRunning \"locales\" task\nPreparing locale files for core & plugins: [\"mobile\",\"web\",\"desktop\",\"plugins\",\"density\",\"locale\",\"browser\",\"sources\",\"views\",\"enterpriseinfo\",\"logger\",\"systemlogs\",\"errorlogs\",\"populator\",\"reports\",\"crashes\",\"push\",\"star-rating\",\"slipping-away-users\",\"compare\",\"server-stats\",\"dbviewer\",\"assistant\",\"plugin-upload\",\"times-of-day\",\"compliance-hub\",\"video-intelligence-monetization\",\"alerts\",\"onboarding\"]\nDone preparing locale files\n\nRunning \"concat:locales_\" (concat) task\n\nRunning \"concat:locales_ar\" (concat) task\n\nRunning \"concat:locales_bs\" (concat) task\n\nRunning \"concat:locales_ca\" (concat) task\n\nRunning \"concat:locales_de\" (concat) task\n\nRunning \"concat:locales_el\" (concat) task\n\nRunning \"concat:locales_es\" (concat) task\n\nRunning \"concat:locales_et\" (concat) task\n\nRunning \"concat:locales_fa\" (concat) task\n\nRunning \"concat:locales_fr\" (concat) task\n\nRunning \"concat:locales_hi\" (concat) task\n\nRunning \"concat:locales_hu\" (concat) task\n\nRunning \"concat:locales_it\" (concat) task\n\nRunning \"concat:locales_ja\" (concat) task\n\nRunning \"concat:locales_ko\" (concat) task\n\nRunning \"concat:locales_lv\" (concat) task\n\nRunning \"concat:locales_my\" (concat) task\n\nRunning \"concat:locales_nb\" (concat) task\n\nRunning \"concat:locales_nl\" (concat) task\n\nRunning \"concat:locales_pt\" (concat) task\n\nRunning \"concat:locales_ro\" (concat) task\n\nRunning \"concat:locales_ru\" (concat) task\n\nRunning \"concat:locales_sl\" (concat) task\n\nRunning \"concat:locales_sv\" (concat) task\n\nRunning \"concat:locales_tr\" (concat) task\n\nRunning \"concat:locales_vi\" (concat) task\n\nRunning \"concat:locales_zh\" (concat) task\n\nRunning \"concat:locales_pl\" (concat) task\n\nDone.\n"
+Exiting
+Cannot reach Google. Disabling Google services. You can enable this from Configurations later.
+Can not find configuration with name: frontend.use_google
+Installing plugin "EChartMap"...
+Done running npm install "EChartMap"
+Done installing plugin 0
+Changes saved
+Running "concat:dom" (concat) task
+
+Running "concat:utils" (concat) task
+
+Running "concat:visualization" (concat) task
+
+Running "concat:lib" (concat) task
+
+Running "uglify:dist" (uglify) task
+>> 4 files created 4.75 MB → 2.52 MB
+
+Running "cssmin:dist" (cssmin) task
+>> 1 file created. 243.07 kB → 202.23 kB
+
+Running "plugins" task
+Preparing production files for following plugins: ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap"]
+Done preparing production files
+
+Running "concat:plugins" (concat) task
+
+Running "uglify:plugins" (uglify) task
+>> 1 file created 2.87 MB → 1.53 MB
+
+Running "copy:plugins" (copy) task
+Copied 62 files
+
+Running "cssmin:plugins" (cssmin) task
+>> 1 file created. 257.82 kB → 206.94 kB
+
+Running "locales" task
+Preparing locale files for core & plugins: ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap"]
+Done preparing locale files
+
+Running "concat:locales_" (concat) task
+
+Running "concat:locales_ar" (concat) task
+
+Running "concat:locales_bs" (concat) task
+
+Running "concat:locales_ca" (concat) task
+
+Running "concat:locales_de" (concat) task
+
+Running "concat:locales_el" (concat) task
+
+Running "concat:locales_es" (concat) task
+
+Running "concat:locales_et" (concat) task
+
+Running "concat:locales_fa" (concat) task
+
+Running "concat:locales_fr" (concat) task
+
+Running "concat:locales_hi" (concat) task
+
+Running "concat:locales_hu" (concat) task
+
+Running "concat:locales_it" (concat) task
+
+Running "concat:locales_ja" (concat) task
+
+Running "concat:locales_ko" (concat) task
+
+Running "concat:locales_lv" (concat) task
+
+Running "concat:locales_my" (concat) task
+
+Running "concat:locales_nb" (concat) task
+
+Running "concat:locales_nl" (concat) task
+
+Running "concat:locales_pt" (concat) task
+
+Running "concat:locales_ro" (concat) task
+
+Running "concat:locales_ru" (concat) task
+
+Running "concat:locales_sl" (concat) task
+
+Running "concat:locales_sv" (concat) task
+
+Running "concat:locales_tr" (concat) task
+
+Running "concat:locales_vi" (concat) task
+
+Running "concat:locales_zh" (concat) task
+
+Running "concat:locales_pl" (concat) task
+
+Done.
+
+
+
+Hello Data-Captain! You have successfully installed Countly version 20.04.1 to /home/mahmut/Desktop/Countly/countly-server! Hurray!
+
+Installation and process logs are available here: /home/mahmut/Desktop/Countly/countly-server/log
+
+If you will be using Countly and MongoDB on the same server:
+ 1. Please go to your server http://192.168.0.107/setup to create first Global Administrator account
+
+If you will be using MongoDB on another server:
+ 1. Setup MongoDB on another server using https://c.ly/install/mongodb
+ 2. Secure your MongoDB server: https://support.count.ly/hc/en-us/articles/360037445752-Securing-MongoDB
+ 3. Follow this instruction to point Countly to your MongoDB server: https://support.count.ly/hc/en-us/articles/360037814871-Configuring-Countly
+ 4. Then go to your server http://192.168.0.107/setup to create first Global Administrator account
+
+Additionally you can:
+ 1. Secure your server by configuring HTTPS with your certificate: https://support.count.ly/hc/en-us/articles/360037816431-Configuring-HTTPS-and-SSL
+ 2. Or use Let’s encrypt to generate certificate: https://support.count.ly/hc/en-us/articles/360037816491-Installing-Let-s-Encrypt-for-HTTPS
+ 3. Familiarize yourself with Countly command line: https://support.count.ly/hc/en-us/articles/360037444912-Countly-command-line
+ 4. Check out troubleshooting guide if you run into any problems: https://support.count.ly/hc/en-us/articles/360037816811-Troubleshooting
+
+Need more help?:
+ 1. Browse through our Knowledge Base: https://support.count.ly/hc/en-us/categories/360002373332-Knowledge-Base
+ 2. Check out the Community Area: https://support.count.ly/hc/en-us/community/topics
+ 3. Speak to our team right away via Slack: http://slack.count.ly/
+
+Happy Countlying
+
