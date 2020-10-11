@@ -2,7 +2,7 @@ var plugin = {},
     common = require('../../../api/utils/common.js'),
     plugins = require('../../pluginManager.js');
 
-(function() {
+(function(plugin) {
 
     /*
      * @apiName: GetMakyolMetricsData
