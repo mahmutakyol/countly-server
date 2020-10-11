@@ -1,23 +1,23 @@
-/*global countlyView, T, countlyMakyol, $, app, MakyolView, jQuery*/
-window.MakyolView = countlyView.extend({
+/*global countlyView, T, countlyMyMetric, $, app, MyMetricView, jQuery*/
+window.MyMetricView = countlyView.extend({
     // initialize function
-    initalize: function() {
-        //some awesome code blocks...
+    initialize: function() {
+        //we can initialize stuff here
     },
 
     beforeRender: function() {
         // fetch template
         var self = this;
-        return $.when(T.get('/makyol/templates/makyol.html', function(template) {
+        return $.when(T.get('/mymetric/templates/mymetric.html', function(template) {
             self.template = template;
-        }), countlyMakyol.initialize()).then(function() {});
+        }), countlyMyMetric.initialize()).then(function() {});
     },
 
     renderCommon: function() {
         this.templateData = {
-            "page-title": jQuery.i18n.map["makyol.title"],
+            "page-title": jQuery.i18n.map["mymetric.title"],
             "logo-class": "",
-            "data": countlyMakyol.getData()
+            "data": countlyMyMetric.getData()
         };
 
         $(this.el).html(this.template(this.templateData));
@@ -25,7 +25,7 @@ window.MakyolView = countlyView.extend({
 
     refresh: function() {
         var self = this;
-        $.when(countlyMakyol.initialize()).then(function() {
+        $.when(countlyMyMetric.initialize()).then(function() {
             if (app.activeView !== self) {
                 return false;
             }
@@ -36,19 +36,19 @@ window.MakyolView = countlyView.extend({
 });
 
 //register views
-app.makyolView = new MakyolView();
+app.mymetricView = new MyMetricView();
 
 //register routes
-app.route('/makyol', 'makyol', function() {
-    this.renderWhenReady(this.makyolView);
+app.route('/my-metric', 'mymetric', function() {
+    this.renderWhenReady(this.mymetricView);
 });
 
 //register menu button
 $(document).ready(function() {
     app.addMenu("understand", {
-        code: "makyol",
-        url: "#/makyol",
-        text: "Makyol Metrics",
+        code: "My Metric",
+        url: "#/my-metric",
+        text: "My Metric",
         icon: '<div class="logo ion-pricetags"></div>',
         priority: 50
     });
