@@ -12,16 +12,10 @@ var plugin = {},
     //waiting for read request
     plugins.register("/o", function(ob) {
         var params = ob.params;
+        var collectionName = 'makyol';
+        var validateUserForRead = ob.validateUserForReadAPI;
 
-        if (params.qstring.method === 'makyol') {
-            common.db.collection('makyol').find({})
-                .toArray(function(err, total) {
-                    if (!err) {
-                        var result = { total: total }
-                        common.returnOutput(params, result)
-                    }
-                });
-        }
+        common.returnOutput(params, { metrics });
     });
 
     /*
