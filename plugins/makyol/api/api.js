@@ -15,11 +15,7 @@ var plugin = {},
         var collectionName = 'makyol';
         var validateUserForRead = ob.validateUserForReadAPI;
 
-        validateUserForRead(params, function() {
-            var metrics = common.db.collection(collectionName).find();
-
-            common.returnOutput(params, { metrics });
-        });
+        common.returnOutput(params, { metrics });
     });
 
     /*
