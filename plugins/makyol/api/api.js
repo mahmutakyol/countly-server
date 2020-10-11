@@ -1,5 +1,3 @@
-const { toArray } = require('underscore');
-
 var plugin = {},
     common = require('../../../api/utils/common.js'),
     plugins = require('../../pluginManager.js');
@@ -10,16 +8,20 @@ var plugin = {},
      * @apiName: GetMakyolMetricsData
      * @apiDescription: Get metrics data
      */
-    plugins.register('/o', function(ob) {
+    //waiting for read request
+    //waiting for read request
+    plugins.register("/o", function(ob) {
         var params = ob.params;
-        var collectionName = 'makyol';
-        var validateUserForRead = ob.validateUserForReadAPI;
 
-        validateUserForRead(params, function() {
-            var metrics = common.db.collection(collectionName).find();
-
-            common.returnOutput(params, { metrics });
-        });
+        if (params.qstring.method === 'makyol') {
+            common.db.collection('makyol').find({})
+                .toArray(function(err, total) {
+                    if (!err) {
+                        var result = { total: total }
+                        common.returnOutput(params, result)
+                    }
+                });
+        }
     });
 
     /*

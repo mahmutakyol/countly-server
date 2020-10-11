@@ -11,8 +11,8 @@
             url: "/o",
             data: {
                 //providing current app's id
-                "app_id": countlyCommon.ACTIVE_APP_ID,
-                "api_key": countlyCommon.API_KEY_ADMIN
+                app_id: countlyCommon.ACTIVE_APP_ID,
+                method: "makyol"
             },
             success: function(json) {
                 //got our data, let's store it
