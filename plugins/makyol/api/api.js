@@ -15,36 +15,7 @@ var plugin = {},
         var collectionName = 'makyol';
 
 
-        if (params.qstring.user_details) {
-            //if it is string, but we expect json, lets parse it
-            if (typeof params.qstring.makyol === "string") {
-                try {
-                    params.qstring.makyol = JSON.parse(params.qstring.makyol);
-                }
-                catch (SyntaxError) {
-                    console.log('Parse JSON failed');
-                    //we are not doing anything with request
-                    return false;
-                }
-                //start doing something with request
-
-                common.db.collection(collectionName).find()
-                    .toArray(function(err, metric) {
-                        if (err) {
-                            common.returnMessage(params, 500, err);
-                        }
-                        else {
-                            common.returnMessage(params, { response: metric });
-                        }
-                    });
-
-                //and tell core we are working on it, by returning true
-                return true;
-            }
-
-            //we did not have data we were interested in
-            return false;
-        }
+        common.returnOutput(params, { response: 'TEST' });
     });
 
     /*

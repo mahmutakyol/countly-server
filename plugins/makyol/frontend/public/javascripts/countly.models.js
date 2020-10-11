@@ -10,12 +10,9 @@
             type: "GET",
             url: "/o",
             data: {
-                //providing current user's api key
-                "api_key": countlyGlobal.member.api_key,
                 //providing current app's id
                 "app_id": countlyCommon.ACTIVE_APP_ID,
-                //specifying method param
-                "method": "makyol"
+                "api_key": countlyCommon.API_KEY_ADMIN
             },
             success: function(json) {
                 //got our data, let's store it

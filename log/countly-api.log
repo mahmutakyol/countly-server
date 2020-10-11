@@ -18446,3 +18446,2793 @@ Starting worker 46043 parent: 46008
 2020-10-11T14:45:00.219Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f830afe78328ab3b8fb94b9","name":"api:task","created":1602423550690,"status":0,"started":1602427200098,"finished":1602427200102,"duration":7,"data":{},"schedule":"every 5 minutes","next":1602427500000,"modified":1602427200105,"error":null}
 2020-10-11T14:50:00.404Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f830afe78328ab3b8fb94b9","name":"api:task","created":1602423550690,"status":0,"started":1602427500222,"finished":1602427500226,"duration":5,"data":{},"schedule":"every 5 minutes","next":1602427800000,"modified":1602427500227,"error":null}
 2020-10-11T14:55:00.558Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f830afe78328ab3b8fb94b9","name":"api:task","created":1602423550690,"status":0,"started":1602427800447,"finished":1602427800453,"duration":8,"data":{},"schedule":"every 5 minutes","next":1602428100000,"modified":1602427800455,"error":null}
+Got signal: SIGTERM
+Successfully stored batch state
+Got signal: SIGTERM
+Got signal: SIGTERM
+Successfully stored batch state
+Successfully stored batch state
+Exiting due to master exited
+Exiting due to master exited
+2020-10-11T14:55:50.085Z: INFO	[jobs:manager]	Starting job manager in 48461
+2020-10-11T14:55:50.128Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+Starting master
+2020-10-11T14:55:54.018Z: INFO	[jobs:ipc:48461]	Attached to cluster in Central 48461
+2020-10-11T14:55:54.335Z: INFO	[jobs:manager]	Found 17 job types, starting monitoring: ["api:clear","api:clearAutoTasks","api:clearTokens","api:ipcTest","api:ping","api:task","api:test","api:topEvents","api:userMerge","reports:send","push:clear","push:process","push:schedule","push:validate","server-stats:stats","assistant:generate","alerts:monitor"]
+2020-10-11T14:55:54.384Z: INFO	[jobs:ipc:48461]	Worker started: 48487
+2020-10-11T14:55:54.385Z: INFO	[jobs:ipc:48461]	Worker started: 48494
+2020-10-11T14:55:54.526Z: INFO	[jobs:manager]	Cancelling 0 jobs
+2020-10-11T14:55:55.023Z: INFO	[jobs:handle]	Starting job handle in 48487
+2020-10-11T14:55:55.067Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+2020-10-11T14:55:55.084Z: INFO	[jobs:handle]	Starting job handle in 48494
+2020-10-11T14:55:55.124Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+2020-10-11T14:55:57.105Z: INFO	[jobs:job]	Replacing jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-11T14:55:57.121Z: INFO	[jobs:job]	Cancelled 1 previous jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-11T14:55:57.128Z: INFO	[jobs:job]	No job to replace, inserting {"name":"assistant:generate","created":1602428157091,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602428400000}
+Starting worker 48487 parent: 48461
+Starting worker 48494 parent: 48461
+2020-10-11T14:56:04.089Z: INFO	[jobs:job]	Replacing jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-11T14:56:04.093Z: INFO	[jobs:job]	Replacing jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-11T14:56:04.095Z: INFO	[jobs:job]	Replacing jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-11T14:56:04.096Z: INFO	[jobs:job]	Replacing jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-11T14:56:04.097Z: INFO	[jobs:job]	Replacing jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-11T14:56:04.098Z: INFO	[jobs:job]	Replacing jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-11T14:56:04.100Z: INFO	[jobs:job]	Replacing jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-11T14:56:04.100Z: INFO	[jobs:job]	Replacing jobs api:task ({"status":0,"name":"api:task"})
+2020-10-11T14:56:04.102Z: INFO	[jobs:job]	Cancelled 1 previous jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-11T14:56:04.105Z: INFO	[jobs:job]	Cancelled 1 previous jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-11T14:56:04.106Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-11T14:56:04.109Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-11T14:56:04.109Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-11T14:56:04.110Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-11T14:56:04.113Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-11T14:56:04.114Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:task ({"status":0,"name":"api:task"})
+2020-10-11T14:56:04.117Z: INFO	[jobs:job]	No job to replace, inserting {"name":"server-stats:stats","created":1602428164092,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428164093}
+2020-10-11T14:56:04.118Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:topEvents","created":1602428164094,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428164094}
+2020-10-11T14:56:04.119Z: INFO	[jobs:job]	No job to replace, inserting {"name":"reports:send","created":1602428164088,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602428164089}
+2020-10-11T14:56:04.122Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clear","created":1602428164096,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428164097}
+2020-10-11T14:56:04.123Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearTokens","created":1602428164098,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428164098}
+2020-10-11T14:56:04.125Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearAutoTasks","created":1602428164099,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428164099}
+2020-10-11T14:56:04.126Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:task","created":1602428164100,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602428400000}
+2020-10-11T14:56:04.127Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:ping","created":1602428164095,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428164096}
+2020-10-11T14:56:04.589Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f831d04f4469abd4d798fc7","name":"reports:send","created":1602428164088,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602428164089}
+2020-10-11T14:56:04.606Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f831d04f4469abd4d798fc5","name":"server-stats:stats","created":1602428164092,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428164093}
+2020-10-11T14:56:04.611Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f831d04f4469abd4d798fc6","name":"api:topEvents","created":1602428164094,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428164094}
+2020-10-11T14:56:04.617Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f831d04f4469abd4d798fcc","name":"api:ping","created":1602428164095,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428164096}
+2020-10-11T14:56:04.622Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f831d04f4469abd4d798fc8","name":"api:clear","created":1602428164096,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428164097}
+2020-10-11T14:56:04.630Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f831d04f4469abd4d798fc9","name":"api:clearTokens","created":1602428164098,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428164098}
+2020-10-11T14:56:04.646Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f831d04f4469abd4d798fca","name":"api:clearAutoTasks","created":1602428164099,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428164099}
+2020-10-11T15:00:00.752Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f831cfdf4469abd4d798fc4","name":"assistant:generate","created":1602428157091,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602428400000}
+2020-10-11T15:00:00.756Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f831d04f4469abd4d798fc7","name":"reports:send","created":1602428164088,"status":0,"started":1602428164608,"finished":1602428164641,"duration":54,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602428400000,"modified":1602428164662,"error":null}
+2020-10-11T15:00:00.759Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f831d04f4469abd4d798fcb","name":"api:task","created":1602428164100,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602428400000}
+Got signal: SIGTERM
+Successfully stored batch state
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+2020-10-11T15:04:12.098Z: INFO	[jobs:manager]	Starting job manager in 48806
+2020-10-11T15:04:12.148Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+Starting master
+2020-10-11T15:04:15.062Z: INFO	[jobs:ipc:48806]	Attached to cluster in Central 48806
+2020-10-11T15:04:15.338Z: INFO	[jobs:manager]	Found 17 job types, starting monitoring: ["api:clear","api:clearAutoTasks","api:clearTokens","api:ipcTest","api:ping","api:task","api:test","api:topEvents","api:userMerge","reports:send","push:clear","push:process","push:schedule","push:validate","server-stats:stats","assistant:generate","alerts:monitor"]
+2020-10-11T15:04:15.392Z: INFO	[jobs:ipc:48806]	Worker started: 48841
+2020-10-11T15:04:15.506Z: INFO	[jobs:ipc:48806]	Worker started: 48848
+2020-10-11T15:04:15.578Z: INFO	[jobs:manager]	Cancelling 0 jobs
+2020-10-11T15:04:15.979Z: INFO	[jobs:handle]	Starting job handle in 48841
+2020-10-11T15:04:16.031Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+2020-10-11T15:04:16.103Z: INFO	[jobs:handle]	Starting job handle in 48848
+2020-10-11T15:04:16.141Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+2020-10-11T15:04:18.201Z: INFO	[jobs:job]	Replacing jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-11T15:04:18.268Z: INFO	[jobs:job]	Cancelled 1 previous jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-11T15:04:18.285Z: INFO	[jobs:job]	No job to replace, inserting {"name":"assistant:generate","created":1602428658161,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602430200000}
+Starting worker 48841 parent: 48806
+Starting worker 48848 parent: 48806
+2020-10-11T15:04:25.138Z: INFO	[jobs:job]	Replacing jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-11T15:04:25.140Z: INFO	[jobs:job]	Replacing jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-11T15:04:25.143Z: INFO	[jobs:job]	Replacing jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-11T15:04:25.145Z: INFO	[jobs:job]	Replacing jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-11T15:04:25.147Z: INFO	[jobs:job]	Replacing jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-11T15:04:25.148Z: INFO	[jobs:job]	Replacing jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-11T15:04:25.149Z: INFO	[jobs:job]	Replacing jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-11T15:04:25.150Z: INFO	[jobs:job]	Replacing jobs api:task ({"status":0,"name":"api:task"})
+2020-10-11T15:04:25.155Z: INFO	[jobs:job]	Cancelled 1 previous jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-11T15:04:25.157Z: INFO	[jobs:job]	Cancelled 1 previous jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-11T15:04:25.159Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-11T15:04:25.163Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-11T15:04:25.165Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-11T15:04:25.166Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-11T15:04:25.170Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-11T15:04:25.171Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:task ({"status":0,"name":"api:task"})
+2020-10-11T15:04:25.173Z: INFO	[jobs:job]	No job to replace, inserting {"name":"reports:send","created":1602428665136,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602428665137}
+2020-10-11T15:04:25.177Z: INFO	[jobs:job]	No job to replace, inserting {"name":"server-stats:stats","created":1602428665139,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428665140}
+2020-10-11T15:04:25.178Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:topEvents","created":1602428665143,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428665143}
+2020-10-11T15:04:25.180Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:ping","created":1602428665144,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428665145}
+2020-10-11T15:04:25.184Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clear","created":1602428665146,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428665146}
+2020-10-11T15:04:25.185Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearTokens","created":1602428665148,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428665148}
+2020-10-11T15:04:25.186Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearAutoTasks","created":1602428665149,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428665149}
+2020-10-11T15:04:25.190Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:task","created":1602428665150,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602428700000}
+2020-10-11T15:04:25.671Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f831ef9502fcdbea60ab70c","name":"reports:send","created":1602428665136,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602428665137}
+2020-10-11T15:04:25.697Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f831ef9502fcdbea60ab70d","name":"server-stats:stats","created":1602428665139,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428665140}
+2020-10-11T15:04:25.716Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f831ef9502fcdbea60ab70e","name":"api:topEvents","created":1602428665143,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428665143}
+2020-10-11T15:04:25.732Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f831ef9502fcdbea60ab70f","name":"api:ping","created":1602428665144,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428665145}
+2020-10-11T15:04:25.745Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f831ef9502fcdbea60ab710","name":"api:clear","created":1602428665146,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428665146}
+2020-10-11T15:04:25.773Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f831ef9502fcdbea60ab711","name":"api:clearTokens","created":1602428665148,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428665148}
+2020-10-11T15:04:25.801Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f831ef9502fcdbea60ab712","name":"api:clearAutoTasks","created":1602428665149,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428665149}
+2020-10-11T15:05:00.984Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f831ef9502fcdbea60ab713","name":"api:task","created":1602428665150,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602428700000}
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Got signal: SIGTERM
+Successfully stored batch state
+2020-10-11T15:08:08.984Z: INFO	[jobs:manager]	Starting job manager in 49039
+2020-10-11T15:08:09.310Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+Starting master
+2020-10-11T15:08:47.061Z: INFO	[jobs:ipc:49039]	Attached to cluster in Central 49039
+{ MongoServerSelectionError: Server selection timed out after 30000 ms
+    at Timeout.waitQueueMember.timer.setTimeout [as _onTimeout] (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/core/sdam/topology.js:438:30)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  name: 'MongoServerSelectionError',
+  reason:
+   TopologyDescription {
+     type: 'Single',
+     setName: null,
+     maxSetVersion: null,
+     maxElectionId: null,
+     servers: Map { 'localhost:27017' => [ServerDescription] },
+     stale: false,
+     compatible: true,
+     compatibilityError: null,
+     logicalSessionTimeoutMinutes: null,
+     heartbeatFrequencyMS: 10000,
+     localThresholdMS: 15,
+     commonWireVersion: null } }
+2020-10-11T15:08:49.540Z: ERROR	[db:read]	Error reading plugins {"name":"findOne","args":[{"_id":"plugins"},{"projection":{}}]} MongoServerSelectionError: Server selection timed out after 30000 ms {"name":"MongoServerSelectionError","reason":{"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}}
+{ MongoServerSelectionError: Server selection timed out after 30000 ms
+    at Timeout.waitQueueMember.timer.setTimeout [as _onTimeout] (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/core/sdam/topology.js:438:30)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  name: 'MongoServerSelectionError',
+  reason:
+   TopologyDescription {
+     type: 'Single',
+     setName: null,
+     maxSetVersion: null,
+     maxElectionId: null,
+     servers: Map { 'localhost:27017' => [ServerDescription] },
+     stale: false,
+     compatible: true,
+     compatibilityError: null,
+     logicalSessionTimeoutMinutes: null,
+     heartbeatFrequencyMS: 10000,
+     localThresholdMS: 15,
+     commonWireVersion: null } }
+2020-10-11T15:08:51.117Z: INFO	[jobs:manager]	Found 17 job types, starting monitoring: ["api:clear","api:clearAutoTasks","api:clearTokens","api:ipcTest","api:ping","api:task","api:test","api:topEvents","api:userMerge","reports:send","push:clear","push:process","push:schedule","push:validate","server-stats:stats","assistant:generate","alerts:monitor"]
+2020-10-11T15:08:51.529Z: INFO	[jobs:ipc:49039]	Worker started: 49097
+2020-10-11T15:08:52.095Z: INFO	[jobs:job]	Replacing jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-11T15:08:52.524Z: INFO	[jobs:ipc:49039]	Worker started: 49104
+2020-10-11T15:08:53.070Z: INFO	[jobs:manager]	Cancelling 0 jobs
+2020-10-11T15:08:53.403Z: INFO	[jobs:job]	Cancelled 1 previous jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-11T15:08:53.416Z: INFO	[jobs:job]	No job to replace, inserting {"name":"assistant:generate","created":1602428931940,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602430200000}
+2020-10-11T15:08:54.643Z: INFO	[jobs:handle]	Starting job handle in 49097
+2020-10-11T15:08:55.533Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+2020-10-11T15:08:57.954Z: INFO	[jobs:handle]	Starting job handle in 49104
+2020-10-11T15:08:58.157Z: INFO	[jobs:job]	Replacing jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-11T15:08:58.163Z: INFO	[jobs:job]	Cancelled 1 previous jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-11T15:08:58.291Z: INFO	[jobs:job]	No job to replace, inserting {"name":"reports:send","created":1602428938154,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602428938156}
+2020-10-11T15:08:58.325Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+2020-10-11T15:08:58.424Z: INFO	[jobs:job]	Replacing jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-11T15:08:58.467Z: INFO	[jobs:job]	Cancelled 1 previous jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-11T15:08:58.500Z: INFO	[jobs:job]	No job to replace, inserting {"name":"server-stats:stats","created":1602428938422,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428938423}
+2020-10-11T15:08:58.888Z: INFO	[jobs:job]	Replacing jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-11T15:08:58.893Z: INFO	[jobs:job]	Replacing jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-11T15:08:58.896Z: INFO	[jobs:job]	Replacing jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-11T15:08:58.903Z: INFO	[jobs:job]	Replacing jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-11T15:08:58.910Z: INFO	[jobs:job]	Replacing jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-11T15:08:58.917Z: INFO	[jobs:job]	Replacing jobs api:task ({"status":0,"name":"api:task"})
+2020-10-11T15:08:59.018Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-11T15:08:59.021Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-11T15:08:59.091Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-11T15:08:59.154Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-11T15:08:59.321Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:ping","created":1602428938890,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428938890}
+2020-10-11T15:08:59.423Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-11T15:08:59.526Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:task ({"status":0,"name":"api:task"})
+2020-10-11T15:08:59.721Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:topEvents","created":1602428938888,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428938888}
+2020-10-11T15:08:59.746Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clear","created":1602428938895,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428938896}
+2020-10-11T15:08:59.798Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearTokens","created":1602428938902,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428938903}
+2020-10-11T15:08:59.832Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearAutoTasks","created":1602428938909,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428938910}
+2020-10-11T15:08:59.859Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:task","created":1602428938917,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602429000000}
+2020-10-11T15:08:59.969Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83200a79bd55bf8f8ebb57","name":"reports:send","created":1602428938154,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602428938156}
+2020-10-11T15:09:00.039Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83200a79bd55bf8f8ebb58","name":"server-stats:stats","created":1602428938422,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428938423}
+2020-10-11T15:09:00.172Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83200b79bd55bf8f8ebb5a","name":"api:topEvents","created":1602428938888,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428938888}
+2020-10-11T15:09:00.219Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83200b79bd55bf8f8ebb59","name":"api:ping","created":1602428938890,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428938890}
+2020-10-11T15:09:00.494Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83200b79bd55bf8f8ebb5c","name":"api:clearTokens","created":1602428938902,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428938903}
+2020-10-11T15:09:02.492Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83200b79bd55bf8f8ebb5b","name":"api:clear","created":1602428938895,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428938896}
+2020-10-11T15:09:02.538Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83200b79bd55bf8f8ebb5d","name":"api:clearAutoTasks","created":1602428938909,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602428938910}
+Starting worker 49097 parent: 49039
+Starting worker 49104 parent: 49039
+2020-10-11T15:10:00.232Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83200b79bd55bf8f8ebb5e","name":"api:task","created":1602428938917,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602429000000}
+2020-10-11T15:15:00.475Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83200b79bd55bf8f8ebb5e","name":"api:task","created":1602428938917,"status":0,"started":1602429000246,"finished":1602429000277,"duration":44,"data":{},"schedule":"every 5 minutes","next":1602429300000,"modified":1602429000290,"error":null}
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Got signal: SIGTERM
+Successfully stored batch state
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+2020-10-11T15:18:06.906Z: INFO	[jobs:manager]	Starting job manager in 1018
+2020-10-11T15:18:07.209Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+Starting master
+2020-10-11T15:18:17.006Z: INFO	[jobs:ipc:1018]	Attached to cluster in Central 1018
+2020-10-11T15:18:17.931Z: INFO	[jobs:manager]	Found 17 job types, starting monitoring: ["api:clear","api:clearAutoTasks","api:clearTokens","api:ipcTest","api:ping","api:task","api:test","api:topEvents","api:userMerge","reports:send","push:clear","push:process","push:schedule","push:validate","server-stats:stats","assistant:generate","alerts:monitor"]
+2020-10-11T15:18:18.207Z: INFO	[jobs:ipc:1018]	Worker started: 2040
+2020-10-11T15:18:18.216Z: INFO	[jobs:ipc:1018]	Worker started: 2039
+2020-10-11T15:18:18.481Z: INFO	[jobs:manager]	Cancelling 0 jobs
+2020-10-11T15:18:20.183Z: INFO	[jobs:job]	Replacing jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-11T15:18:20.220Z: INFO	[jobs:job]	Cancelled 1 previous jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-11T15:18:20.222Z: INFO	[jobs:handle]	Starting job handle in 2039
+2020-10-11T15:18:20.243Z: INFO	[jobs:job]	No job to replace, inserting {"name":"assistant:generate","created":1602429500131,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602430200000}
+2020-10-11T15:18:20.358Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+2020-10-11T15:18:20.373Z: INFO	[jobs:handle]	Starting job handle in 2040
+2020-10-11T15:18:20.506Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+Starting worker 2040 parent: 1018
+Starting worker 2039 parent: 1018
+2020-10-11T15:18:27.130Z: INFO	[jobs:job]	Replacing jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-11T15:18:27.132Z: INFO	[jobs:job]	Replacing jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-11T15:18:27.135Z: INFO	[jobs:job]	Cancelled 1 previous jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-11T15:18:27.136Z: INFO	[jobs:job]	Cancelled 1 previous jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-11T15:18:27.138Z: INFO	[jobs:job]	No job to replace, inserting {"name":"server-stats:stats","created":1602429507131,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429507132}
+2020-10-11T15:18:27.139Z: INFO	[jobs:job]	No job to replace, inserting {"name":"reports:send","created":1602429507129,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602429507130}
+2020-10-11T15:18:27.159Z: INFO	[jobs:job]	Replacing jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-11T15:18:27.160Z: INFO	[jobs:job]	Replacing jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-11T15:18:27.161Z: INFO	[jobs:job]	Replacing jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-11T15:18:27.162Z: INFO	[jobs:job]	Replacing jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-11T15:18:27.163Z: INFO	[jobs:job]	Replacing jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-11T15:18:27.163Z: INFO	[jobs:job]	Replacing jobs api:task ({"status":0,"name":"api:task"})
+2020-10-11T15:18:27.167Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-11T15:18:27.168Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-11T15:18:27.170Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-11T15:18:27.171Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-11T15:18:27.172Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-11T15:18:27.175Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:task ({"status":0,"name":"api:task"})
+2020-10-11T15:18:27.176Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:topEvents","created":1602429507159,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429507159}
+2020-10-11T15:18:27.177Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:ping","created":1602429507160,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429507160}
+2020-10-11T15:18:27.179Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearTokens","created":1602429507161,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429507161}
+2020-10-11T15:18:27.180Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearAutoTasks","created":1602429507162,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429507162}
+2020-10-11T15:18:27.183Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:task","created":1602429507163,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602429600000}
+2020-10-11T15:18:27.184Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clear","created":1602429507160,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429507161}
+2020-10-11T15:18:27.564Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83224304803c03fa4f1aae","name":"reports:send","created":1602429507129,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602429507130}
+2020-10-11T15:18:27.569Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83224304803c03fa4f1aad","name":"server-stats:stats","created":1602429507131,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429507132}
+2020-10-11T15:18:27.574Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83224304803c03fa4f1aaf","name":"api:topEvents","created":1602429507159,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429507159}
+2020-10-11T15:18:27.578Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83224304803c03fa4f1ab0","name":"api:ping","created":1602429507160,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429507160}
+2020-10-11T15:18:27.586Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83224304803c03fa4f1ab1","name":"api:clearTokens","created":1602429507161,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429507161}
+2020-10-11T15:18:27.594Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83224304803c03fa4f1ab4","name":"api:clear","created":1602429507160,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429507161}
+2020-10-11T15:18:27.610Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83224304803c03fa4f1ab2","name":"api:clearAutoTasks","created":1602429507162,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429507162}
+Got signal: SIGTERM
+Successfully stored batch state
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+2020-10-11T15:18:54.900Z: INFO	[jobs:manager]	Starting job manager in 2319
+2020-10-11T15:18:54.943Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+Starting master
+2020-10-11T15:18:57.201Z: INFO	[jobs:ipc:2319]	Attached to cluster in Central 2319
+2020-10-11T15:18:57.400Z: INFO	[jobs:manager]	Found 17 job types, starting monitoring: ["api:clear","api:clearAutoTasks","api:clearTokens","api:ipcTest","api:ping","api:task","api:test","api:topEvents","api:userMerge","reports:send","push:clear","push:process","push:schedule","push:validate","server-stats:stats","assistant:generate","alerts:monitor"]
+2020-10-11T15:18:57.531Z: INFO	[jobs:ipc:2319]	Worker started: 2364
+2020-10-11T15:18:57.538Z: INFO	[jobs:ipc:2319]	Worker started: 2370
+2020-10-11T15:18:57.587Z: INFO	[jobs:manager]	Cancelling 0 jobs
+2020-10-11T15:18:58.106Z: INFO	[jobs:handle]	Starting job handle in 2364
+2020-10-11T15:18:58.119Z: INFO	[jobs:handle]	Starting job handle in 2370
+2020-10-11T15:18:58.143Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+2020-10-11T15:18:58.157Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+2020-10-11T15:19:00.262Z: INFO	[jobs:job]	Replacing jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+Starting worker 2370 parent: 2319
+2020-10-11T15:19:00.279Z: INFO	[jobs:job]	Cancelled 1 previous jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-11T15:19:00.286Z: INFO	[jobs:job]	No job to replace, inserting {"name":"assistant:generate","created":1602429540253,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602430200000}
+Starting worker 2364 parent: 2319
+2020-10-11T15:19:07.253Z: INFO	[jobs:job]	Replacing jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-11T15:19:07.257Z: INFO	[jobs:job]	Replacing jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-11T15:19:07.258Z: INFO	[jobs:job]	Replacing jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-11T15:19:07.259Z: INFO	[jobs:job]	Replacing jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-11T15:19:07.260Z: INFO	[jobs:job]	Replacing jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-11T15:19:07.261Z: INFO	[jobs:job]	Replacing jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-11T15:19:07.262Z: INFO	[jobs:job]	Replacing jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-11T15:19:07.263Z: INFO	[jobs:job]	Replacing jobs api:task ({"status":0,"name":"api:task"})
+2020-10-11T15:19:07.264Z: INFO	[jobs:job]	Cancelled 1 previous jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-11T15:19:07.267Z: INFO	[jobs:job]	Cancelled 1 previous jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-11T15:19:07.268Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-11T15:19:07.272Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-11T15:19:07.273Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-11T15:19:07.275Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-11T15:19:07.276Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-11T15:19:07.279Z: INFO	[jobs:job]	No job to replace, inserting {"name":"reports:send","created":1602429547251,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602429547252}
+2020-10-11T15:19:07.280Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:task ({"status":0,"name":"api:task"})
+2020-10-11T15:19:07.282Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:topEvents","created":1602429547258,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429547258}
+2020-10-11T15:19:07.283Z: INFO	[jobs:job]	No job to replace, inserting {"name":"server-stats:stats","created":1602429547256,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429547256}
+2020-10-11T15:19:07.285Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearTokens","created":1602429547261,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429547261}
+2020-10-11T15:19:07.286Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearAutoTasks","created":1602429547262,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429547262}
+2020-10-11T15:19:07.287Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:ping","created":1602429547259,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429547259}
+2020-10-11T15:19:07.290Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clear","created":1602429547260,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429547260}
+2020-10-11T15:19:07.292Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:task","created":1602429547263,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602429600000}
+2020-10-11T15:19:07.633Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83226b0cb099090fc3bacc","name":"reports:send","created":1602429547251,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602429547252}
+2020-10-11T15:19:07.639Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83226b0cb099090fc3bace","name":"server-stats:stats","created":1602429547256,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429547256}
+2020-10-11T15:19:07.644Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83226b0cb099090fc3bacd","name":"api:topEvents","created":1602429547258,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429547258}
+2020-10-11T15:19:07.650Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83226b0cb099090fc3bad1","name":"api:ping","created":1602429547259,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429547259}
+2020-10-11T15:19:07.660Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83226b0cb099090fc3bad2","name":"api:clear","created":1602429547260,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429547260}
+2020-10-11T15:19:07.676Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83226b0cb099090fc3bacf","name":"api:clearTokens","created":1602429547261,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429547261}
+2020-10-11T15:19:07.685Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83226b0cb099090fc3bad0","name":"api:clearAutoTasks","created":1602429547262,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429547262}
+2020-10-11T15:20:00.920Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83226b0cb099090fc3bad3","name":"api:task","created":1602429547263,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602429600000}
+Got signal: SIGTERM
+Successfully stored batch state
+Got signal: SIGTERM
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Successfully stored batch state
+Exiting due to master exited
+2020-10-11T15:22:35.260Z: INFO	[jobs:manager]	Starting job manager in 3540
+2020-10-11T15:22:35.314Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+Starting master
+2020-10-11T15:22:37.480Z: INFO	[jobs:ipc:3540]	Attached to cluster in Central 3540
+2020-10-11T15:22:37.835Z: INFO	[jobs:manager]	Found 17 job types, starting monitoring: ["api:clear","api:clearAutoTasks","api:clearTokens","api:ipcTest","api:ping","api:task","api:test","api:topEvents","api:userMerge","reports:send","push:clear","push:process","push:schedule","push:validate","server-stats:stats","assistant:generate","alerts:monitor"]
+2020-10-11T15:22:37.928Z: INFO	[jobs:ipc:3540]	Worker started: 3567
+2020-10-11T15:22:37.933Z: INFO	[jobs:ipc:3540]	Worker started: 3565
+2020-10-11T15:22:38.319Z: INFO	[jobs:manager]	Cancelling 0 jobs
+2020-10-11T15:22:38.848Z: INFO	[jobs:handle]	Starting job handle in 3567
+2020-10-11T15:22:38.890Z: INFO	[jobs:handle]	Starting job handle in 3565
+2020-10-11T15:22:38.899Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+2020-10-11T15:22:39.007Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+2020-10-11T15:22:40.579Z: INFO	[jobs:job]	Replacing jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-11T15:22:40.600Z: INFO	[jobs:job]	Cancelled 1 previous jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-11T15:22:40.607Z: INFO	[jobs:job]	No job to replace, inserting {"name":"assistant:generate","created":1602429760561,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602430200000}
+Starting worker 3567 parent: 3540
+Starting worker 3565 parent: 3540
+2020-10-11T15:22:47.560Z: INFO	[jobs:job]	Replacing jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-11T15:22:47.564Z: INFO	[jobs:job]	Cancelled 1 previous jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-11T15:22:47.566Z: INFO	[jobs:job]	Replacing jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-11T15:22:47.568Z: INFO	[jobs:job]	Replacing jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-11T15:22:47.569Z: INFO	[jobs:job]	Replacing jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-11T15:22:47.570Z: INFO	[jobs:job]	Replacing jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-11T15:22:47.573Z: INFO	[jobs:job]	Replacing jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-11T15:22:47.574Z: INFO	[jobs:job]	Replacing jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-11T15:22:47.575Z: INFO	[jobs:job]	Replacing jobs api:task ({"status":0,"name":"api:task"})
+2020-10-11T15:22:47.576Z: INFO	[jobs:job]	No job to replace, inserting {"name":"reports:send","created":1602429767559,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602429767560}
+2020-10-11T15:22:47.584Z: INFO	[jobs:job]	Cancelled 1 previous jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-11T15:22:47.585Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-11T15:22:47.588Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-11T15:22:47.589Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-11T15:22:47.590Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-11T15:22:47.596Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-11T15:22:47.597Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:task ({"status":0,"name":"api:task"})
+2020-10-11T15:22:47.602Z: INFO	[jobs:job]	No job to replace, inserting {"name":"server-stats:stats","created":1602429767565,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429767566}
+2020-10-11T15:22:47.606Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:topEvents","created":1602429767567,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429767567}
+2020-10-11T15:22:47.610Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clear","created":1602429767569,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429767569}
+2020-10-11T15:22:47.611Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearTokens","created":1602429767573,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429767573}
+2020-10-11T15:22:47.614Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearAutoTasks","created":1602429767574,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429767574}
+2020-10-11T15:22:47.615Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:task","created":1602429767575,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602429900000}
+2020-10-11T15:22:47.616Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:ping","created":1602429767568,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429767568}
+2020-10-11T15:22:48.378Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f8323476ecebf0dd4d8ffa5","name":"reports:send","created":1602429767559,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602429767560}
+2020-10-11T15:22:48.384Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f8323476ecebf0dd4d8ffa6","name":"server-stats:stats","created":1602429767565,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429767566}
+2020-10-11T15:22:48.391Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f8323476ecebf0dd4d8ffa7","name":"api:topEvents","created":1602429767567,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429767567}
+2020-10-11T15:22:48.401Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f8323476ecebf0dd4d8ffac","name":"api:ping","created":1602429767568,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429767568}
+2020-10-11T15:22:48.427Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f8323476ecebf0dd4d8ffa8","name":"api:clear","created":1602429767569,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429767569}
+2020-10-11T15:22:48.448Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f8323476ecebf0dd4d8ffa9","name":"api:clearTokens","created":1602429767573,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429767573}
+2020-10-11T15:22:48.470Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f8323476ecebf0dd4d8ffaa","name":"api:clearAutoTasks","created":1602429767574,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429767574}
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Got signal: SIGTERM
+Successfully stored batch state
+2020-10-11T15:24:25.958Z: INFO	[jobs:manager]	Starting job manager in 3841
+2020-10-11T15:24:26.003Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+Starting master
+2020-10-11T15:24:28.229Z: INFO	[jobs:ipc:3841]	Attached to cluster in Central 3841
+2020-10-11T15:24:28.413Z: INFO	[jobs:manager]	Found 17 job types, starting monitoring: ["api:clear","api:clearAutoTasks","api:clearTokens","api:ipcTest","api:ping","api:task","api:test","api:topEvents","api:userMerge","reports:send","push:clear","push:process","push:schedule","push:validate","server-stats:stats","assistant:generate","alerts:monitor"]
+2020-10-11T15:24:28.486Z: INFO	[jobs:ipc:3841]	Worker started: 3876
+2020-10-11T15:24:28.605Z: INFO	[jobs:ipc:3841]	Worker started: 3882
+2020-10-11T15:24:28.694Z: INFO	[jobs:manager]	Cancelling 0 jobs
+2020-10-11T15:24:29.058Z: INFO	[jobs:handle]	Starting job handle in 3876
+2020-10-11T15:24:29.098Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+2020-10-11T15:24:29.258Z: INFO	[jobs:handle]	Starting job handle in 3882
+2020-10-11T15:24:29.299Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+2020-10-11T15:24:31.298Z: INFO	[jobs:job]	Replacing jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-11T15:24:31.318Z: INFO	[jobs:job]	Cancelled 1 previous jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-11T15:24:31.326Z: INFO	[jobs:job]	No job to replace, inserting {"name":"assistant:generate","created":1602429871289,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602430200000}
+Starting worker 3876 parent: 3841
+Starting worker 3882 parent: 3841
+2020-10-11T15:24:38.288Z: INFO	[jobs:job]	Replacing jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-11T15:24:38.292Z: INFO	[jobs:job]	Replacing jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-11T15:24:38.294Z: INFO	[jobs:job]	Replacing jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-11T15:24:38.300Z: INFO	[jobs:job]	Replacing jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-11T15:24:38.303Z: INFO	[jobs:job]	Replacing jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-11T15:24:38.305Z: INFO	[jobs:job]	Replacing jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-11T15:24:38.306Z: INFO	[jobs:job]	Replacing jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-11T15:24:38.313Z: INFO	[jobs:job]	Replacing jobs api:task ({"status":0,"name":"api:task"})
+2020-10-11T15:24:38.315Z: INFO	[jobs:job]	Cancelled 1 previous jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-11T15:24:38.325Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-11T15:24:38.326Z: INFO	[jobs:job]	Cancelled 1 previous jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-11T15:24:38.333Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-11T15:24:38.345Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-11T15:24:38.348Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-11T15:24:38.351Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-11T15:24:38.361Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:task ({"status":0,"name":"api:task"})
+2020-10-11T15:24:38.362Z: INFO	[jobs:job]	No job to replace, inserting {"name":"reports:send","created":1602429878286,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602429878287}
+2020-10-11T15:24:38.367Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:ping","created":1602429878300,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429878300}
+2020-10-11T15:24:38.372Z: INFO	[jobs:job]	No job to replace, inserting {"name":"server-stats:stats","created":1602429878291,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429878292}
+2020-10-11T15:24:38.374Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:topEvents","created":1602429878294,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429878294}
+2020-10-11T15:24:38.375Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clear","created":1602429878303,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429878303}
+2020-10-11T15:24:38.385Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearTokens","created":1602429878305,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429878305}
+2020-10-11T15:24:38.387Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearAutoTasks","created":1602429878306,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429878306}
+2020-10-11T15:24:38.388Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:task","created":1602429878312,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602429900000}
+2020-10-11T15:24:38.744Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f8323b6d0e15e0f01ec4028","name":"reports:send","created":1602429878286,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602429878287}
+2020-10-11T15:24:38.756Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f8323b6d0e15e0f01ec402a","name":"server-stats:stats","created":1602429878291,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429878292}
+2020-10-11T15:24:38.769Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f8323b6d0e15e0f01ec402b","name":"api:topEvents","created":1602429878294,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429878294}
+2020-10-11T15:24:38.785Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f8323b6d0e15e0f01ec4029","name":"api:ping","created":1602429878300,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429878300}
+2020-10-11T15:24:38.798Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f8323b6d0e15e0f01ec402c","name":"api:clear","created":1602429878303,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429878303}
+2020-10-11T15:24:38.837Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f8323b6d0e15e0f01ec402d","name":"api:clearTokens","created":1602429878305,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429878305}
+2020-10-11T15:24:38.854Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f8323b6d0e15e0f01ec402e","name":"api:clearAutoTasks","created":1602429878306,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602429878306}
+2020-10-11T15:25:00.952Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f8323b6d0e15e0f01ec402f","name":"api:task","created":1602429878312,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602429900000}
+Got signal: SIGTERM
+Successfully stored batch state
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+2020-10-11T15:26:40.246Z: INFO	[jobs:manager]	Starting job manager in 4044
+2020-10-11T15:26:40.320Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+Starting master
+/home/mahmut/Desktop/Countly/countly-server/plugins/makyol/api/api.js:64
+}(plugin));
+^
+
+SyntaxError: Unexpected token }
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+2020-10-11T15:26:42.725Z: INFO	[jobs:ipc:4044]	Attached to cluster in Central 4044
+2020-10-11T15:26:43.011Z: INFO	[jobs:manager]	Found 17 job types, starting monitoring: ["api:clear","api:clearAutoTasks","api:clearTokens","api:ipcTest","api:ping","api:task","api:test","api:topEvents","api:userMerge","reports:send","push:clear","push:process","push:schedule","push:validate","server-stats:stats","assistant:generate","alerts:monitor"]
+2020-10-11T15:26:43.071Z: INFO	[jobs:ipc:4044]	Worker started: 4080
+2020-10-11T15:26:43.177Z: INFO	[jobs:ipc:4044]	Worker started: 4086
+2020-10-11T15:26:43.236Z: INFO	[jobs:manager]	Cancelling 0 jobs
+2020-10-11T15:26:43.623Z: INFO	[jobs:handle]	Starting job handle in 4080
+2020-10-11T15:26:43.663Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+2020-10-11T15:26:43.727Z: INFO	[jobs:handle]	Starting job handle in 4086
+2020-10-11T15:26:43.765Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+2020-10-11T15:26:45.823Z: INFO	[jobs:job]	Replacing jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-11T15:26:45.831Z: INFO	[jobs:job]	Cancelled 1 previous jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-11T15:26:45.839Z: INFO	[jobs:job]	No job to replace, inserting {"name":"assistant:generate","created":1602430005788,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602430200000}
+/home/mahmut/Desktop/Countly/countly-server/plugins/makyol/api/api.js:64
+}(plugin));
+^
+
+SyntaxError: Unexpected token }
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+Starting worker 4080 parent: 4044
+/home/mahmut/Desktop/Countly/countly-server/plugins/makyol/api/api.js:64
+}(plugin));
+^
+
+SyntaxError: Unexpected token }
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+Starting worker 4086 parent: 4044
+2020-10-11T15:26:52.788Z: INFO	[jobs:job]	Replacing jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-11T15:26:52.792Z: INFO	[jobs:job]	Replacing jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-11T15:26:52.794Z: INFO	[jobs:job]	Replacing jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-11T15:26:52.795Z: INFO	[jobs:job]	Replacing jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-11T15:26:52.796Z: INFO	[jobs:job]	Replacing jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-11T15:26:52.796Z: INFO	[jobs:job]	Replacing jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-11T15:26:52.797Z: INFO	[jobs:job]	Replacing jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-11T15:26:52.798Z: INFO	[jobs:job]	Replacing jobs api:task ({"status":0,"name":"api:task"})
+2020-10-11T15:26:52.799Z: INFO	[jobs:job]	Cancelled 1 previous jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-11T15:26:52.802Z: INFO	[jobs:job]	Cancelled 1 previous jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-11T15:26:52.808Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-11T15:26:52.810Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-11T15:26:52.811Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-11T15:26:52.812Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-11T15:26:52.815Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-11T15:26:52.816Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:task ({"status":0,"name":"api:task"})
+2020-10-11T15:26:52.818Z: INFO	[jobs:job]	No job to replace, inserting {"name":"server-stats:stats","created":1602430012790,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430012791}
+2020-10-11T15:26:52.819Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:topEvents","created":1602430012793,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430012793}
+2020-10-11T15:26:52.820Z: INFO	[jobs:job]	No job to replace, inserting {"name":"reports:send","created":1602430012786,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602430012787}
+2020-10-11T15:26:52.823Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clear","created":1602430012795,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430012795}
+2020-10-11T15:26:52.824Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearTokens","created":1602430012796,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430012796}
+2020-10-11T15:26:52.826Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearAutoTasks","created":1602430012797,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430012797}
+2020-10-11T15:26:52.827Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:task","created":1602430012798,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602430200000}
+2020-10-11T15:26:52.828Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:ping","created":1602430012794,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430012795}
+2020-10-11T15:26:53.278Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83243cbf30480fcca771be","name":"reports:send","created":1602430012786,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602430012787}
+2020-10-11T15:26:53.288Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83243cbf30480fcca771bc","name":"server-stats:stats","created":1602430012790,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430012791}
+2020-10-11T15:26:53.297Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83243cbf30480fcca771bd","name":"api:topEvents","created":1602430012793,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430012793}
+2020-10-11T15:26:53.315Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83243cbf30480fcca771bf","name":"api:clear","created":1602430012795,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430012795}
+2020-10-11T15:26:53.336Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83243cbf30480fcca771c3","name":"api:ping","created":1602430012794,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430012795}
+2020-10-11T15:26:53.368Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83243cbf30480fcca771c0","name":"api:clearTokens","created":1602430012796,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430012796}
+2020-10-11T15:26:53.382Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83243cbf30480fcca771c1","name":"api:clearAutoTasks","created":1602430012797,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430012797}
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Got signal: SIGTERM
+Successfully stored batch state
+2020-10-11T15:27:58.322Z: INFO	[jobs:manager]	Starting job manager in 4208
+2020-10-11T15:27:58.365Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+Starting master
+2020-10-11T15:28:02.104Z: INFO	[jobs:ipc:4208]	Attached to cluster in Central 4208
+2020-10-11T15:28:02.371Z: INFO	[jobs:manager]	Found 17 job types, starting monitoring: ["api:clear","api:clearAutoTasks","api:clearTokens","api:ipcTest","api:ping","api:task","api:test","api:topEvents","api:userMerge","reports:send","push:clear","push:process","push:schedule","push:validate","server-stats:stats","assistant:generate","alerts:monitor"]
+2020-10-11T15:28:02.453Z: INFO	[jobs:ipc:4208]	Worker started: 4243
+2020-10-11T15:28:02.454Z: INFO	[jobs:ipc:4208]	Worker started: 4250
+2020-10-11T15:28:02.569Z: INFO	[jobs:manager]	Cancelling 0 jobs
+2020-10-11T15:28:03.350Z: INFO	[jobs:handle]	Starting job handle in 4243
+2020-10-11T15:28:03.446Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+2020-10-11T15:28:03.529Z: INFO	[jobs:handle]	Starting job handle in 4250
+2020-10-11T15:28:03.626Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol"]
+2020-10-11T15:28:05.251Z: INFO	[jobs:job]	Replacing jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-11T15:28:05.309Z: INFO	[jobs:job]	Cancelled 1 previous jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-11T15:28:05.317Z: INFO	[jobs:job]	No job to replace, inserting {"name":"assistant:generate","created":1602430085198,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602430200000}
+Starting worker 4250 parent: 4208
+Starting worker 4243 parent: 4208
+2020-10-11T15:28:12.190Z: INFO	[jobs:job]	Replacing jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-11T15:28:12.194Z: INFO	[jobs:job]	Replacing jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-11T15:28:12.195Z: INFO	[jobs:job]	Replacing jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-11T15:28:12.196Z: INFO	[jobs:job]	Replacing jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-11T15:28:12.197Z: INFO	[jobs:job]	Replacing jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-11T15:28:12.198Z: INFO	[jobs:job]	Replacing jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-11T15:28:12.203Z: INFO	[jobs:job]	Replacing jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-11T15:28:12.205Z: INFO	[jobs:job]	Replacing jobs api:task ({"status":0,"name":"api:task"})
+2020-10-11T15:28:12.206Z: INFO	[jobs:job]	Cancelled 1 previous jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-11T15:28:12.213Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-11T15:28:12.214Z: INFO	[jobs:job]	Cancelled 1 previous jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-11T15:28:12.216Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-11T15:28:12.223Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-11T15:28:12.225Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-11T15:28:12.226Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-11T15:28:12.234Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:task ({"status":0,"name":"api:task"})
+2020-10-11T15:28:12.236Z: INFO	[jobs:job]	No job to replace, inserting {"name":"reports:send","created":1602430092188,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602430092189}
+2020-10-11T15:28:12.237Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:ping","created":1602430092196,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430092196}
+2020-10-11T15:28:12.245Z: INFO	[jobs:job]	No job to replace, inserting {"name":"server-stats:stats","created":1602430092193,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430092193}
+2020-10-11T15:28:12.246Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:topEvents","created":1602430092195,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430092195}
+2020-10-11T15:28:12.248Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clear","created":1602430092197,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430092197}
+2020-10-11T15:28:12.259Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearTokens","created":1602430092198,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430092198}
+2020-10-11T15:28:12.261Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearAutoTasks","created":1602430092203,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430092203}
+2020-10-11T15:28:12.262Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:task","created":1602430092204,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602430200000}
+2020-10-11T15:28:12.610Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83248ccea43810700cfec4","name":"reports:send","created":1602430092188,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602430092189}
+2020-10-11T15:28:12.620Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83248ccea43810700cfec6","name":"server-stats:stats","created":1602430092193,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430092193}
+2020-10-11T15:28:12.627Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83248ccea43810700cfec7","name":"api:topEvents","created":1602430092195,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430092195}
+2020-10-11T15:28:12.634Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83248ccea43810700cfec5","name":"api:ping","created":1602430092196,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430092196}
+2020-10-11T15:28:12.663Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83248ccea43810700cfec8","name":"api:clear","created":1602430092197,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430092197}
+2020-10-11T15:28:12.693Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83248ccea43810700cfec9","name":"api:clearTokens","created":1602430092198,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430092198}
+2020-10-11T15:28:12.718Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f83248ccea43810700cfeca","name":"api:clearAutoTasks","created":1602430092203,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602430092203}
+Output already closed, can't write more
+Trace
+    at Object.common.returnOutput (/home/mahmut/Desktop/Countly/countly-server/api/utils/common.js:1208:21)
+    at /home/mahmut/Desktop/Countly/countly-server/plugins/crashes/api/api.js:756:36
+    at executeCallback (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/operations/execute_operation.js:70:5)
+    at callbackWithRetry (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/operations/execute_operation.js:118:14)
+    at executeCommand (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/operations/estimated_document_count.js:47:7)
+    at server.command (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/operations/command_v2.js:95:7)
+    at fn (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/cmap/connection_pool.js:350:13)
+    at handleOperationResult (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/core/sdam/server.js:558:5)
+    at MessageStream.messageHandler (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/cmap/connection.js:277:5)
+    at MessageStream.emit (events.js:198:13)
+    at processIncomingData (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:415:12)
+    at writeOrBuffer (_stream_writable.js:399:5)
+    at MessageStream.Writable.write (_stream_writable.js:299:11)
+    at Socket.ondata (_stream_readable.js:710:20)
+{ qstring:
+   { app_id: '5f8215c5c22085515871392a',
+     method: 'crashes',
+     list: '1',
+     preventRequestAbort: 'true' },
+  res:
+   ServerResponse {
+     _events:
+      [Object: null prototype] { finish: [Function: bound resOnFinish] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: true,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: null,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket: null,
+     connection: null,
+     _header:
+      'HTTP/1.1 200 OK\r\nContent-Type: application/json; charset=utf-8\r\nX-Frame-Options: deny\r\nX-XSS-Protection: 1; mode=block\r\nAccess-Control-Allow-Origin: *\r\nDate: Sun, 11 Oct 2020 15:28:17 GMT\r\nConnection: close\r\n\r\n',
+     _onPendingData: [Function: bound updateOutgoingData],
+     _sent100: false,
+     _expect_continue: false,
+     statusMessage: 'OK',
+     statusCode: 200,
+     [Symbol(isCorked)]: false,
+     [Symbol(outHeadersKey)]: null },
+  req:
+   IncomingMessage {
+     _readableState:
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: BufferList { head: null, tail: null, length: 0 },
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: true,
+        endEmitted: true,
+        reading: false,
+        sync: true,
+        needReadable: false,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        paused: false,
+        emitClose: true,
+        autoDestroy: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: true,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     _events:
+      [Object: null prototype] { end: [Function: resetHeadersTimeoutOnReqEnd] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: false,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: false,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: null,
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: null,
+        [Symbol(asyncId)]: 385,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: -1,
+           _idlePrev: null,
+           _idleNext: null,
+           _idleStart: 15367,
+           _onTimeout: null,
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 388,
+           [Symbol(triggerId)]: 385 },
+        [Symbol(kBytesRead)]: 780,
+        [Symbol(kBytesWritten)]: 229 },
+     connection:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: false,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: false,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: null,
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: null,
+        [Symbol(asyncId)]: 385,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: -1,
+           _idlePrev: null,
+           _idleNext: null,
+           _idleStart: 15367,
+           _onTimeout: null,
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 388,
+           [Symbol(triggerId)]: 385 },
+        [Symbol(kBytesRead)]: 780,
+        [Symbol(kBytesWritten)]: 229 },
+     httpVersionMajor: 1,
+     httpVersionMinor: 0,
+     httpVersion: '1.0',
+     complete: true,
+     headers:
+      { host: '127.0.0.1:3001',
+        connection: 'close',
+        'user-agent':
+         'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+        accept: 'application/json, text/javascript, */*; q=0.01',
+        'accept-language': 'en-US,en;q=0.5',
+        'accept-encoding': 'gzip, deflate',
+        'countly-token': '3ee51f430b218d996598b2c1fe780734f9f4c5df',
+        'x-requested-with': 'XMLHttpRequest',
+        cookie:
+         'connect.sid=s%3ATdTlUwOdoEb0lirnauGUbMkN8fXTTzwg.EkTYe4gqlGFAE1kxmS%2Bfc%2Fr65jeFOfvdZ2o7h59t1uc; intercom-session-pt60eheo=bHFDNFVieTA1M2xadUQ4N3luOW9kZUNySGluaW53dUZGMDNacjhRT2laSDc3dXh5ZXpDRHZjbGNVSGpJd1o1Vi0tNW9hZTNXZW9UTzV0S3FjRTUzSjVDUT09--5ce03fe349c53f3e8efae5c572b4c93e4de0acc7',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache' },
+     rawHeaders:
+      [ 'Host',
+        '127.0.0.1:3001',
+        'Connection',
+        'close',
+        'User-Agent',
+        'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+        'Accept',
+        'application/json, text/javascript, */*; q=0.01',
+        'Accept-Language',
+        'en-US,en;q=0.5',
+        'Accept-Encoding',
+        'gzip, deflate',
+        'countly-token',
+        '3ee51f430b218d996598b2c1fe780734f9f4c5df',
+        'X-Requested-With',
+        'XMLHttpRequest',
+        'Cookie',
+        'connect.sid=s%3ATdTlUwOdoEb0lirnauGUbMkN8fXTTzwg.EkTYe4gqlGFAE1kxmS%2Bfc%2Fr65jeFOfvdZ2o7h59t1uc; intercom-session-pt60eheo=bHFDNFVieTA1M2xadUQ4N3luOW9kZUNySGluaW53dUZGMDNacjhRT2laSDc3dXh5ZXpDRHZjbGNVSGpJd1o1Vi0tNW9hZTNXZW9UTzV0S3FjRTUzSjVDUT09--5ce03fe349c53f3e8efae5c572b4c93e4de0acc7',
+        'Pragma',
+        'no-cache',
+        'Cache-Control',
+        'no-cache' ],
+     trailers: {},
+     rawTrailers: [],
+     aborted: false,
+     upgrade: false,
+     url:
+      '/o?app_id=5f8215c5c22085515871392a&method=crashes&list=1&preventRequestAbort=true',
+     method: 'GET',
+     statusCode: null,
+     statusMessage: null,
+     client:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: false,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: false,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: null,
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: null,
+        [Symbol(asyncId)]: 385,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: -1,
+           _idlePrev: null,
+           _idleNext: null,
+           _idleStart: 15367,
+           _onTimeout: null,
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 388,
+           [Symbol(triggerId)]: 385 },
+        [Symbol(kBytesRead)]: 780,
+        [Symbol(kBytesWritten)]: 229 },
+     _consuming: false,
+     _dumped: true },
+  href:
+   '/o?app_id=5f8215c5c22085515871392a&method=crashes&list=1&preventRequestAbort=true',
+  urlParts:
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search:
+      '?app_id=5f8215c5c22085515871392a&method=crashes&list=1&preventRequestAbort=true',
+     query:
+      [Object: null prototype] {
+        app_id: '5f8215c5c22085515871392a',
+        method: 'crashes',
+        list: '1',
+        preventRequestAbort: 'true' },
+     pathname: '/o',
+     path:
+      '/o?app_id=5f8215c5c22085515871392a&method=crashes&list=1&preventRequestAbort=true',
+     href:
+      '/o?app_id=5f8215c5c22085515871392a&method=crashes&list=1&preventRequestAbort=true' },
+  paths: [ '', 'o' ],
+  apiPath: '/o',
+  fullPath: '/o',
+  response: { code: 200, body: '[]' },
+  member:
+   { _id: 5f822930e195aa5f93fda5d2,
+     full_name: 'mahmut akyol',
+     username: 'makyol',
+     password:
+      '$argon2i$v=19$m=4096,t=3,p=1$zCWMBjbQ7iNrVSKCYMUT5g$HnfO5baWmcmKRZdE8J3LCKJdU9qwgVm3csWtnFv9Yjc',
+     email: 'mahmut.akyol@outlook.com.tr',
+     global_admin: true,
+     created_at: 1602365744,
+     password_changed: 1602365744,
+     api_key: '9aad767b69b45fab88a88a25b8d39434',
+     offer: 2,
+     active_app_id: '5f8215c5c22085515871392a',
+     lang: 'en',
+     last_login: 1602429582,
+     in_user_hash:
+      '9de8731fd2db695b10d39dae4c65bd127ec10ee095ff27c965bd5f18d4ad362d',
+     in_user_id: '97c8fda29ca945df0a8e55e22f38c666' },
+  app_id: 5f8215c5c22085515871392a,
+  app_cc: 'TR',
+  appTimezone: 'Europe/Istanbul',
+  app:
+   { _id: 5f8215c5c22085515871392a,
+     name: 'm-base',
+     country: 'TR',
+     type: 'web',
+     timezone: 'Europe/Istanbul',
+     category: '6',
+     created_at: 1602360773,
+     edited_at: 1602360773,
+     owner: '5f8215b73e51e4513ee99f40',
+     seq: 0,
+     key: '4555ac92d96dbec584e0285028c6c7adfff43ee7' },
+  time:
+   { now: moment.parseZone("2020-10-11T18:28:17.534+03:00"),
+     nowUTC: moment.utc("2020-10-11T15:28:17.534+00:00"),
+     nowWithoutTimestamp: moment.parseZone("2020-10-11T18:28:17.534+03:00"),
+     timestamp: 1602430097,
+     mstimestamp: 1602430097534,
+     yearly: '2020',
+     monthly: '2020.10',
+     daily: '2020.10.11',
+     hourly: '2020.10.11.18',
+     weekly: 41,
+     month: '10',
+     day: '11',
+     hour: '18' } }
+(node:4243) [DEP0079] DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated
+Output already closed, can't write more
+Trace
+    at Object.common.returnOutput (/home/mahmut/Desktop/Countly/countly-server/api/utils/common.js:1208:21)
+    at /home/mahmut/Desktop/Countly/countly-server/plugins/views/api/api.js:804:36
+    at executeCallback (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/operations/execute_operation.js:70:5)
+    at callbackWithRetry (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/operations/execute_operation.js:118:14)
+    at executeCommand (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/operations/estimated_document_count.js:47:7)
+    at server.command (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/operations/command_v2.js:95:7)
+    at fn (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/cmap/connection_pool.js:350:13)
+    at handleOperationResult (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/core/sdam/server.js:558:5)
+    at MessageStream.messageHandler (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/cmap/connection.js:277:5)
+    at MessageStream.emit (events.js:198:13)
+    at processIncomingData (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/home/mahmut/Desktop/Countly/countly-server/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:415:12)
+    at writeOrBuffer (_stream_writable.js:399:5)
+    at MessageStream.Writable.write (_stream_writable.js:299:11)
+    at Socket.ondata (_stream_readable.js:710:20)
+{ qstring:
+   { app_id: '5f8215c5c22085515871392a',
+     action: 'listNames',
+     method: 'views',
+     list: '1',
+     preventRequestAbort: 'true' },
+  res:
+   ServerResponse {
+     _events:
+      [Object: null prototype] { finish: [Function: bound resOnFinish] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: true,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: null,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket: null,
+     connection: null,
+     _header:
+      'HTTP/1.1 200 OK\r\nContent-Type: application/json; charset=utf-8\r\nX-Frame-Options: deny\r\nX-XSS-Protection: 1; mode=block\r\nAccess-Control-Allow-Origin: *\r\nDate: Sun, 11 Oct 2020 15:28:17 GMT\r\nConnection: close\r\n\r\n',
+     _onPendingData: [Function: bound updateOutgoingData],
+     _sent100: false,
+     _expect_continue: false,
+     statusMessage: 'OK',
+     statusCode: 200,
+     [Symbol(isCorked)]: false,
+     [Symbol(outHeadersKey)]: null },
+  req:
+   IncomingMessage {
+     _readableState:
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: BufferList { head: null, tail: null, length: 0 },
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: true,
+        endEmitted: true,
+        reading: false,
+        sync: true,
+        needReadable: false,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        paused: false,
+        emitClose: true,
+        autoDestroy: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: true,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     _events:
+      [Object: null prototype] { end: [Function: resetHeadersTimeoutOnReqEnd] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: false,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: false,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: null,
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: null,
+        [Symbol(asyncId)]: 385,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: -1,
+           _idlePrev: null,
+           _idleNext: null,
+           _idleStart: 15325,
+           _onTimeout: null,
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 388,
+           [Symbol(triggerId)]: 385 },
+        [Symbol(kBytesRead)]: 795,
+        [Symbol(kBytesWritten)]: 229 },
+     connection:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: false,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: false,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: null,
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: null,
+        [Symbol(asyncId)]: 385,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: -1,
+           _idlePrev: null,
+           _idleNext: null,
+           _idleStart: 15325,
+           _onTimeout: null,
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 388,
+           [Symbol(triggerId)]: 385 },
+        [Symbol(kBytesRead)]: 795,
+        [Symbol(kBytesWritten)]: 229 },
+     httpVersionMajor: 1,
+     httpVersionMinor: 0,
+     httpVersion: '1.0',
+     complete: true,
+     headers:
+      { host: '127.0.0.1:3001',
+        connection: 'close',
+        'user-agent':
+         'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+        accept: 'application/json, text/javascript, */*; q=0.01',
+        'accept-language': 'en-US,en;q=0.5',
+        'accept-encoding': 'gzip, deflate',
+        'countly-token': '3ee51f430b218d996598b2c1fe780734f9f4c5df',
+        'x-requested-with': 'XMLHttpRequest',
+        cookie:
+         'connect.sid=s%3ATdTlUwOdoEb0lirnauGUbMkN8fXTTzwg.EkTYe4gqlGFAE1kxmS%2Bfc%2Fr65jeFOfvdZ2o7h59t1uc; intercom-session-pt60eheo=bHFDNFVieTA1M2xadUQ4N3luOW9kZUNySGluaW53dUZGMDNacjhRT2laSDc3dXh5ZXpDRHZjbGNVSGpJd1o1Vi0tNW9hZTNXZW9UTzV0S3FjRTUzSjVDUT09--5ce03fe349c53f3e8efae5c572b4c93e4de0acc7',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache' },
+     rawHeaders:
+      [ 'Host',
+        '127.0.0.1:3001',
+        'Connection',
+        'close',
+        'User-Agent',
+        'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+        'Accept',
+        'application/json, text/javascript, */*; q=0.01',
+        'Accept-Language',
+        'en-US,en;q=0.5',
+        'Accept-Encoding',
+        'gzip, deflate',
+        'countly-token',
+        '3ee51f430b218d996598b2c1fe780734f9f4c5df',
+        'X-Requested-With',
+        'XMLHttpRequest',
+        'Cookie',
+        'connect.sid=s%3ATdTlUwOdoEb0lirnauGUbMkN8fXTTzwg.EkTYe4gqlGFAE1kxmS%2Bfc%2Fr65jeFOfvdZ2o7h59t1uc; intercom-session-pt60eheo=bHFDNFVieTA1M2xadUQ4N3luOW9kZUNySGluaW53dUZGMDNacjhRT2laSDc3dXh5ZXpDRHZjbGNVSGpJd1o1Vi0tNW9hZTNXZW9UTzV0S3FjRTUzSjVDUT09--5ce03fe349c53f3e8efae5c572b4c93e4de0acc7',
+        'Pragma',
+        'no-cache',
+        'Cache-Control',
+        'no-cache' ],
+     trailers: {},
+     rawTrailers: [],
+     aborted: false,
+     upgrade: false,
+     url:
+      '/o?app_id=5f8215c5c22085515871392a&action=listNames&method=views&list=1&preventRequestAbort=true',
+     method: 'GET',
+     statusCode: null,
+     statusMessage: null,
+     client:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: false,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: false,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: null,
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: null,
+        [Symbol(asyncId)]: 385,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: -1,
+           _idlePrev: null,
+           _idleNext: null,
+           _idleStart: 15325,
+           _onTimeout: null,
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 388,
+           [Symbol(triggerId)]: 385 },
+        [Symbol(kBytesRead)]: 795,
+        [Symbol(kBytesWritten)]: 229 },
+     _consuming: false,
+     _dumped: true },
+  href:
+   '/o?app_id=5f8215c5c22085515871392a&action=listNames&method=views&list=1&preventRequestAbort=true',
+  urlParts:
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search:
+      '?app_id=5f8215c5c22085515871392a&action=listNames&method=views&list=1&preventRequestAbort=true',
+     query:
+      [Object: null prototype] {
+        app_id: '5f8215c5c22085515871392a',
+        action: 'listNames',
+        method: 'views',
+        list: '1',
+        preventRequestAbort: 'true' },
+     pathname: '/o',
+     path:
+      '/o?app_id=5f8215c5c22085515871392a&action=listNames&method=views&list=1&preventRequestAbort=true',
+     href:
+      '/o?app_id=5f8215c5c22085515871392a&action=listNames&method=views&list=1&preventRequestAbort=true' },
+  paths: [ '', 'o' ],
+  apiPath: '/o',
+  fullPath: '/o',
+  response: { code: 200, body: '[]' },
+  member:
+   { _id: 5f822930e195aa5f93fda5d2,
+     full_name: 'mahmut akyol',
+     username: 'makyol',
+     password:
+      '$argon2i$v=19$m=4096,t=3,p=1$zCWMBjbQ7iNrVSKCYMUT5g$HnfO5baWmcmKRZdE8J3LCKJdU9qwgVm3csWtnFv9Yjc',
+     email: 'mahmut.akyol@outlook.com.tr',
+     global_admin: true,
+     created_at: 1602365744,
+     password_changed: 1602365744,
+     api_key: '9aad767b69b45fab88a88a25b8d39434',
+     offer: 2,
+     active_app_id: '5f8215c5c22085515871392a',
+     lang: 'en',
+     last_login: 1602429582,
+     in_user_hash:
+      '9de8731fd2db695b10d39dae4c65bd127ec10ee095ff27c965bd5f18d4ad362d',
+     in_user_id: '97c8fda29ca945df0a8e55e22f38c666' },
+  app_id: 5f8215c5c22085515871392a,
+  app_cc: 'TR',
+  appTimezone: 'Europe/Istanbul',
+  app:
+   { _id: 5f8215c5c22085515871392a,
+     name: 'm-base',
+     country: 'TR',
+     type: 'web',
+     timezone: 'Europe/Istanbul',
+     category: '6',
+     created_at: 1602360773,
+     edited_at: 1602360773,
+     owner: '5f8215b73e51e4513ee99f40',
+     seq: 0,
+     key: '4555ac92d96dbec584e0285028c6c7adfff43ee7' },
+  time:
+   { now: moment.parseZone("2020-10-11T18:28:17.547+03:00"),
+     nowUTC: moment.utc("2020-10-11T15:28:17.547+00:00"),
+     nowWithoutTimestamp: moment.parseZone("2020-10-11T18:28:17.547+03:00"),
+     timestamp: 1602430097,
+     mstimestamp: 1602430097547,
+     yearly: '2020',
+     monthly: '2020.10',
+     daily: '2020.10.11',
+     hourly: '2020.10.11.18',
+     weekly: 41,
+     month: '10',
+     day: '11',
+     hour: '18' } }
+(node:4250) [DEP0079] DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated
+Output already closed, can't write more
+Trace
+    at Object.common.returnMessage (/home/mahmut/Desktop/Countly/countly-server/api/utils/common.js:1142:21)
+    at /home/mahmut/Desktop/Countly/countly-server/api/utils/requestProcessor.js:1937:32
+    at tryCatcher (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromiseCtx (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/promise.js:641:10)
+    at _drainQueueStep (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/async.js:97:12)
+    at _drainQueue (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+{ qstring: { app_id: '5f8215c5c22085515871392a' },
+  res:
+   ServerResponse {
+     _events:
+      [Object: null prototype] { finish: [Function: bound resOnFinish] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: true,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: null,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [Circular],
+        [Symbol(asyncId)]: 442,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 15797,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 445,
+           [Symbol(triggerId)]: 442 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     connection:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [Circular],
+        [Symbol(asyncId)]: 442,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 15797,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 445,
+           [Symbol(triggerId)]: 442 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     _header:
+      'HTTP/1.1 200 OK\r\nContent-Type: application/json; charset=utf-8\r\nX-Frame-Options: deny\r\nX-XSS-Protection: 1; mode=block\r\nAccess-Control-Allow-Origin: *\r\nDate: Sun, 11 Oct 2020 15:28:17 GMT\r\nConnection: close\r\n\r\n',
+     _onPendingData: [Function: bound updateOutgoingData],
+     _sent100: false,
+     _expect_continue: false,
+     statusMessage: 'OK',
+     statusCode: 200,
+     [Symbol(isCorked)]: true,
+     [Symbol(outHeadersKey)]: null },
+  req:
+   IncomingMessage {
+     _readableState:
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: BufferList { head: null, tail: null, length: 0 },
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: true,
+        endEmitted: false,
+        reading: false,
+        sync: true,
+        needReadable: false,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        paused: true,
+        emitClose: true,
+        autoDestroy: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: true,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     _events:
+      [Object: null prototype] { end: [Function: resetHeadersTimeoutOnReqEnd] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [ServerResponse],
+        [Symbol(asyncId)]: 442,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 15797,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 445,
+           [Symbol(triggerId)]: 442 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     connection:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [ServerResponse],
+        [Symbol(asyncId)]: 442,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 15797,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 445,
+           [Symbol(triggerId)]: 442 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     httpVersionMajor: 1,
+     httpVersionMinor: 0,
+     httpVersion: '1.0',
+     complete: true,
+     headers:
+      { host: '127.0.0.1:3001',
+        connection: 'close',
+        'user-agent':
+         'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+        accept: '*/*',
+        'accept-language': 'en-US,en;q=0.5',
+        'accept-encoding': 'gzip, deflate',
+        'countly-token': '3ee51f430b218d996598b2c1fe780734f9f4c5df',
+        'x-requested-with': 'XMLHttpRequest',
+        cookie:
+         'connect.sid=s%3ATdTlUwOdoEb0lirnauGUbMkN8fXTTzwg.EkTYe4gqlGFAE1kxmS%2Bfc%2Fr65jeFOfvdZ2o7h59t1uc; intercom-session-pt60eheo=bHFDNFVieTA1M2xadUQ4N3luOW9kZUNySGluaW53dUZGMDNacjhRT2laSDc3dXh5ZXpDRHZjbGNVSGpJd1o1Vi0tNW9hZTNXZW9UTzV0S3FjRTUzSjVDUT09--5ce03fe349c53f3e8efae5c572b4c93e4de0acc7',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache' },
+     rawHeaders:
+      [ 'Host',
+        '127.0.0.1:3001',
+        'Connection',
+        'close',
+        'User-Agent',
+        'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+        'Accept',
+        '*/*',
+        'Accept-Language',
+        'en-US,en;q=0.5',
+        'Accept-Encoding',
+        'gzip, deflate',
+        'countly-token',
+        '3ee51f430b218d996598b2c1fe780734f9f4c5df',
+        'X-Requested-With',
+        'XMLHttpRequest',
+        'Cookie',
+        'connect.sid=s%3ATdTlUwOdoEb0lirnauGUbMkN8fXTTzwg.EkTYe4gqlGFAE1kxmS%2Bfc%2Fr65jeFOfvdZ2o7h59t1uc; intercom-session-pt60eheo=bHFDNFVieTA1M2xadUQ4N3luOW9kZUNySGluaW53dUZGMDNacjhRT2laSDc3dXh5ZXpDRHZjbGNVSGpJd1o1Vi0tNW9hZTNXZW9UTzV0S3FjRTUzSjVDUT09--5ce03fe349c53f3e8efae5c572b4c93e4de0acc7',
+        'Pragma',
+        'no-cache',
+        'Cache-Control',
+        'no-cache' ],
+     trailers: {},
+     rawTrailers: [],
+     aborted: false,
+     upgrade: false,
+     url: '/o?app_id=5f8215c5c22085515871392a',
+     method: 'GET',
+     statusCode: null,
+     statusMessage: null,
+     client:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [ServerResponse],
+        [Symbol(asyncId)]: 442,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 15797,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 445,
+           [Symbol(triggerId)]: 442 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     _consuming: false,
+     _dumped: false },
+  href: '/o?app_id=5f8215c5c22085515871392a',
+  urlParts:
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: '?app_id=5f8215c5c22085515871392a',
+     query:
+      [Object: null prototype] { app_id: '5f8215c5c22085515871392a' },
+     pathname: '/o',
+     path: '/o?app_id=5f8215c5c22085515871392a',
+     href: '/o?app_id=5f8215c5c22085515871392a' },
+  paths: [ '', 'o' ],
+  apiPath: '/o',
+  fullPath: '/o',
+  response: { code: 400, body: '{"result":"Invalid method"}' } }
+Output already closed, can't write more
+Trace
+    at Object.common.returnMessage (/home/mahmut/Desktop/Countly/countly-server/api/utils/common.js:1142:21)
+    at /home/mahmut/Desktop/Countly/countly-server/api/utils/requestProcessor.js:1937:32
+    at tryCatcher (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromiseCtx (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/promise.js:641:10)
+    at _drainQueueStep (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/async.js:97:12)
+    at _drainQueue (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+{ qstring: { app_id: '5f8215c5c22085515871392a' },
+  res:
+   ServerResponse {
+     _events:
+      [Object: null prototype] { finish: [Function: bound resOnFinish] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: true,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: null,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [Circular],
+        [Symbol(asyncId)]: 579,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 24571,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 582,
+           [Symbol(triggerId)]: 579 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     connection:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [Circular],
+        [Symbol(asyncId)]: 579,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 24571,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 582,
+           [Symbol(triggerId)]: 579 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     _header:
+      'HTTP/1.1 200 OK\r\nContent-Type: application/json; charset=utf-8\r\nX-Frame-Options: deny\r\nX-XSS-Protection: 1; mode=block\r\nAccess-Control-Allow-Origin: *\r\nDate: Sun, 11 Oct 2020 15:28:26 GMT\r\nConnection: close\r\n\r\n',
+     _onPendingData: [Function: bound updateOutgoingData],
+     _sent100: false,
+     _expect_continue: false,
+     statusMessage: 'OK',
+     statusCode: 200,
+     [Symbol(isCorked)]: true,
+     [Symbol(outHeadersKey)]: null },
+  req:
+   IncomingMessage {
+     _readableState:
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: BufferList { head: null, tail: null, length: 0 },
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: true,
+        endEmitted: false,
+        reading: false,
+        sync: true,
+        needReadable: false,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        paused: true,
+        emitClose: true,
+        autoDestroy: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: true,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     _events:
+      [Object: null prototype] { end: [Function: resetHeadersTimeoutOnReqEnd] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [ServerResponse],
+        [Symbol(asyncId)]: 579,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 24571,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 582,
+           [Symbol(triggerId)]: 579 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     connection:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [ServerResponse],
+        [Symbol(asyncId)]: 579,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 24571,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 582,
+           [Symbol(triggerId)]: 579 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     httpVersionMajor: 1,
+     httpVersionMinor: 0,
+     httpVersion: '1.0',
+     complete: true,
+     headers:
+      { host: '127.0.0.1:3001',
+        connection: 'close',
+        'user-agent':
+         'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+        accept: '*/*',
+        'accept-language': 'en-US,en;q=0.5',
+        'accept-encoding': 'gzip, deflate',
+        'countly-token': '3ee51f430b218d996598b2c1fe780734f9f4c5df',
+        'x-requested-with': 'XMLHttpRequest',
+        cookie:
+         'connect.sid=s%3ATdTlUwOdoEb0lirnauGUbMkN8fXTTzwg.EkTYe4gqlGFAE1kxmS%2Bfc%2Fr65jeFOfvdZ2o7h59t1uc; intercom-session-pt60eheo=T1d2dENkNlovR05pWitnUTJqdFZnTzV6OTl1YllCWG5DN3JVVTdRY095TkE5V1IySS9VbVA0cTlybTgycmdyZi0tTHR0YUtiSy9qM2VVMGs1SFZSbEkwQT09--a2f248674f458e3ec35a0f3db1611414e099a64b',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache' },
+     rawHeaders:
+      [ 'Host',
+        '127.0.0.1:3001',
+        'Connection',
+        'close',
+        'User-Agent',
+        'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+        'Accept',
+        '*/*',
+        'Accept-Language',
+        'en-US,en;q=0.5',
+        'Accept-Encoding',
+        'gzip, deflate',
+        'countly-token',
+        '3ee51f430b218d996598b2c1fe780734f9f4c5df',
+        'X-Requested-With',
+        'XMLHttpRequest',
+        'Cookie',
+        'connect.sid=s%3ATdTlUwOdoEb0lirnauGUbMkN8fXTTzwg.EkTYe4gqlGFAE1kxmS%2Bfc%2Fr65jeFOfvdZ2o7h59t1uc; intercom-session-pt60eheo=T1d2dENkNlovR05pWitnUTJqdFZnTzV6OTl1YllCWG5DN3JVVTdRY095TkE5V1IySS9VbVA0cTlybTgycmdyZi0tTHR0YUtiSy9qM2VVMGs1SFZSbEkwQT09--a2f248674f458e3ec35a0f3db1611414e099a64b',
+        'Pragma',
+        'no-cache',
+        'Cache-Control',
+        'no-cache' ],
+     trailers: {},
+     rawTrailers: [],
+     aborted: false,
+     upgrade: false,
+     url: '/o?app_id=5f8215c5c22085515871392a',
+     method: 'GET',
+     statusCode: null,
+     statusMessage: null,
+     client:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [ServerResponse],
+        [Symbol(asyncId)]: 579,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 24571,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 582,
+           [Symbol(triggerId)]: 579 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     _consuming: false,
+     _dumped: false },
+  href: '/o?app_id=5f8215c5c22085515871392a',
+  urlParts:
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: '?app_id=5f8215c5c22085515871392a',
+     query:
+      [Object: null prototype] { app_id: '5f8215c5c22085515871392a' },
+     pathname: '/o',
+     path: '/o?app_id=5f8215c5c22085515871392a',
+     href: '/o?app_id=5f8215c5c22085515871392a' },
+  paths: [ '', 'o' ],
+  apiPath: '/o',
+  fullPath: '/o',
+  response: { code: 400, body: '{"result":"Invalid method"}' } }
+Output already closed, can't write more
+Trace
+    at Object.common.returnMessage (/home/mahmut/Desktop/Countly/countly-server/api/utils/common.js:1142:21)
+    at /home/mahmut/Desktop/Countly/countly-server/api/utils/requestProcessor.js:1937:32
+    at tryCatcher (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+{ qstring: { app_id: '5f8215c5c22085515871392a' },
+  res:
+   ServerResponse {
+     _events:
+      [Object: null prototype] { finish: [Function: bound resOnFinish] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: true,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: null,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [Circular],
+        [Symbol(asyncId)]: 626,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 34619,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 629,
+           [Symbol(triggerId)]: 626 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     connection:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [Circular],
+        [Symbol(asyncId)]: 626,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 34619,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 629,
+           [Symbol(triggerId)]: 626 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     _header:
+      'HTTP/1.1 200 OK\r\nContent-Type: application/json; charset=utf-8\r\nX-Frame-Options: deny\r\nX-XSS-Protection: 1; mode=block\r\nAccess-Control-Allow-Origin: *\r\nDate: Sun, 11 Oct 2020 15:28:36 GMT\r\nConnection: close\r\n\r\n',
+     _onPendingData: [Function: bound updateOutgoingData],
+     _sent100: false,
+     _expect_continue: false,
+     statusMessage: 'OK',
+     statusCode: 200,
+     [Symbol(isCorked)]: true,
+     [Symbol(outHeadersKey)]: null },
+  req:
+   IncomingMessage {
+     _readableState:
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: BufferList { head: null, tail: null, length: 0 },
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: true,
+        endEmitted: false,
+        reading: false,
+        sync: true,
+        needReadable: false,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        paused: true,
+        emitClose: true,
+        autoDestroy: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: true,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     _events:
+      [Object: null prototype] { end: [Function: resetHeadersTimeoutOnReqEnd] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [ServerResponse],
+        [Symbol(asyncId)]: 626,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 34619,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 629,
+           [Symbol(triggerId)]: 626 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     connection:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [ServerResponse],
+        [Symbol(asyncId)]: 626,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 34619,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 629,
+           [Symbol(triggerId)]: 626 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     httpVersionMajor: 1,
+     httpVersionMinor: 0,
+     httpVersion: '1.0',
+     complete: true,
+     headers:
+      { host: '127.0.0.1:3001',
+        connection: 'close',
+        'user-agent':
+         'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+        accept: '*/*',
+        'accept-language': 'en-US,en;q=0.5',
+        'accept-encoding': 'gzip, deflate',
+        'countly-token': '3ee51f430b218d996598b2c1fe780734f9f4c5df',
+        'x-requested-with': 'XMLHttpRequest',
+        cookie:
+         'connect.sid=s%3ATdTlUwOdoEb0lirnauGUbMkN8fXTTzwg.EkTYe4gqlGFAE1kxmS%2Bfc%2Fr65jeFOfvdZ2o7h59t1uc; intercom-session-pt60eheo=T1d2dENkNlovR05pWitnUTJqdFZnTzV6OTl1YllCWG5DN3JVVTdRY095TkE5V1IySS9VbVA0cTlybTgycmdyZi0tTHR0YUtiSy9qM2VVMGs1SFZSbEkwQT09--a2f248674f458e3ec35a0f3db1611414e099a64b',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache' },
+     rawHeaders:
+      [ 'Host',
+        '127.0.0.1:3001',
+        'Connection',
+        'close',
+        'User-Agent',
+        'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+        'Accept',
+        '*/*',
+        'Accept-Language',
+        'en-US,en;q=0.5',
+        'Accept-Encoding',
+        'gzip, deflate',
+        'countly-token',
+        '3ee51f430b218d996598b2c1fe780734f9f4c5df',
+        'X-Requested-With',
+        'XMLHttpRequest',
+        'Cookie',
+        'connect.sid=s%3ATdTlUwOdoEb0lirnauGUbMkN8fXTTzwg.EkTYe4gqlGFAE1kxmS%2Bfc%2Fr65jeFOfvdZ2o7h59t1uc; intercom-session-pt60eheo=T1d2dENkNlovR05pWitnUTJqdFZnTzV6OTl1YllCWG5DN3JVVTdRY095TkE5V1IySS9VbVA0cTlybTgycmdyZi0tTHR0YUtiSy9qM2VVMGs1SFZSbEkwQT09--a2f248674f458e3ec35a0f3db1611414e099a64b',
+        'Pragma',
+        'no-cache',
+        'Cache-Control',
+        'no-cache' ],
+     trailers: {},
+     rawTrailers: [],
+     aborted: false,
+     upgrade: false,
+     url: '/o?app_id=5f8215c5c22085515871392a',
+     method: 'GET',
+     statusCode: null,
+     statusMessage: null,
+     client:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [ServerResponse],
+        [Symbol(asyncId)]: 626,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 34619,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 629,
+           [Symbol(triggerId)]: 626 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     _consuming: false,
+     _dumped: false },
+  href: '/o?app_id=5f8215c5c22085515871392a',
+  urlParts:
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: '?app_id=5f8215c5c22085515871392a',
+     query:
+      [Object: null prototype] { app_id: '5f8215c5c22085515871392a' },
+     pathname: '/o',
+     path: '/o?app_id=5f8215c5c22085515871392a',
+     href: '/o?app_id=5f8215c5c22085515871392a' },
+  paths: [ '', 'o' ],
+  apiPath: '/o',
+  fullPath: '/o',
+  response: { code: 400, body: '{"result":"Invalid method"}' } }
+Output already closed, can't write more
+Trace
+    at Object.common.returnMessage (/home/mahmut/Desktop/Countly/countly-server/api/utils/common.js:1142:21)
+    at /home/mahmut/Desktop/Countly/countly-server/api/utils/requestProcessor.js:1937:32
+    at tryCatcher (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/mahmut/Desktop/Countly/countly-server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+{ qstring: { app_id: '5f8215c5c22085515871392a' },
+  res:
+   ServerResponse {
+     _events:
+      [Object: null prototype] { finish: [Function: bound resOnFinish] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: true,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: null,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [Circular],
+        [Symbol(asyncId)]: 652,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 44564,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 655,
+           [Symbol(triggerId)]: 652 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     connection:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [Circular],
+        [Symbol(asyncId)]: 652,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 44564,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 655,
+           [Symbol(triggerId)]: 652 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     _header:
+      'HTTP/1.1 200 OK\r\nContent-Type: application/json; charset=utf-8\r\nX-Frame-Options: deny\r\nX-XSS-Protection: 1; mode=block\r\nAccess-Control-Allow-Origin: *\r\nDate: Sun, 11 Oct 2020 15:28:46 GMT\r\nConnection: close\r\n\r\n',
+     _onPendingData: [Function: bound updateOutgoingData],
+     _sent100: false,
+     _expect_continue: false,
+     statusMessage: 'OK',
+     statusCode: 200,
+     [Symbol(isCorked)]: true,
+     [Symbol(outHeadersKey)]: null },
+  req:
+   IncomingMessage {
+     _readableState:
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: BufferList { head: null, tail: null, length: 0 },
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: true,
+        endEmitted: false,
+        reading: false,
+        sync: true,
+        needReadable: false,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        paused: true,
+        emitClose: true,
+        autoDestroy: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: true,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     _events:
+      [Object: null prototype] { end: [Function: resetHeadersTimeoutOnReqEnd] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [ServerResponse],
+        [Symbol(asyncId)]: 652,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 44564,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 655,
+           [Symbol(triggerId)]: 652 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     connection:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [ServerResponse],
+        [Symbol(asyncId)]: 652,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 44564,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 655,
+           [Symbol(triggerId)]: 652 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     httpVersionMajor: 1,
+     httpVersionMinor: 0,
+     httpVersion: '1.0',
+     complete: true,
+     headers:
+      { host: '127.0.0.1:3001',
+        connection: 'close',
+        'user-agent':
+         'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+        accept: '*/*',
+        'accept-language': 'en-US,en;q=0.5',
+        'accept-encoding': 'gzip, deflate',
+        'countly-token': '3ee51f430b218d996598b2c1fe780734f9f4c5df',
+        'x-requested-with': 'XMLHttpRequest',
+        cookie:
+         'connect.sid=s%3ATdTlUwOdoEb0lirnauGUbMkN8fXTTzwg.EkTYe4gqlGFAE1kxmS%2Bfc%2Fr65jeFOfvdZ2o7h59t1uc; intercom-session-pt60eheo=T1d2dENkNlovR05pWitnUTJqdFZnTzV6OTl1YllCWG5DN3JVVTdRY095TkE5V1IySS9VbVA0cTlybTgycmdyZi0tTHR0YUtiSy9qM2VVMGs1SFZSbEkwQT09--a2f248674f458e3ec35a0f3db1611414e099a64b',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache' },
+     rawHeaders:
+      [ 'Host',
+        '127.0.0.1:3001',
+        'Connection',
+        'close',
+        'User-Agent',
+        'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0',
+        'Accept',
+        '*/*',
+        'Accept-Language',
+        'en-US,en;q=0.5',
+        'Accept-Encoding',
+        'gzip, deflate',
+        'countly-token',
+        '3ee51f430b218d996598b2c1fe780734f9f4c5df',
+        'X-Requested-With',
+        'XMLHttpRequest',
+        'Cookie',
+        'connect.sid=s%3ATdTlUwOdoEb0lirnauGUbMkN8fXTTzwg.EkTYe4gqlGFAE1kxmS%2Bfc%2Fr65jeFOfvdZ2o7h59t1uc; intercom-session-pt60eheo=T1d2dENkNlovR05pWitnUTJqdFZnTzV6OTl1YllCWG5DN3JVVTdRY095TkE5V1IySS9VbVA0cTlybTgycmdyZi0tTHR0YUtiSy9qM2VVMGs1SFZSbEkwQT09--a2f248674f458e3ec35a0f3db1611414e099a64b',
+        'Pragma',
+        'no-cache',
+        'Cache-Control',
+        'no-cache' ],
+     trailers: {},
+     rawTrailers: [],
+     aborted: false,
+     upgrade: false,
+     url: '/o?app_id=5f8215c5c22085515871392a',
+     method: 'GET',
+     statusCode: null,
+     statusMessage: null,
+     client:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [ServerResponse],
+        [Symbol(asyncId)]: 652,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 44564,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 655,
+           [Symbol(triggerId)]: 652 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     _consuming: false,
+     _dumped: false },
+  href: '/o?app_id=5f8215c5c22085515871392a',
+  urlParts:
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: '?app_id=5f8215c5c22085515871392a',
+     query:
+      [Object: null prototype] { app_id: '5f8215c5c22085515871392a' },
+     pathname: '/o',
+     path: '/o?app_id=5f8215c5c22085515871392a',
+     href: '/o?app_id=5f8215c5c22085515871392a' },
+  paths: [ '', 'o' ],
+  apiPath: '/o',
+  fullPath: '/o',
+  response: { code: 400, body: '{"result":"Invalid method"}' } }
