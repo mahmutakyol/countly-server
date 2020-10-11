@@ -1,12 +1,12 @@
 /*global $, jQuery, countlyGlobal, countlyCommon*/
 
-(function(countlyOurplugin) {
+(function(countlyMyMetric) {
 
     //we will store our data here
     var _data = {};
 
     //Initializing model
-    countlyOurplugin.initialize = function() {
+    countlyMyMetric.initialize = function() {
 
         //returning promise
         return $.ajax({
@@ -28,8 +28,8 @@
     };
 
     //return data that we have
-    countlyOurplugin.getData = function() {
+    countlyMyMetric.getData = function() {
         return _data;
     };
 
-}(window.countlyOurplugin = window.countlyOurplugin || {}, jQuery));
+}(window.countlyMyMetric = window.countlyMyMetric || {}, jQuery));

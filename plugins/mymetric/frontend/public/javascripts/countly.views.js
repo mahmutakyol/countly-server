@@ -39,7 +39,7 @@ window.MyMetricView = countlyView.extend({
 app.mymetricView = new MyMetricView();
 
 //register routes
-app.route('/my-metric', 'mymetric', function() {
+app.route('/mymetric', 'mymetric', function() {
     this.renderWhenReady(this.mymetricView);
 });
 
@@ -47,7 +47,7 @@ app.route('/my-metric', 'mymetric', function() {
 $(document).ready(function() {
     app.addMenu("understand", {
         code: "My Metric",
-        url: "#/my-metric",
+        url: "#/mymetric",
         text: "My Metric",
         icon: '<div class="logo ion-pricetags"></div>',
         priority: 50
