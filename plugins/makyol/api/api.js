@@ -13,9 +13,13 @@ var plugin = {},
     plugins.register('/o', function(ob) {
         var params = ob.params;
         var collectionName = 'makyol';
+        var validateUserForRead = ob.validateUserForReadAPI;
 
+        validateUserForRead(params, function() {
+            var metrics = common.db.collection(collectionName).find();
 
-        common.returnOutput(params, { response: 'TEST' });
+            common.returnOutput(params, { metrics });
+        });
     });
 
     /*
