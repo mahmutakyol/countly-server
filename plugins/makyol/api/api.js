@@ -1,3 +1,5 @@
+const { toArray } = require('underscore');
+
 var plugin = {},
     common = require('../../../api/utils/common.js'),
     plugins = require('../../pluginManager.js');
@@ -7,13 +9,12 @@ var plugin = {},
     /*
      * @apiName: GetMakyolMetricsData
      * @apiDescription: Get metrics data
-     * @apiParam: 'widget_id', Id of related widget
-     * @apiParam: 'rating', filter by rating
-     * @apiParam: 'device_id', filter by device_id
-     * @apiParam: 'app_id', app_id of related application
      */
     plugins.register('/o', function(ob) {
         var params = ob.params;
+        var collectionName = 'makyol';
+
+
         if (params.qstring.user_details) {
             //if it is string, but we expect json, lets parse it
             if (typeof params.qstring.makyol === "string") {
@@ -26,6 +27,16 @@ var plugin = {},
                     return false;
                 }
                 //start doing something with request
+
+                common.db.collection(collectionName).find()
+                    .toArray(function(err, metric) {
+                        if (err) {
+                            common.returnMessage(params, 500, err);
+                        }
+                        else {
+                            common.returnMessage(params, { response: metric });
+                        }
+                    });
 
                 //and tell core we are working on it, by returning true
                 return true;
