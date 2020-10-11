@@ -8,8 +8,8 @@ window.MyMetricView = countlyView.extend({
     beforeRender: function() {
         // fetch template
         var self = this;
-        return $.when(T.get('/mymetric/templates/mymetric.html', function(template) {
-            self.template = template;
+        return $.when(T.get('/mymetric/templates/mymetric.html', function(src) {
+            self.template = src;
         }), countlyMyMetric.initialize()).then(function() {});
     },
 
