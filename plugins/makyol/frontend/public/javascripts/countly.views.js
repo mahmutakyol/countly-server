@@ -1,4 +1,4 @@
-/*global countlyView, T, countlyMakyol, $, app, MakyolView*/
+/*global countlyView, T, countlyMakyol, $, app, MakyolView, jQuery*/
 window.MakyolView = countlyView.extend({
     // initialize function
     initalize: function() {
@@ -15,7 +15,7 @@ window.MakyolView = countlyView.extend({
 
     renderCommon: function() {
         this.templateData = {
-            "page-title": "Makyol",
+            "page-title": jQuery.i18n.map["makyol.title"],
             "logo-class": "",
             "data": countlyMakyol.getData()
         };
