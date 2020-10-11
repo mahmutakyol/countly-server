@@ -12,8 +12,6 @@ var plugin = {},
     //waiting for read request
     plugins.register("/o", function(ob) {
         var params = ob.params;
-        var collectionName = 'makyol';
-        var validateUserForRead = ob.validateUserForReadAPI;
 
         common.returnOutput(params, { metrics });
     });
