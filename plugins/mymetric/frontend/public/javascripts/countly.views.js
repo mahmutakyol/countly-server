@@ -7,16 +7,25 @@ window.MyMetricView = countlyView.extend({
 
     //render our data
     renderCommon: function(isRefresh) {
+        countlyMyMetric.store("value1", 10);
         var data = countlyMyMetric.getData();
 
         //prepare template data
         this.templateData = {
             "page-title": jQuery.i18n.map["mymetric.title"],
             "logo-class": "",
-            "graph-type-double-pie": true,
-            "pie-titles": {
-                "left": jQuery.i18n.map["common.total-users"],
-                "right": jQuery.i18n.map["common.new-users"]
+            "big-numbers": {
+                "count": 2,
+                "items": [
+                    {
+                        "title": "top metric values",
+                        "total": data.name || "VALUE 1"
+                    },
+                    {
+                        "title": "top dates",
+                        "total": data.date || new Date()
+                    }
+                ]
             }
         };
 
@@ -25,6 +34,7 @@ window.MyMetricView = countlyView.extend({
 
             //build template with data
             $(this.el).html(this.template(this.templateData));
+            CountlyHelpers.applyColors();
 
             //create datatable with chart data
             this.dtable = $('.d-table').dataTable($.extend({}, $.fn.dataTable.defaults, {
@@ -33,8 +43,19 @@ window.MyMetricView = countlyView.extend({
 
                 //specify which columns to show
                 "aoColumns": [
-                    { "mData": "mymetric", sType: "session-duration", "sTitle": jQuery.i18n.map["mymetric.title"] },
-                    { "mData": "t", sType: "formatted-num", "mRender": function(d) { return countlyCommon.formatNumber(d); }, "sTitle": jQuery.i18n.map["common.table.total-sessions"] }
+                    {
+                        "mData": "mymetric",
+                        sType: "session-duration",
+                        "sTitle": jQuery.i18n.map["mymetric.title"]
+                    },
+                    {
+                        "mData": "t",
+                        sType: "formatted-num",
+                        "mRender": function(d) {
+                            return countlyCommon.formatNumber(d);
+                        },
+                        "sTitle": "count"
+                    }
                 ]
             }));
 
@@ -42,10 +63,10 @@ window.MyMetricView = countlyView.extend({
             $(".d-table").stickyTableHeaders();
 
             //draw chart with total data
-            countlyCommon.drawGraph(data.chartDPTotal, "#dashboard-graph", "pie");
+            countlyCommon.drawGraph(data.chartDPTotal, "#dashboard-graph", "line");
 
             //draw chart with new data
-            countlyCommon.drawGraph(data.chartDPNew, "#dashboard-graph2", "pie");
+            countlyCommon.drawGraph(data.chartDPNew, "#dashboard-graph2", "line");
         }
     },
 
@@ -64,8 +85,8 @@ window.MyMetricView = countlyView.extend({
             var data = countlyMyMetric.getData();
 
             //refresh charts
-            countlyCommon.drawGraph(data.chartDPTotal, "#dashboard-graph", "pie");
-            countlyCommon.drawGraph(data.chartDPNew, "#dashboard-graph2", "pie");
+            countlyCommon.drawGraph(data.chartDPTotal, "#dashboard-graph", "line");
+            countlyCommon.drawGraph(data.chartDPNew, "#dashboard-graph2", "line");
 
             //refresh datatables
             CountlyHelpers.refreshTable(self.dtable, data.chartData);

@@ -11,7 +11,7 @@
         //returning promise
         return $.ajax({
             type: "GET",
-            url: "/o",
+            url: "/o/my-metric",
             data: {
                 //providing current user's api key
                 "api_key": countlyGlobal.member.api_key,
@@ -27,10 +27,26 @@
         });
     };
 
+    countlyMyMetric.store = function(my_metric, my_metric_count) {
+        return $.ajax({
+            type: "POST",
+            url: "/i/my-metric",
+            data: {
+                "api_key": countlyGlobal.member.api_key,
+                "app_id": countlyCommon.ACTIVE_APP_ID,
+                "my_metric": my_metric,
+                "my_metric_count": my_metric_count
+            },
+            success: function(json) {
+                return json;
+            }
+        });
+    };
+
     //return data that we have
     countlyMyMetric.getData = function() {
         return _data;
     };
 
-});
-CountlyHelpers.createMetricModel(window.countlyMyMetric = window.countlyMyMetric || {}, "mymetric", jQuery);
+}(window.countlyMyMetric = window.countlyMyMetric || {}, jQuery));
+// CountlyHelpers.createMetricModel(window.countlyMyMetric = window.countlyMyMetric || {}, "mymetric", jQuery);
