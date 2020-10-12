@@ -36,7 +36,7 @@
                 "app_id": countlyCommon.ACTIVE_APP_ID,
                 "my_metric": my_metric,
                 "my_metric_count": parseInt(my_metric_count),
-                "created": Date.now()
+                "created": new Date().getTime()
             },
             success: function(json) {
                 return json;

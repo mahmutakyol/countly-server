@@ -20,11 +20,14 @@ window.MyMetricView = countlyView.extend({
                 "items": [
                     {
                         "title": "top metric values",
-                        "total": data.name || "VALUE 1"
+                        "total": top3elements[0].my_metric
                     },
                     {
                         "title": "top dates",
-                        "total": data.date || new Date()
+                        "total": new Date(top3elements[0].created * 1000).toLocaleDateString('en-US', {
+                            day: '2-digit',
+                            month: 'long',
+                        })
                     }
                 ]
             }
@@ -45,10 +48,9 @@ window.MyMetricView = countlyView.extend({
                 //specify which columns to show
                 "aoColumns": [
                     {
-                        "mData": "mymetric",
-                        sType: "my_metric",
-                        // "sTitle": jQuery.i18n.map["mymetric.date"]
-                        "sTitle": "date"
+                        "mData": "date",
+                        sType: "created",
+                        "sTitle": jQuery.i18n.map["common.date"]
                     },
                     {
                         "mData": "t",
@@ -56,7 +58,6 @@ window.MyMetricView = countlyView.extend({
                         "mRender": function(d) {
                             return countlyCommon.formatNumber(d);
                         },
-                        // "sTitle": jQuery.i18n.map["mymetric.count"]
                         "sTitle": "count"
                     }
                 ]
@@ -75,25 +76,25 @@ window.MyMetricView = countlyView.extend({
 
     //refreshing out chart
     refresh: function() {
-        var self = this;
-        $.when(countlyMyMetric.refresh()).then(function() {
+        // var self = this;
+        // $.when(countlyMyMetric.refresh()).then(function() {
 
-            //populate and regenerate template data
-            self.renderCommon(true);
+        //     //populate and regenerate template data
+        //     self.renderCommon(true);
 
-            //replace existing elements in view with new data
-            var newPage = $("<div>" + self.template(self.templateData) + "</div>");
-            $(self.el).find(".dashboard-summary").replaceWith(newPage.find(".dashboard-summary"));
+        //     //replace existing elements in view with new data
+        //     var newPage = $("<div>" + self.template(self.templateData) + "</div>");
+        //     $(self.el).find(".dashboard-summary").replaceWith(newPage.find(".dashboard-summary"));
 
-            var data = countlyMyMetric.getData();
+        //     var data = countlyMyMetric.getData();
 
-            //refresh charts
-            countlyCommon.drawGraph(data.chartDPTotal, "#dashboard-graph", "line");
-            countlyCommon.drawGraph(data.chartDPNew, "#dashboard-graph2", "line");
+        //     //refresh charts
+        //     countlyCommon.drawGraph(data.chartDPTotal, "#dashboard-graph", "line");
+        //     countlyCommon.drawGraph(data.chartDPNew, "#dashboard-graph2", "line");
 
-            //refresh datatables
-            CountlyHelpers.refreshTable(self.dtable, data.chartData);
-        });
+        //     //refresh datatables
+        //     CountlyHelpers.refreshTable(self.dtable, data.chartData);
+        // });
     }
 });
 
