@@ -4679,3 +4679,1177 @@ Error: Cannot find module './myMetric/api/api'
 2020-10-12T20:44:38.510Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
 2020-10-12T20:44:38.567Z: INFO	[jobs:handle]	Starting job handle in 26444
 2020-10-12T20:44:38.610Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+2020-10-12T20:44:40.358Z: INFO	[jobs:job]	Replacing jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-12T20:44:40.375Z: INFO	[jobs:job]	Cancelled 1 previous jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-12T20:44:40.383Z: INFO	[jobs:job]	No job to replace, inserting {"name":"assistant:generate","created":1602535480341,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602536400000}
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Starting worker 26437 parent: 26402
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Starting worker 26444 parent: 26402
+2020-10-12T20:44:47.341Z: INFO	[jobs:job]	Replacing jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-12T20:44:47.345Z: INFO	[jobs:job]	Replacing jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-12T20:44:47.347Z: INFO	[jobs:job]	Replacing jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-12T20:44:47.348Z: INFO	[jobs:job]	Replacing jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-12T20:44:47.349Z: INFO	[jobs:job]	Replacing jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-12T20:44:47.350Z: INFO	[jobs:job]	Replacing jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-12T20:44:47.351Z: INFO	[jobs:job]	Replacing jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-12T20:44:47.352Z: INFO	[jobs:job]	Replacing jobs api:task ({"status":0,"name":"api:task"})
+2020-10-12T20:44:47.353Z: INFO	[jobs:job]	Cancelled 1 previous jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-12T20:44:47.355Z: INFO	[jobs:job]	Cancelled 1 previous jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-12T20:44:47.357Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-12T20:44:47.358Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-12T20:44:47.360Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-12T20:44:47.362Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-12T20:44:47.363Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-12T20:44:47.364Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:task ({"status":0,"name":"api:task"})
+2020-10-12T20:44:47.366Z: INFO	[jobs:job]	No job to replace, inserting {"name":"reports:send","created":1602535487339,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602535487340}
+2020-10-12T20:44:47.367Z: INFO	[jobs:job]	No job to replace, inserting {"name":"server-stats:stats","created":1602535487344,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535487345}
+2020-10-12T20:44:47.369Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:ping","created":1602535487348,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535487348}
+2020-10-12T20:44:47.370Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:topEvents","created":1602535487346,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535487347}
+2020-10-12T20:44:47.371Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clear","created":1602535487349,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535487349}
+2020-10-12T20:44:47.373Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearTokens","created":1602535487350,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535487350}
+2020-10-12T20:44:47.375Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearAutoTasks","created":1602535487351,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535487351}
+2020-10-12T20:44:47.376Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:task","created":1602535487352,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602535500000}
+2020-10-12T20:44:48.009Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c03f29168d67228044f9","name":"reports:send","created":1602535487339,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602535487340}
+2020-10-12T20:44:48.015Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c03f29168d67228044fa","name":"server-stats:stats","created":1602535487344,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535487345}
+2020-10-12T20:44:48.019Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c03f29168d67228044fc","name":"api:topEvents","created":1602535487346,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535487347}
+2020-10-12T20:44:48.023Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c03f29168d67228044fb","name":"api:ping","created":1602535487348,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535487348}
+2020-10-12T20:44:48.032Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c03f29168d67228044fd","name":"api:clear","created":1602535487349,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535487349}
+2020-10-12T20:44:48.043Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c03f29168d67228044fe","name":"api:clearTokens","created":1602535487350,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535487350}
+2020-10-12T20:44:48.059Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c03f29168d67228044ff","name":"api:clearAutoTasks","created":1602535487351,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535487351}
+2020-10-12T20:45:00.143Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c03f29168d6722804500","name":"api:task","created":1602535487352,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602535500000}
+2020-10-12T20:50:00.771Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c03f29168d6722804500","name":"api:task","created":1602535487352,"status":0,"started":1602535500146,"finished":1602535500155,"duration":13,"data":{},"schedule":"every 5 minutes","next":1602535800000,"modified":1602535500159,"error":null}
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Got signal: SIGTERM
+Successfully stored batch state
+2020-10-12T20:51:58.648Z: INFO	[jobs:manager]	Starting job manager in 27025
+2020-10-12T20:51:58.690Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+Starting master
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+2020-10-12T20:52:01.295Z: INFO	[jobs:ipc:27025]	Attached to cluster in Central 27025
+2020-10-12T20:52:01.643Z: INFO	[jobs:manager]	Found 17 job types, starting monitoring: ["api:clear","api:clearAutoTasks","api:clearTokens","api:ipcTest","api:ping","api:task","api:test","api:topEvents","api:userMerge","reports:send","push:clear","push:process","push:schedule","push:validate","server-stats:stats","assistant:generate","alerts:monitor"]
+2020-10-12T20:52:01.723Z: INFO	[jobs:ipc:27025]	Worker started: 27060
+2020-10-12T20:52:01.724Z: INFO	[jobs:ipc:27025]	Worker started: 27066
+2020-10-12T20:52:01.921Z: INFO	[jobs:manager]	Cancelling 0 jobs
+2020-10-12T20:52:02.248Z: INFO	[jobs:handle]	Starting job handle in 27060
+2020-10-12T20:52:02.288Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+2020-10-12T20:52:02.416Z: INFO	[jobs:handle]	Starting job handle in 27066
+2020-10-12T20:52:02.457Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+2020-10-12T20:52:04.376Z: INFO	[jobs:job]	Replacing jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-12T20:52:04.398Z: INFO	[jobs:job]	Cancelled 1 previous jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-12T20:52:04.402Z: INFO	[jobs:job]	No job to replace, inserting {"name":"assistant:generate","created":1602535924366,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602536400000}
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Starting worker 27060 parent: 27025
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Starting worker 27066 parent: 27025
+2020-10-12T20:52:11.366Z: INFO	[jobs:job]	Replacing jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-12T20:52:11.370Z: INFO	[jobs:job]	Replacing jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-12T20:52:11.371Z: INFO	[jobs:job]	Replacing jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-12T20:52:11.373Z: INFO	[jobs:job]	Replacing jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-12T20:52:11.374Z: INFO	[jobs:job]	Replacing jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-12T20:52:11.375Z: INFO	[jobs:job]	Replacing jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-12T20:52:11.376Z: INFO	[jobs:job]	Replacing jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-12T20:52:11.377Z: INFO	[jobs:job]	Replacing jobs api:task ({"status":0,"name":"api:task"})
+2020-10-12T20:52:11.378Z: INFO	[jobs:job]	Cancelled 1 previous jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-12T20:52:11.380Z: INFO	[jobs:job]	Cancelled 1 previous jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-12T20:52:11.382Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-12T20:52:11.384Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-12T20:52:11.385Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-12T20:52:11.386Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-12T20:52:11.388Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-12T20:52:11.390Z: INFO	[jobs:job]	No job to replace, inserting {"name":"reports:send","created":1602535931364,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602535931365}
+2020-10-12T20:52:11.391Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:task ({"status":0,"name":"api:task"})
+2020-10-12T20:52:11.392Z: INFO	[jobs:job]	No job to replace, inserting {"name":"server-stats:stats","created":1602535931368,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535931369}
+2020-10-12T20:52:11.394Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:ping","created":1602535931372,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535931372}
+2020-10-12T20:52:11.395Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:topEvents","created":1602535931371,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535931371}
+2020-10-12T20:52:11.397Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clear","created":1602535931373,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535931374}
+2020-10-12T20:52:11.399Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearAutoTasks","created":1602535931376,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535931376}
+2020-10-12T20:52:11.399Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearTokens","created":1602535931374,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535931375}
+2020-10-12T20:52:11.401Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:task","created":1602535931376,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602536100000}
+2020-10-12T20:52:11.995Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c1fb61caa3699153b8ac","name":"reports:send","created":1602535931364,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602535931365}
+2020-10-12T20:52:12.002Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c1fb61caa3699153b8ad","name":"server-stats:stats","created":1602535931368,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535931369}
+2020-10-12T20:52:12.007Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c1fb61caa3699153b8af","name":"api:topEvents","created":1602535931371,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535931371}
+2020-10-12T20:52:12.024Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c1fb61caa3699153b8ae","name":"api:ping","created":1602535931372,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535931372}
+2020-10-12T20:52:12.035Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c1fb61caa3699153b8b0","name":"api:clear","created":1602535931373,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535931374}
+2020-10-12T20:52:12.052Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c1fb61caa3699153b8b2","name":"api:clearTokens","created":1602535931374,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535931375}
+2020-10-12T20:52:12.062Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c1fb61caa3699153b8b1","name":"api:clearAutoTasks","created":1602535931376,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602535931376}
+Got signal: SIGTERM
+Successfully stored batch state
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+2020-10-12T20:54:04.962Z: INFO	[jobs:manager]	Starting job manager in 27346
+2020-10-12T20:54:05.004Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+Starting master
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+2020-10-12T20:54:07.737Z: INFO	[jobs:ipc:27346]	Attached to cluster in Central 27346
+2020-10-12T20:54:07.953Z: INFO	[jobs:manager]	Found 17 job types, starting monitoring: ["api:clear","api:clearAutoTasks","api:clearTokens","api:ipcTest","api:ping","api:task","api:test","api:topEvents","api:userMerge","reports:send","push:clear","push:process","push:schedule","push:validate","server-stats:stats","assistant:generate","alerts:monitor"]
+2020-10-12T20:54:08.139Z: INFO	[jobs:ipc:27346]	Worker started: 27382
+2020-10-12T20:54:08.170Z: INFO	[jobs:manager]	Cancelling 0 jobs
+2020-10-12T20:54:08.193Z: INFO	[jobs:ipc:27346]	Worker started: 27388
+2020-10-12T20:54:09.123Z: INFO	[jobs:handle]	Starting job handle in 27382
+2020-10-12T20:54:09.194Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+2020-10-12T20:54:09.421Z: INFO	[jobs:handle]	Starting job handle in 27388
+2020-10-12T20:54:09.471Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+2020-10-12T20:54:10.862Z: INFO	[jobs:job]	Replacing jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-12T20:54:10.885Z: INFO	[jobs:job]	Cancelled 1 previous jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-12T20:54:10.906Z: INFO	[jobs:job]	No job to replace, inserting {"name":"assistant:generate","created":1602536050841,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602536400000}
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Starting worker 27388 parent: 27346
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Starting worker 27382 parent: 27346
+2020-10-12T20:54:17.807Z: INFO	[jobs:job]	Replacing jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-12T20:54:17.811Z: INFO	[jobs:job]	Cancelled 1 previous jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-12T20:54:17.814Z: INFO	[jobs:job]	No job to replace, inserting {"name":"reports:send","created":1602536057806,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602536057807}
+2020-10-12T20:54:17.841Z: INFO	[jobs:job]	Replacing jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-12T20:54:17.845Z: INFO	[jobs:job]	Replacing jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-12T20:54:17.846Z: INFO	[jobs:job]	Replacing jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-12T20:54:17.847Z: INFO	[jobs:job]	Replacing jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-12T20:54:17.848Z: INFO	[jobs:job]	Replacing jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-12T20:54:17.849Z: INFO	[jobs:job]	Replacing jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-12T20:54:17.850Z: INFO	[jobs:job]	Replacing jobs api:task ({"status":0,"name":"api:task"})
+2020-10-12T20:54:17.851Z: INFO	[jobs:job]	Cancelled 1 previous jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-12T20:54:17.853Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-12T20:54:17.855Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-12T20:54:17.856Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-12T20:54:17.858Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-12T20:54:17.861Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-12T20:54:17.862Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:task ({"status":0,"name":"api:task"})
+2020-10-12T20:54:17.864Z: INFO	[jobs:job]	No job to replace, inserting {"name":"server-stats:stats","created":1602536057840,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536057840}
+2020-10-12T20:54:17.865Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:topEvents","created":1602536057845,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536057845}
+2020-10-12T20:54:17.867Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:ping","created":1602536057846,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536057846}
+2020-10-12T20:54:17.868Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clear","created":1602536057847,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536057847}
+2020-10-12T20:54:17.869Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearAutoTasks","created":1602536057849,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536057849}
+2020-10-12T20:54:17.871Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:task","created":1602536057849,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602536100000}
+2020-10-12T20:54:17.872Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearTokens","created":1602536057848,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536057848}
+2020-10-12T20:54:18.223Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c27994c5ce6ad2f2e50d","name":"reports:send","created":1602536057806,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602536057807}
+2020-10-12T20:54:18.230Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c27994c5ce6ad2f2e50e","name":"server-stats:stats","created":1602536057840,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536057840}
+2020-10-12T20:54:18.235Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c27994c5ce6ad2f2e50f","name":"api:topEvents","created":1602536057845,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536057845}
+2020-10-12T20:54:18.239Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c27994c5ce6ad2f2e510","name":"api:ping","created":1602536057846,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536057846}
+2020-10-12T20:54:18.248Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c27994c5ce6ad2f2e511","name":"api:clear","created":1602536057847,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536057847}
+2020-10-12T20:54:18.260Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c27994c5ce6ad2f2e514","name":"api:clearTokens","created":1602536057848,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536057848}
+2020-10-12T20:54:18.279Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c27994c5ce6ad2f2e512","name":"api:clearAutoTasks","created":1602536057849,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536057849}
+2020-10-12T20:55:00.534Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c27994c5ce6ad2f2e513","name":"api:task","created":1602536057849,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602536100000}
+2020-10-12T21:00:00.147Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c27294c5ce6ad2f2e50c","name":"assistant:generate","created":1602536050841,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602536400000}
+2020-10-12T21:00:00.150Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c27994c5ce6ad2f2e50d","name":"reports:send","created":1602536057806,"status":0,"started":1602536058232,"finished":1602536058247,"duration":32,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602536400000,"modified":1602536058264,"error":null}
+2020-10-12T21:00:00.156Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c27994c5ce6ad2f2e513","name":"api:task","created":1602536057849,"status":0,"started":1602536100538,"finished":1602536100546,"duration":10,"data":{},"schedule":"every 5 minutes","next":1602536400000,"modified":1602536100548,"error":null}
+2020-10-12T21:05:00.736Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c27994c5ce6ad2f2e513","name":"api:task","created":1602536057849,"status":0,"started":1602536400161,"finished":1602536400267,"duration":276,"data":{},"schedule":"every 5 minutes","next":1602536700000,"modified":1602536400437,"error":null}
+Got signal: SIGTERM
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Successfully stored batch state
+Exiting due to master exited
+Got signal: SIGTERM
+Successfully stored batch state
+2020-10-12T21:07:49.806Z: INFO	[jobs:manager]	Starting job manager in 28574
+2020-10-12T21:07:49.854Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+Starting master
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+2020-10-12T21:07:54.083Z: INFO	[jobs:ipc:28574]	Attached to cluster in Central 28574
+2020-10-12T21:07:54.570Z: INFO	[jobs:manager]	Found 17 job types, starting monitoring: ["api:clear","api:clearAutoTasks","api:clearTokens","api:ipcTest","api:ping","api:task","api:test","api:topEvents","api:userMerge","reports:send","push:clear","push:process","push:schedule","push:validate","server-stats:stats","assistant:generate","alerts:monitor"]
+2020-10-12T21:07:54.608Z: INFO	[jobs:ipc:28574]	Worker started: 28622
+2020-10-12T21:07:54.609Z: INFO	[jobs:ipc:28574]	Worker started: 28615
+2020-10-12T21:07:54.792Z: INFO	[jobs:manager]	Cancelling 0 jobs
+2020-10-12T21:07:55.221Z: INFO	[jobs:handle]	Starting job handle in 28622
+2020-10-12T21:07:55.260Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+2020-10-12T21:07:55.270Z: INFO	[jobs:handle]	Starting job handle in 28615
+2020-10-12T21:07:55.308Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+Got signal: SIGTERM
+Successfully stored batch state
+2020-10-12T21:07:57.701Z: INFO	[jobs:manager]	Starting job manager in 28669
+2020-10-12T21:07:57.752Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+Starting master
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+2020-10-12T21:08:00.138Z: INFO	[jobs:ipc:28669]	Attached to cluster in Central 28669
+2020-10-12T21:08:00.368Z: INFO	[jobs:manager]	Found 17 job types, starting monitoring: ["api:clear","api:clearAutoTasks","api:clearTokens","api:ipcTest","api:ping","api:task","api:test","api:topEvents","api:userMerge","reports:send","push:clear","push:process","push:schedule","push:validate","server-stats:stats","assistant:generate","alerts:monitor"]
+2020-10-12T21:08:00.565Z: INFO	[jobs:ipc:28669]	Worker started: 28713
+2020-10-12T21:08:00.566Z: INFO	[jobs:ipc:28669]	Worker started: 28707
+2020-10-12T21:08:00.639Z: INFO	[jobs:manager]	Cancelling 0 jobs
+2020-10-12T21:08:01.530Z: INFO	[jobs:handle]	Starting job handle in 28707
+2020-10-12T21:08:01.573Z: INFO	[jobs:handle]	Starting job handle in 28713
+2020-10-12T21:08:01.577Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+2020-10-12T21:08:01.649Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+2020-10-12T21:08:03.265Z: INFO	[jobs:job]	Replacing jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-12T21:08:03.326Z: INFO	[jobs:job]	Cancelled 1 previous jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-12T21:08:03.342Z: INFO	[jobs:job]	No job to replace, inserting {"name":"assistant:generate","created":1602536883214,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602538200000}
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Starting worker 28707 parent: 28669
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Starting worker 28713 parent: 28669
+2020-10-12T21:08:10.207Z: INFO	[jobs:job]	Replacing jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-12T21:08:10.214Z: INFO	[jobs:job]	Cancelled 1 previous jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-12T21:08:10.217Z: INFO	[jobs:job]	Replacing jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-12T21:08:10.226Z: INFO	[jobs:job]	Replacing jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-12T21:08:10.227Z: INFO	[jobs:job]	Replacing jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-12T21:08:10.228Z: INFO	[jobs:job]	Replacing jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-12T21:08:10.229Z: INFO	[jobs:job]	Replacing jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-12T21:08:10.242Z: INFO	[jobs:job]	Replacing jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-12T21:08:10.243Z: INFO	[jobs:job]	Replacing jobs api:task ({"status":0,"name":"api:task"})
+2020-10-12T21:08:10.244Z: INFO	[jobs:job]	No job to replace, inserting {"name":"reports:send","created":1602536890206,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602536890207}
+2020-10-12T21:08:10.267Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-12T21:08:10.268Z: INFO	[jobs:job]	Cancelled 1 previous jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-12T21:08:10.272Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-12T21:08:10.279Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-12T21:08:10.279Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-12T21:08:10.280Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-12T21:08:10.292Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:task ({"status":0,"name":"api:task"})
+2020-10-12T21:08:10.294Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:ping","created":1602536890226,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536890226}
+2020-10-12T21:08:10.299Z: INFO	[jobs:job]	No job to replace, inserting {"name":"server-stats:stats","created":1602536890216,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536890217}
+2020-10-12T21:08:10.301Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:topEvents","created":1602536890225,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536890225}
+2020-10-12T21:08:10.302Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clear","created":1602536890227,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536890227}
+2020-10-12T21:08:10.305Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearTokens","created":1602536890228,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536890228}
+2020-10-12T21:08:10.311Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearAutoTasks","created":1602536890235,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536890242}
+2020-10-12T21:08:10.312Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:task","created":1602536890243,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602537000000}
+2020-10-12T21:08:10.694Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c5ba493c6b6ffdb19fc6","name":"reports:send","created":1602536890206,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602536890207}
+2020-10-12T21:08:10.706Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c5ba493c6b6ffdb19fc8","name":"server-stats:stats","created":1602536890216,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536890217}
+2020-10-12T21:08:10.715Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c5ba493c6b6ffdb19fc9","name":"api:topEvents","created":1602536890225,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536890225}
+2020-10-12T21:08:10.724Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c5ba493c6b6ffdb19fc7","name":"api:ping","created":1602536890226,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536890226}
+2020-10-12T21:08:10.748Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c5ba493c6b6ffdb19fca","name":"api:clear","created":1602536890227,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536890227}
+2020-10-12T21:08:10.767Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c5ba493c6b6ffdb19fcb","name":"api:clearTokens","created":1602536890228,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536890228}
+2020-10-12T21:08:10.782Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c5ba493c6b6ffdb19fcc","name":"api:clearAutoTasks","created":1602536890235,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536890242}
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Got signal: SIGTERM
+Successfully stored batch state
+2020-10-12T21:09:07.161Z: INFO	[jobs:manager]	Starting job manager in 28839
+2020-10-12T21:09:07.199Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+Starting master
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+2020-10-12T21:09:11.600Z: INFO	[jobs:ipc:28839]	Attached to cluster in Central 28839
+2020-10-12T21:09:12.143Z: INFO	[jobs:manager]	Found 17 job types, starting monitoring: ["api:clear","api:clearAutoTasks","api:clearTokens","api:ipcTest","api:ping","api:task","api:test","api:topEvents","api:userMerge","reports:send","push:clear","push:process","push:schedule","push:validate","server-stats:stats","assistant:generate","alerts:monitor"]
+2020-10-12T21:09:12.293Z: INFO	[jobs:ipc:28839]	Worker started: 28881
+2020-10-12T21:09:12.558Z: INFO	[jobs:ipc:28839]	Worker started: 28887
+2020-10-12T21:09:12.653Z: INFO	[jobs:manager]	Cancelling 0 jobs
+2020-10-12T21:09:13.216Z: INFO	[jobs:handle]	Starting job handle in 28887
+2020-10-12T21:09:13.257Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+2020-10-12T21:09:13.265Z: INFO	[jobs:handle]	Starting job handle in 28881
+2020-10-12T21:09:13.309Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+2020-10-12T21:09:14.770Z: INFO	[jobs:job]	Replacing jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-12T21:09:14.801Z: INFO	[jobs:job]	Cancelled 1 previous jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-12T21:09:14.806Z: INFO	[jobs:job]	No job to replace, inserting {"name":"assistant:generate","created":1602536954734,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602538200000}
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Starting worker 28881 parent: 28839
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Starting worker 28887 parent: 28839
+2020-10-12T21:09:21.734Z: INFO	[jobs:job]	Replacing jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-12T21:09:21.738Z: INFO	[jobs:job]	Replacing jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-12T21:09:21.739Z: INFO	[jobs:job]	Replacing jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-12T21:09:21.740Z: INFO	[jobs:job]	Replacing jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-12T21:09:21.752Z: INFO	[jobs:job]	Replacing jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-12T21:09:21.755Z: INFO	[jobs:job]	Replacing jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-12T21:09:21.757Z: INFO	[jobs:job]	Replacing jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-12T21:09:21.758Z: INFO	[jobs:job]	Replacing jobs api:task ({"status":0,"name":"api:task"})
+2020-10-12T21:09:21.759Z: INFO	[jobs:job]	Cancelled 1 previous jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-12T21:09:21.768Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-12T21:09:21.770Z: INFO	[jobs:job]	Cancelled 1 previous jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-12T21:09:21.774Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-12T21:09:21.780Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-12T21:09:21.783Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-12T21:09:21.784Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-12T21:09:21.791Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:task ({"status":0,"name":"api:task"})
+2020-10-12T21:09:21.793Z: INFO	[jobs:job]	No job to replace, inserting {"name":"reports:send","created":1602536961730,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602536961733}
+2020-10-12T21:09:21.794Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:ping","created":1602536961740,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536961740}
+2020-10-12T21:09:21.816Z: INFO	[jobs:job]	No job to replace, inserting {"name":"server-stats:stats","created":1602536961737,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536961738}
+2020-10-12T21:09:21.817Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:topEvents","created":1602536961739,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536961739}
+2020-10-12T21:09:21.819Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clear","created":1602536961751,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536961752}
+2020-10-12T21:09:21.827Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearTokens","created":1602536961755,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536961755}
+2020-10-12T21:09:21.828Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearAutoTasks","created":1602536961756,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536961757}
+2020-10-12T21:09:21.829Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:task","created":1602536961758,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602537000000}
+2020-10-12T21:09:22.743Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c601fbe9a070a779eabe","name":"reports:send","created":1602536961730,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602536961733}
+2020-10-12T21:09:22.758Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c601fbe9a070a779eac0","name":"server-stats:stats","created":1602536961737,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536961738}
+2020-10-12T21:09:22.767Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c601fbe9a070a779eac1","name":"api:topEvents","created":1602536961739,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536961739}
+2020-10-12T21:09:22.781Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c601fbe9a070a779eabf","name":"api:ping","created":1602536961740,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536961740}
+2020-10-12T21:09:22.797Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c601fbe9a070a779eac2","name":"api:clear","created":1602536961751,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536961752}
+2020-10-12T21:09:22.819Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c601fbe9a070a779eac3","name":"api:clearTokens","created":1602536961755,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536961755}
+2020-10-12T21:09:22.833Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c601fbe9a070a779eac4","name":"api:clearAutoTasks","created":1602536961756,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602536961757}
+2020-10-12T21:10:00.087Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c601fbe9a070a779eac5","name":"api:task","created":1602536961758,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602537000000}
+Got signal: SIGTERM
+Successfully stored batch state
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+2020-10-12T21:10:13.249Z: INFO	[jobs:manager]	Starting job manager in 29038
+2020-10-12T21:10:13.297Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+Starting master
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+2020-10-12T21:10:16.336Z: INFO	[jobs:ipc:29038]	Attached to cluster in Central 29038
+2020-10-12T21:10:16.639Z: INFO	[jobs:manager]	Found 17 job types, starting monitoring: ["api:clear","api:clearAutoTasks","api:clearTokens","api:ipcTest","api:ping","api:task","api:test","api:topEvents","api:userMerge","reports:send","push:clear","push:process","push:schedule","push:validate","server-stats:stats","assistant:generate","alerts:monitor"]
+2020-10-12T21:10:16.707Z: INFO	[jobs:ipc:29038]	Worker started: 29081
+2020-10-12T21:10:16.708Z: INFO	[jobs:ipc:29038]	Worker started: 29074
+2020-10-12T21:10:16.929Z: INFO	[jobs:manager]	Cancelling 0 jobs
+2020-10-12T21:10:17.382Z: INFO	[jobs:handle]	Starting job handle in 29074
+2020-10-12T21:10:17.447Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+2020-10-12T21:10:17.486Z: INFO	[jobs:handle]	Starting job handle in 29081
+2020-10-12T21:10:17.528Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+2020-10-12T21:10:19.440Z: INFO	[jobs:job]	Replacing jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-12T21:10:19.464Z: INFO	[jobs:job]	Cancelled 1 previous jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-12T21:10:19.470Z: INFO	[jobs:job]	No job to replace, inserting {"name":"assistant:generate","created":1602537019412,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602538200000}
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Starting worker 29074 parent: 29038
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Starting worker 29081 parent: 29038
+2020-10-12T21:10:26.415Z: INFO	[jobs:job]	Replacing jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-12T21:10:26.418Z: INFO	[jobs:job]	Replacing jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-12T21:10:26.427Z: INFO	[jobs:job]	Replacing jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-12T21:10:26.430Z: INFO	[jobs:job]	Replacing jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-12T21:10:26.433Z: INFO	[jobs:job]	Replacing jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-12T21:10:26.434Z: INFO	[jobs:job]	Replacing jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-12T21:10:26.435Z: INFO	[jobs:job]	Replacing jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-12T21:10:26.437Z: INFO	[jobs:job]	Replacing jobs api:task ({"status":0,"name":"api:task"})
+2020-10-12T21:10:26.438Z: INFO	[jobs:job]	Cancelled 1 previous jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-12T21:10:26.449Z: INFO	[jobs:job]	Cancelled 1 previous jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-12T21:10:26.455Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-12T21:10:26.457Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-12T21:10:26.458Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-12T21:10:26.465Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-12T21:10:26.466Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-12T21:10:26.467Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:task ({"status":0,"name":"api:task"})
+2020-10-12T21:10:26.471Z: INFO	[jobs:job]	No job to replace, inserting {"name":"server-stats:stats","created":1602537026417,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537026417}
+2020-10-12T21:10:26.472Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:ping","created":1602537026429,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537026429}
+2020-10-12T21:10:26.474Z: INFO	[jobs:job]	No job to replace, inserting {"name":"reports:send","created":1602537026413,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602537026414}
+2020-10-12T21:10:26.483Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clear","created":1602537026431,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537026432}
+2020-10-12T21:10:26.485Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:topEvents","created":1602537026426,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537026427}
+2020-10-12T21:10:26.488Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearTokens","created":1602537026434,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537026434}
+2020-10-12T21:10:26.494Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearAutoTasks","created":1602537026435,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537026435}
+2020-10-12T21:10:26.495Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:task","created":1602537026436,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602537026437}
+2020-10-12T21:10:26.981Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c642cb400d716ec77b9c","name":"reports:send","created":1602537026413,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602537026414}
+2020-10-12T21:10:26.991Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c642cb400d716ec77b9a","name":"server-stats:stats","created":1602537026417,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537026417}
+2020-10-12T21:10:27.000Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c642cb400d716ec77b9e","name":"api:topEvents","created":1602537026426,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537026427}
+2020-10-12T21:10:27.022Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c642cb400d716ec77b9b","name":"api:ping","created":1602537026429,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537026429}
+2020-10-12T21:10:27.035Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c642cb400d716ec77b9d","name":"api:clear","created":1602537026431,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537026432}
+2020-10-12T21:10:27.058Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c642cb400d716ec77b9f","name":"api:clearTokens","created":1602537026434,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537026434}
+2020-10-12T21:10:27.111Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c642cb400d716ec77ba0","name":"api:clearAutoTasks","created":1602537026435,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537026435}
+2020-10-12T21:10:27.148Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c642cb400d716ec77ba1","name":"api:task","created":1602537026436,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602537026437}
+Got signal: SIGTERM
+Successfully stored batch state
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+2020-10-12T21:12:21.626Z: INFO	[jobs:manager]	Starting job manager in 29303
+2020-10-12T21:12:21.670Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+Starting master
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+2020-10-12T21:12:24.548Z: INFO	[jobs:ipc:29303]	Attached to cluster in Central 29303
+2020-10-12T21:12:24.861Z: INFO	[jobs:manager]	Found 17 job types, starting monitoring: ["api:clear","api:clearAutoTasks","api:clearTokens","api:ipcTest","api:ping","api:task","api:test","api:topEvents","api:userMerge","reports:send","push:clear","push:process","push:schedule","push:validate","server-stats:stats","assistant:generate","alerts:monitor"]
+2020-10-12T21:12:24.913Z: INFO	[jobs:ipc:29303]	Worker started: 29330
+2020-10-12T21:12:24.914Z: INFO	[jobs:ipc:29303]	Worker started: 29342
+2020-10-12T21:12:25.069Z: INFO	[jobs:manager]	Cancelling 0 jobs
+2020-10-12T21:12:25.543Z: INFO	[jobs:handle]	Starting job handle in 29330
+2020-10-12T21:12:25.555Z: INFO	[jobs:handle]	Starting job handle in 29342
+2020-10-12T21:12:25.580Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+2020-10-12T21:12:25.596Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+2020-10-12T21:12:27.649Z: INFO	[jobs:job]	Replacing jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-12T21:12:27.673Z: INFO	[jobs:job]	Cancelled 1 previous jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-12T21:12:27.675Z: INFO	[jobs:job]	No job to replace, inserting {"name":"assistant:generate","created":1602537147623,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602538200000}
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Starting worker 29330 parent: 29303
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Starting worker 29342 parent: 29303
+2020-10-12T21:12:34.620Z: INFO	[jobs:job]	Replacing jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-12T21:12:34.624Z: INFO	[jobs:job]	Replacing jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-12T21:12:34.625Z: INFO	[jobs:job]	Replacing jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-12T21:12:34.626Z: INFO	[jobs:job]	Replacing jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-12T21:12:34.627Z: INFO	[jobs:job]	Replacing jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-12T21:12:34.628Z: INFO	[jobs:job]	Replacing jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-12T21:12:34.629Z: INFO	[jobs:job]	Replacing jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-12T21:12:34.630Z: INFO	[jobs:job]	Replacing jobs api:task ({"status":0,"name":"api:task"})
+2020-10-12T21:12:34.631Z: INFO	[jobs:job]	Cancelled 1 previous jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-12T21:12:34.634Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-12T21:12:34.635Z: INFO	[jobs:job]	Cancelled 1 previous jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-12T21:12:34.636Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-12T21:12:34.639Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-12T21:12:34.641Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:task ({"status":0,"name":"api:task"})
+2020-10-12T21:12:34.642Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-12T21:12:34.643Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-12T21:12:34.645Z: INFO	[jobs:job]	No job to replace, inserting {"name":"reports:send","created":1602537154619,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602537154620}
+2020-10-12T21:12:34.647Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:ping","created":1602537154626,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537154626}
+2020-10-12T21:12:34.648Z: INFO	[jobs:job]	No job to replace, inserting {"name":"server-stats:stats","created":1602537154622,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537154623}
+2020-10-12T21:12:34.650Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:topEvents","created":1602537154624,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537154625}
+2020-10-12T21:12:34.651Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clear","created":1602537154627,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537154627}
+2020-10-12T21:12:34.652Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:task","created":1602537154630,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602537300000}
+2020-10-12T21:12:34.654Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearAutoTasks","created":1602537154629,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537154629}
+2020-10-12T21:12:34.655Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearTokens","created":1602537154628,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537154628}
+2020-10-12T21:12:35.135Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c6c2185baa72775a7396","name":"reports:send","created":1602537154619,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602537154620}
+2020-10-12T21:12:35.149Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c6c2185baa72775a7398","name":"server-stats:stats","created":1602537154622,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537154623}
+2020-10-12T21:12:35.155Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c6c2185baa72775a7399","name":"api:topEvents","created":1602537154624,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537154625}
+2020-10-12T21:12:35.165Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c6c2185baa72775a7397","name":"api:ping","created":1602537154626,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537154626}
+2020-10-12T21:12:35.180Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c6c2185baa72775a739a","name":"api:clear","created":1602537154627,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537154627}
+2020-10-12T21:12:35.198Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c6c2185baa72775a739d","name":"api:clearTokens","created":1602537154628,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537154628}
+2020-10-12T21:12:35.213Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c6c2185baa72775a739c","name":"api:clearAutoTasks","created":1602537154629,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537154629}
+Got signal: SIGTERM
+Got signal: SIGTERM
+Successfully stored batch state
+Successfully stored batch state
+Got signal: SIGTERM
+Successfully stored batch state
+Exiting due to master exited
+Exiting due to master exited
+2020-10-12T21:13:55.141Z: INFO	[jobs:manager]	Starting job manager in 29525
+2020-10-12T21:13:55.275Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+2020-10-12T21:14:00.878Z: INFO	[jobs:manager]	Starting job manager in 29603
+2020-10-12T21:14:00.999Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+Starting master
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+2020-10-12T21:14:05.816Z: INFO	[jobs:ipc:29603]	Attached to cluster in Central 29603
+2020-10-12T21:14:06.369Z: INFO	[jobs:manager]	Found 17 job types, starting monitoring: ["api:clear","api:clearAutoTasks","api:clearTokens","api:ipcTest","api:ping","api:task","api:test","api:topEvents","api:userMerge","reports:send","push:clear","push:process","push:schedule","push:validate","server-stats:stats","assistant:generate","alerts:monitor"]
+2020-10-12T21:14:06.499Z: INFO	[jobs:ipc:29603]	Worker started: 29646
+2020-10-12T21:14:06.694Z: INFO	[jobs:ipc:29603]	Worker started: 29648
+2020-10-12T21:14:06.827Z: INFO	[jobs:manager]	Cancelling 0 jobs
+2020-10-12T21:14:07.793Z: INFO	[jobs:handle]	Starting job handle in 29648
+2020-10-12T21:14:07.817Z: INFO	[jobs:handle]	Starting job handle in 29646
+2020-10-12T21:14:07.899Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+2020-10-12T21:14:07.921Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","EChartMap","makyol","myMetric","mymetric"]
+2020-10-12T21:14:08.975Z: INFO	[jobs:job]	Replacing jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-12T21:14:08.997Z: INFO	[jobs:job]	Cancelled 1 previous jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2020-10-12T21:14:09.014Z: INFO	[jobs:job]	No job to replace, inserting {"name":"assistant:generate","created":1602537248943,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1602538200000}
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Starting worker 29648 parent: 29603
+Error: Cannot find module './makyol/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Error: Cannot find module './myMetric/api/api'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at pluginManager.init (/home/mahmut/Desktop/Countly/countly-server/plugins/pluginManager.js:66:43)
+    at Object.<anonymous> (/home/mahmut/Desktop/Countly/countly-server/api/api.js:122:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+Starting worker 29646 parent: 29603
+2020-10-12T21:14:15.943Z: INFO	[jobs:job]	Replacing jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-12T21:14:15.947Z: INFO	[jobs:job]	Replacing jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-12T21:14:15.949Z: INFO	[jobs:job]	Replacing jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-12T21:14:15.950Z: INFO	[jobs:job]	Replacing jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-12T21:14:15.951Z: INFO	[jobs:job]	Replacing jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-12T21:14:15.956Z: INFO	[jobs:job]	Replacing jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-12T21:14:15.957Z: INFO	[jobs:job]	Replacing jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-12T21:14:15.958Z: INFO	[jobs:job]	Replacing jobs api:task ({"status":0,"name":"api:task"})
+2020-10-12T21:14:15.960Z: INFO	[jobs:job]	Cancelled 1 previous jobs reports:send ({"status":0,"name":"reports:send"})
+2020-10-12T21:14:15.970Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:ping ({"status":0,"name":"api:ping"})
+2020-10-12T21:14:15.972Z: INFO	[jobs:job]	Cancelled 1 previous jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2020-10-12T21:14:15.973Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2020-10-12T21:14:15.981Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clear ({"status":0,"name":"api:clear"})
+2020-10-12T21:14:15.983Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2020-10-12T21:14:15.984Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2020-10-12T21:14:15.993Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:task ({"status":0,"name":"api:task"})
+2020-10-12T21:14:15.995Z: INFO	[jobs:job]	No job to replace, inserting {"name":"reports:send","created":1602537255941,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602537255942}
+2020-10-12T21:14:15.997Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:ping","created":1602537255950,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537255950}
+2020-10-12T21:14:16.007Z: INFO	[jobs:job]	No job to replace, inserting {"name":"server-stats:stats","created":1602537255946,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537255946}
+2020-10-12T21:14:16.008Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:topEvents","created":1602537255948,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537255948}
+2020-10-12T21:14:16.010Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clear","created":1602537255951,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537255951}
+2020-10-12T21:14:16.016Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearTokens","created":1602537255955,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537255955}
+2020-10-12T21:14:16.018Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearAutoTasks","created":1602537255956,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537255957}
+2020-10-12T21:14:16.019Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:task","created":1602537255958,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602537300000}
+2020-10-12T21:14:16.924Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c727ce948e73a385eb29","name":"reports:send","created":1602537255941,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1602537255942}
+2020-10-12T21:14:16.939Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c728ce948e73a385eb2b","name":"server-stats:stats","created":1602537255946,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537255946}
+2020-10-12T21:14:16.945Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c728ce948e73a385eb2c","name":"api:topEvents","created":1602537255948,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537255948}
+2020-10-12T21:14:16.963Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c728ce948e73a385eb2a","name":"api:ping","created":1602537255950,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537255950}
+2020-10-12T21:14:16.994Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c728ce948e73a385eb2d","name":"api:clear","created":1602537255951,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537255951}
+2020-10-12T21:14:17.020Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c728ce948e73a385eb2e","name":"api:clearTokens","created":1602537255955,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537255955}
+2020-10-12T21:14:17.051Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c728ce948e73a385eb2f","name":"api:clearAutoTasks","created":1602537255956,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1602537255957}
+2020-10-12T21:15:00.363Z: INFO	[jobs:manager]	Trying to start job {"_id":"5f84c728ce948e73a385eb30","name":"api:task","created":1602537255958,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1602537300000}

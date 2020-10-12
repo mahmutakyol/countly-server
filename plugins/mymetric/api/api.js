@@ -36,11 +36,9 @@ var plugin = {},
                 });
             });
 
-            //return true, we responded to this request
             return true;
         }
 
-        //else we are not interested in this request
         return false;
     });
 
@@ -57,7 +55,6 @@ var plugin = {},
                     common.returnMessage(params, 200, err);
                 }
                 else {
-                    console.log(app);
                     common.returnMessage(params, 200, "Success");
                 }
             });

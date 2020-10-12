@@ -35,7 +35,8 @@
                 "api_key": countlyGlobal.member.api_key,
                 "app_id": countlyCommon.ACTIVE_APP_ID,
                 "my_metric": my_metric,
-                "my_metric_count": my_metric_count
+                "my_metric_count": parseInt(my_metric_count),
+                "created": Date.now()
             },
             success: function(json) {
                 return json;
@@ -46,6 +47,14 @@
     //return data that we have
     countlyMyMetric.getData = function() {
         return _data;
+    };
+
+    countlyMyMetric.getTopThreeMetricValues = function() {
+        return _data.sort(function(a, b) {
+            if (a < b) { return 1; }
+            else if (a == b) { return 0; }
+            else { return -1; }
+        });
     };
 
 }(window.countlyMyMetric = window.countlyMyMetric || {}, jQuery));

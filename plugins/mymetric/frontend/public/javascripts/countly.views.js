@@ -9,6 +9,7 @@ window.MyMetricView = countlyView.extend({
     renderCommon: function(isRefresh) {
         countlyMyMetric.store("value1", 10);
         var data = countlyMyMetric.getData();
+        var top3elements = countlyMyMetric.getTopThreeMetricValues();
 
         //prepare template data
         this.templateData = {
@@ -45,12 +46,12 @@ window.MyMetricView = countlyView.extend({
                 "aoColumns": [
                     {
                         "mData": "mymetric",
-                        sType: "session-duration",
+                        sType: "my_metric",
                         "sTitle": jQuery.i18n.map["mymetric.title"]
                     },
                     {
                         "mData": "t",
-                        sType: "formatted-num",
+                        sType: "my_metric_count",
                         "mRender": function(d) {
                             return countlyCommon.formatNumber(d);
                         },
