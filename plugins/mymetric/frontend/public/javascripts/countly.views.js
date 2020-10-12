@@ -1,41 +1,74 @@
-/*global countlyView, T, countlyMyMetric, countlySession, $, app, MyMetricView*/
+/*global countlyView, T, countlyCommon, countlyMyMetric, CountlyHelpers, $, app, MyMetricView, jQuery*/
 window.MyMetricView = countlyView.extend({
-    // initialize function
-    initialize: function() {
-        //we can initialize stuff here
-    },
-
+    //initalize out model
     beforeRender: function() {
-        // fetch template
-        var self = this;
-        return $.when(T.get('/mymetric/templates/mymetric.html', function(src) {
-            self.template = src;
-        }),
-        countlyMyMetric.initialize(), countlySession.initialize()).then(function() {});
+        return $.when(countlyMyMetric.initialize()).then(function() {});
     },
-    renderCommon: function() {
 
-        //provide template data
+    //render our data
+    renderCommon: function(isRefresh) {
+        var data = countlyMyMetric.getData();
+
+        //prepare template data
         this.templateData = {
-            "page-title": "My Metrics",
+            "page-title": jQuery.i18n.map["mymetric.title"],
             "logo-class": "",
-            "data": countlyMyMetric.getData()
+            "graph-type-double-pie": true,
+            "pie-titles": {
+                "left": jQuery.i18n.map["common.total-users"],
+                "right": jQuery.i18n.map["common.new-users"]
+            }
         };
 
-        //populate template with data and attach it to page's content element
-        $(this.el).html(this.template(this.templateData));
+        //if loading first time and not refershing
+        if (!isRefresh) {
+
+            //build template with data
+            $(this.el).html(this.template(this.templateData));
+
+            //create datatable with chart data
+            this.dtable = $('.d-table').dataTable($.extend({}, $.fn.dataTable.defaults, {
+                //provide data to datatables
+                "aaData": data.chartData,
+
+                //specify which columns to show
+                "aoColumns": [
+                    { "mData": "mymetric", sType: "session-duration", "sTitle": jQuery.i18n.map["mymetric.title"] },
+                    { "mData": "t", sType: "formatted-num", "mRender": function(d) { return countlyCommon.formatNumber(d); }, "sTitle": jQuery.i18n.map["common.table.total-sessions"] }
+                ]
+            }));
+
+            //make table headers sticky
+            $(".d-table").stickyTableHeaders();
+
+            //draw chart with total data
+            countlyCommon.drawGraph(data.chartDPTotal, "#dashboard-graph", "pie");
+
+            //draw chart with new data
+            countlyCommon.drawGraph(data.chartDPNew, "#dashboard-graph2", "pie");
+        }
     },
 
-    //here we need to refresh data
+    //refreshing out chart
     refresh: function() {
         var self = this;
-        $.when(countlyMyMetric.initialize()).then(function() {
-            //our view is not active
-            if (app.activeView !== self) {
-                return false;
-            }
-            //here basically we want to do the same we did in renderCommon method
-            self.renderCommon();
+        $.when(countlyMyMetric.refresh()).then(function() {
+
+            //populate and regenerate template data
+            self.renderCommon(true);
+
+            //replace existing elements in view with new data
+            var newPage = $("<div>" + self.template(self.templateData) + "</div>");
+            $(self.el).find(".dashboard-summary").replaceWith(newPage.find(".dashboard-summary"));
+
+            var data = countlyMyMetric.getData();
+
+            //refresh charts
+            countlyCommon.drawGraph(data.chartDPTotal, "#dashboard-graph", "pie");
+            countlyCommon.drawGraph(data.chartDPNew, "#dashboard-graph2", "pie");
+
+            //refresh datatables
+            CountlyHelpers.refreshTable(self.dtable, data.chartData);
         });
     }
 });
@@ -57,4 +90,25 @@ $(document).ready(function() {
         icon: '<div class="logo ion-pricetags"></div>',
         priority: 50
     });
+});
+
+app.addPageScript("/analytics/sessions", function() {
+    //You can perform any dom manipulations here
+    alert("You are viewing Sessions Analytics");
+});
+
+app.addPageScript("#", function() {
+    //You can perform any dom manipulations here
+    console.log("new page view loaded");
+});
+
+// All pages which URL starts with '/users/' and follows some string, for example: 
+// /users/c49ebdad8f39519af9e0bfbf79332f4ec50b6d0f
+app.addPageScript("/users/#", function() {
+    console.log("new user profile view loaded");
+});
+
+app.addRefreshScript("/analytics/sessions", function() {
+    //You can perform any dom manipulations here
+    console.log("sessions view refreshed");
 });

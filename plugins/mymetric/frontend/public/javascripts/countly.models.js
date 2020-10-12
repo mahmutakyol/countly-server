@@ -1,4 +1,4 @@
-/*global $, jQuery, countlyGlobal, countlyCommon*/
+/*global $, jQuery, countlyGlobal, countlyCommon, CountlyHelpers*/
 
 (function(countlyMyMetric) {
 
@@ -32,4 +32,5 @@
         return _data;
     };
 
-}(window.countlyMyMetric = window.countlyMyMetric || {}, jQuery));
+});
+CountlyHelpers.createMetricModel(window.countlyMyMetric = window.countlyMyMetric || {}, "mymetric", jQuery);
