@@ -47,7 +47,8 @@ window.MyMetricView = countlyView.extend({
                     {
                         "mData": "mymetric",
                         sType: "my_metric",
-                        "sTitle": jQuery.i18n.map["mymetric.title"]
+                        // "sTitle": jQuery.i18n.map["mymetric.date"]
+                        "sTitle": "date"
                     },
                     {
                         "mData": "t",
@@ -55,6 +56,7 @@ window.MyMetricView = countlyView.extend({
                         "mRender": function(d) {
                             return countlyCommon.formatNumber(d);
                         },
+                        // "sTitle": jQuery.i18n.map["mymetric.count"]
                         "sTitle": "count"
                     }
                 ]
