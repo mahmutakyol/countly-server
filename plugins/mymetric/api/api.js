@@ -4,7 +4,7 @@ var plugin = {},
     plugins = require('../../pluginManager.js'),
     fetch = require('../../../api/parts/data/fetch.js');
 
-(function(plugin) {
+(function() {
 
     //waiting for read request
     plugins.register("/o", function(ob) {
